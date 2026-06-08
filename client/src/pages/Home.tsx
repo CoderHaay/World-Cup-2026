@@ -166,14 +166,14 @@ export default function Home() {
               <CardContent>
                 <div className="space-y-3">
                   {teamsData.map((team) => (
-                    <div key={team.rank} className="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-800 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+                    <div key={team.rank} className="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-800 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition cursor-pointer" onClick={() => navigate(`/team/${encodeURIComponent(team.name)}`)}>
                       <div className="flex items-center gap-4 flex-1">
                         <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-white font-bold text-sm">
                           {team.rank}
                         </div>
                         <span className="text-2xl">{team.flag}</span>
                         <div className="flex-1">
-                          <p className="font-semibold text-slate-900 dark:text-white">{team.name}</p>
+                          <p className="font-semibold text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">{team.name}</p>
                           <p className="text-xs text-slate-500 dark:text-slate-400">综合排名: 第{team.rank}位 | 身价: {(team.squad_value / 100000000).toFixed(1)}亿美元</p>
                         </div>
                       </div>

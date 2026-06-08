@@ -1,0 +1,188 @@
+{
+  "法国": {
+    "name": "法国",
+    "flag": "🇫🇷",
+    "coach": "迪迪埃·德尚",
+    "key_players": [
+      {
+        "name": "基利安·姆巴佩",
+        "position": "前锋",
+        "club": "皇家马德里",
+        "number": 10
+      },
+      {
+        "name": "卡里姆·本泽马",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 9
+      },
+      {
+        "name": "爱德华·门迪",
+        "position": "后卫",
+        "club": "切尔西",
+        "number": 5
+      },
+      {
+        "name": "威廉·萨利巴",
+        "position": "后卫",
+        "club": "阿森纳",
+        "number": 4
+      },
+      {
+        "name": "奥雷利恩·特尚",
+        "position": "中场",
+        "club": "曼城",
+        "number": 8
+      }
+    ],
+    "injuries": [
+      {
+        "player": "保罗·博格巴",
+        "status": "康复中",
+        "return_date": "2026-06-01"
+      }
+    ],
+    "recent_matches": [
+      {
+        "opponent": "荷兰",
+        "score": "2-1",
+        "date": "2026-05-20",
+        "result": "胜"
+      },
+      {
+        "opponent": "德国",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "比利时",
+        "score": "3-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "英格兰": {
+    "name": "英格兰",
+    "flag": "🇬🇧",
+    "coach": "加里·南盖特",
+    "key_players": [
+      {
+        "name": "哈里·凯恩",
+        "position": "前锋",
+        "club": "拜仁慕尼黑",
+        "number": 9
+      },
+      {
+        "name": "菲尔·福登",
+        "position": "前锋",
+        "club": "曼城",
+        "number": 10
+      },
+      {
+        "name": "贾罗德·桑切斯",
+        "position": "中场",
+        "club": "阿森纳",
+        "number": 8
+      },
+      {
+        "name": "约翰·斯通斯",
+        "position": "后卫",
+        "club": "曼城",
+        "number": 5
+      },
+      {
+        "name": "乔丹·皮克福德",
+        "position": "门将",
+        "club": "埃弗顿",
+        "number": 1
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "法国",
+        "score": "1-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "西班牙",
+        "score": "2-2",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "葡萄牙",
+        "score": "3-1",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "西班牙": {
+    "name": "西班牙",
+    "flag": "🇪🇸",
+    "coach": "卡洛斯·门迪塔",
+    "key_players": [
+      {
+        "name": "拉米尼·亚马尔",
+        "position": "前锋",
+        "club": "巴塞罗那",
+        "number": 7
+      },
+      {
+        "name": "佩德里",
+        "position": "中场",
+        "club": "巴塞罗那",
+        "number": 8
+      },
+      {
+        "name": "加维",
+        "position": "中场",
+        "club": "巴塞罗那",
+        "number": 6
+      },
+      {
+        "name": "塞尔吉奥·布斯克茨",
+        "position": "中场",
+        "club": "巴塞罗那",
+        "number": 5
+      },
+      {
+        "name": "大卫·德赫亚",
+        "position": "门将",
+        "club": "曼联",
+        "number": 1
+      }
+    ],
+    "injuries": [
+      {
+        "player": "塞尔吉奥·布斯克茨",
+        "status": "轻伤",
+        "return_date": "2026-06-05"
+      }
+    ],
+    "recent_matches": [
+      {
+        "opponent": "英格兰",
+        "score": "2-2",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "意大利",
+        "score": "2-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "葡萄牙",
+        "score": "1-1",
+        "date": "2026-05-05",
+        "result": "平"
+      }
+    ]
+  }
+}

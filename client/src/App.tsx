@@ -7,6 +7,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Schedule from "./pages/Schedule";
 import MatchDetail from "./pages/MatchDetail";
+import TeamDetail from "./pages/TeamDetail";
 
 
 function Router() {
@@ -15,6 +16,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/schedule"} component={Schedule} />
       <Route path={"/match/:matchId"} component={MatchDetail} />
+      <Route path={"/team/:teamName"} component={TeamDetail} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
