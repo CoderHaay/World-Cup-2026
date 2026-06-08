@@ -7,8 +7,8 @@
       "confederation": "欧洲",
       "squad_value": 1780000000,
       "fifa_ranking": 1877.32,
-      "overall_score": 85.0,
-      "qualification_points": 20.0
+      "overall_score": 85,
+      "qualification_points": 20
     },
     {
       "rank": 2,
@@ -108,7 +108,7 @@
       "squad_value": 567780000,
       "fifa_ranking": 1625.43,
       "overall_score": 77.5,
-      "qualification_points": 17.0
+      "qualification_points": 17
     },
     {
       "rank": 12,
@@ -122,16 +122,6 @@
     },
     {
       "rank": 13,
-      "name": "土耳其",
-      "flag": "🇹🇷",
-      "confederation": "亚洲",
-      "squad_value": 549760000,
-      "fifa_ranking": 1615.32,
-      "overall_score": 76.5,
-      "qualification_points": 16.4
-    },
-    {
-      "rank": 14,
       "name": "科特迪瓦",
       "flag": "🇨🇮",
       "confederation": "非洲",
@@ -141,7 +131,7 @@
       "qualification_points": 16.1
     },
     {
-      "rank": 15,
+      "rank": 14,
       "name": "乌拉圭",
       "flag": "🇺🇾",
       "confederation": "南美洲",
@@ -151,7 +141,7 @@
       "qualification_points": 15.8
     },
     {
-      "rank": 16,
+      "rank": 15,
       "name": "哥伦比亚",
       "flag": "🇨🇴",
       "confederation": "南美洲",
@@ -161,7 +151,7 @@
       "qualification_points": 15.2
     },
     {
-      "rank": 17,
+      "rank": 16,
       "name": "克罗地亚",
       "flag": "🇭🇷",
       "confederation": "欧洲",
@@ -171,17 +161,17 @@
       "qualification_points": 15.5
     },
     {
-      "rank": 18,
+      "rank": 17,
       "name": "瑞士",
       "flag": "🇨🇭",
       "confederation": "欧洲",
       "squad_value": 540000000,
       "fifa_ranking": 1732.14,
-      "overall_score": 75.0,
+      "overall_score": 75,
       "qualification_points": 5.9
     },
     {
-      "rank": 19,
+      "rank": 18,
       "name": "美国",
       "flag": "🇺🇸",
       "confederation": "北美洲",
@@ -191,7 +181,7 @@
       "qualification_points": 14.9
     },
     {
-      "rank": 20,
+      "rank": 19,
       "name": "苏格兰",
       "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "confederation": "欧洲",
@@ -201,17 +191,17 @@
       "qualification_points": 15.2
     },
     {
-      "rank": 21,
-      "name": "瑞典",
-      "flag": "🇸🇪",
+      "name": "捷克",
       "confederation": "欧洲",
-      "squad_value": 380000000,
-      "fifa_ranking": 1548.76,
-      "overall_score": 74.1,
-      "qualification_points": 14.6
+      "overall_score": 74.2,
+      "fifa_ranking": 1520,
+      "squad_value": 350000000,
+      "qualification_points": 16.5,
+      "rank": 20,
+      "flag": "🇨🇿"
     },
     {
-      "rank": 22,
+      "rank": 21,
       "name": "墨西哥",
       "flag": "🇲🇽",
       "confederation": "北美洲",
@@ -221,17 +211,17 @@
       "qualification_points": 14.3
     },
     {
-      "rank": 23,
-      "name": "波兰",
-      "flag": "🇵🇱",
-      "confederation": "欧洲",
-      "squad_value": 350000000,
-      "fifa_ranking": 1529.32,
+      "name": "厄瓜多尔",
+      "confederation": "南美洲",
       "overall_score": 73.8,
-      "qualification_points": 14.0
+      "fifa_ranking": 1500,
+      "squad_value": 280000000,
+      "qualification_points": 16.2,
+      "rank": 22,
+      "flag": "🇪🇨"
     },
     {
-      "rank": 24,
+      "rank": 23,
       "name": "加拿大",
       "flag": "🇨🇦",
       "confederation": "北美洲",
@@ -241,17 +231,17 @@
       "qualification_points": 13.7
     },
     {
-      "rank": 25,
-      "name": "乌克兰",
-      "flag": "🇺🇦",
+      "name": "奥地利",
       "confederation": "欧洲",
+      "overall_score": 73.5,
+      "fifa_ranking": 1510,
       "squad_value": 320000000,
-      "fifa_ranking": 1558.54,
-      "overall_score": 73.4,
-      "qualification_points": 13.4
+      "qualification_points": 16,
+      "rank": 24,
+      "flag": "🇦🇹"
     },
     {
-      "rank": 26,
+      "rank": 25,
       "name": "日本",
       "flag": "🇯🇵",
       "confederation": "亚洲",
@@ -261,7 +251,7 @@
       "qualification_points": 13.1
     },
     {
-      "rank": 27,
+      "rank": 26,
       "name": "韩国",
       "flag": "🇰🇷",
       "confederation": "亚洲",
@@ -269,6 +259,16 @@
       "fifa_ranking": 1515.32,
       "overall_score": 72.8,
       "qualification_points": 12.8
+    },
+    {
+      "name": "加纳",
+      "confederation": "非洲",
+      "overall_score": 72.8,
+      "fifa_ranking": 1495,
+      "squad_value": 250000000,
+      "qualification_points": 15.6,
+      "rank": 27,
+      "flag": "🇬🇭"
     },
     {
       "rank": 28,
@@ -281,7 +281,17 @@
       "qualification_points": 12.5
     },
     {
+      "name": "巴拉圭",
+      "confederation": "南美洲",
+      "overall_score": 72.5,
+      "fifa_ranking": 1490,
+      "squad_value": 200000000,
+      "qualification_points": 15.8,
       "rank": 29,
+      "flag": "🇵🇾"
+    },
+    {
+      "rank": 30,
       "name": "伊朗",
       "flag": "🇮🇷",
       "confederation": "亚洲",
@@ -291,7 +301,37 @@
       "qualification_points": 12.2
     },
     {
-      "rank": 30,
+      "name": "波黑",
+      "confederation": "欧洲",
+      "overall_score": 72,
+      "fifa_ranking": 1480,
+      "squad_value": 180000000,
+      "qualification_points": 15.5,
+      "rank": 31,
+      "flag": "🇧🇦"
+    },
+    {
+      "name": "欧洲附加赛1",
+      "confederation": "欧洲",
+      "overall_score": 72,
+      "fifa_ranking": 1470,
+      "squad_value": 200000000,
+      "qualification_points": 14,
+      "rank": 32,
+      "flag": "🏳️"
+    },
+    {
+      "name": "欧洲附加赛2",
+      "confederation": "欧洲",
+      "overall_score": 72,
+      "fifa_ranking": 1470,
+      "squad_value": 200000000,
+      "qualification_points": 14,
+      "rank": 33,
+      "flag": "🏳️"
+    },
+    {
+      "rank": 34,
       "name": "埃及",
       "flag": "🇪🇬",
       "confederation": "非洲",
@@ -301,17 +341,7 @@
       "qualification_points": 11.9
     },
     {
-      "rank": 31,
-      "name": "尼日利亚",
-      "flag": "🇳🇬",
-      "confederation": "非洲",
-      "squad_value": 160000000,
-      "fifa_ranking": 1487.43,
-      "overall_score": 71.5,
-      "qualification_points": 11.6
-    },
-    {
-      "rank": 32,
+      "rank": 35,
       "name": "阿尔及利亚",
       "flag": "🇩🇿",
       "confederation": "非洲",
@@ -321,17 +351,7 @@
       "qualification_points": 11.3
     },
     {
-      "rank": 33,
-      "name": "格鲁吉亚",
-      "flag": "🇬🇪",
-      "confederation": "亚洲",
-      "squad_value": 140000000,
-      "fifa_ranking": 1473.54,
-      "overall_score": 70.9,
-      "qualification_points": 11.0
-    },
-    {
-      "rank": 34,
+      "rank": 36,
       "name": "突尼斯",
       "flag": "🇹🇳",
       "confederation": "非洲",
@@ -341,77 +361,37 @@
       "qualification_points": 10.7
     },
     {
-      "rank": 35,
-      "name": "越南",
-      "flag": "🇻🇳",
-      "confederation": "亚洲",
+      "name": "南非",
+      "confederation": "非洲",
+      "overall_score": 70.5,
+      "fifa_ranking": 1460,
       "squad_value": 120000000,
-      "fifa_ranking": 1459.43,
-      "overall_score": 70.3,
-      "qualification_points": 10.4
+      "qualification_points": 15,
+      "rank": 37,
+      "flag": "🇿🇦"
     },
     {
-      "rank": 36,
+      "rank": 38,
       "name": "巴拿马",
       "flag": "🇵🇦",
       "confederation": "北美洲",
       "squad_value": 110000000,
       "fifa_ranking": 1452.21,
-      "overall_score": 70.0,
+      "overall_score": 70,
       "qualification_points": 10.1
     },
     {
-      "rank": 37,
-      "name": "洪都拉斯",
-      "flag": "🇭🇳",
-      "confederation": "北美洲",
-      "squad_value": 100000000,
-      "fifa_ranking": 1445.54,
-      "overall_score": 69.7,
-      "qualification_points": 9.8
-    },
-    {
-      "rank": 38,
-      "name": "危地马拉",
-      "flag": "🇬🇹",
-      "confederation": "北美洲",
-      "squad_value": 95000000,
-      "fifa_ranking": 1438.32,
-      "overall_score": 69.4,
-      "qualification_points": 9.5
-    },
-    {
+      "name": "沙特阿拉伯",
+      "confederation": "亚洲",
+      "overall_score": 70,
+      "fifa_ranking": 1450,
+      "squad_value": 150000000,
+      "qualification_points": 14.5,
       "rank": 39,
-      "name": "萨尔瓦多",
-      "flag": "🇸🇻",
-      "confederation": "北美洲",
-      "squad_value": 85000000,
-      "fifa_ranking": 1431.43,
-      "overall_score": 69.1,
-      "qualification_points": 9.2
+      "flag": "🇸🇦"
     },
     {
       "rank": 40,
-      "name": "哥斯达黎加",
-      "flag": "🇨🇷",
-      "confederation": "北美洲",
-      "squad_value": 80000000,
-      "fifa_ranking": 1424.21,
-      "overall_score": 68.8,
-      "qualification_points": 8.9
-    },
-    {
-      "rank": 41,
-      "name": "尼加拉瓜",
-      "flag": "🇳🇮",
-      "confederation": "北美洲",
-      "squad_value": 70000000,
-      "fifa_ranking": 1417.54,
-      "overall_score": 68.5,
-      "qualification_points": 8.6
-    },
-    {
-      "rank": 42,
       "name": "库拉索",
       "flag": "🇨🇼",
       "confederation": "北美洲",
@@ -421,17 +401,7 @@
       "qualification_points": 8.3
     },
     {
-      "rank": 43,
-      "name": "伊拉克",
-      "flag": "🇮🇶",
-      "confederation": "亚洲",
-      "squad_value": 24540000,
-      "fifa_ranking": 1403.43,
-      "overall_score": 67.9,
-      "qualification_points": 8.0
-    },
-    {
-      "rank": 44,
+      "rank": 41,
       "name": "卡塔尔",
       "flag": "🇶🇦",
       "confederation": "亚洲",
@@ -441,7 +411,7 @@
       "qualification_points": 7.7
     },
     {
-      "rank": 45,
+      "rank": 42,
       "name": "乌兹别克斯坦",
       "flag": "🇺🇿",
       "confederation": "亚洲",
@@ -451,7 +421,7 @@
       "qualification_points": 7.4
     },
     {
-      "rank": 46,
+      "rank": 43,
       "name": "新西兰",
       "flag": "🇳🇿",
       "confederation": "大洋洲",
@@ -461,17 +431,7 @@
       "qualification_points": 6.8
     },
     {
-      "rank": 47,
-      "name": "刚果民主共和国",
-      "flag": "🇨🇩",
-      "confederation": "非洲",
-      "squad_value": 12000000,
-      "fifa_ranking": 1368.21,
-      "overall_score": 66.4,
-      "qualification_points": 6.5
-    },
-    {
-      "rank": 48,
+      "rank": 44,
       "name": "约旦",
       "flag": "🇯🇴",
       "confederation": "亚洲",
@@ -479,94 +439,798 @@
       "fifa_ranking": 1361.54,
       "overall_score": 66.1,
       "qualification_points": 6.2
+    },
+    {
+      "name": "海地",
+      "confederation": "北美洲",
+      "overall_score": 65,
+      "fifa_ranking": 1350,
+      "squad_value": 50000000,
+      "qualification_points": 13,
+      "rank": 45,
+      "flag": "🇭🇹"
+    },
+    {
+      "name": "圣文森特和格林纳丁斯",
+      "confederation": "北美洲",
+      "overall_score": 62,
+      "fifa_ranking": 1280,
+      "squad_value": 20000000,
+      "qualification_points": 11,
+      "rank": 46,
+      "flag": "🇻🇨"
     }
   ],
   "groups": {
     "A": {
       "name": "A组",
-      "teams": ["法国", "荷兰", "波兰", "摩洛哥"]
+      "teams": [
+        "法国",
+        "荷兰",
+        "波兰",
+        "摩洛哥"
+      ]
     },
     "B": {
       "name": "B组",
-      "teams": ["英格兰", "西班牙", "德国", "瑞士"]
+      "teams": [
+        "英格兰",
+        "西班牙",
+        "德国",
+        "瑞士"
+      ]
     },
     "C": {
       "name": "C组",
-      "teams": ["阿根廷", "乌拉圭", "巴拉圭", "玻利维亚"]
+      "teams": [
+        "阿根廷",
+        "乌拉圭",
+        "巴拉圭",
+        "玻利维亚"
+      ]
     },
     "D": {
       "name": "D组",
-      "teams": ["巴西", "哥伦比亚", "秘鲁", "委内瑞拉"]
+      "teams": [
+        "巴西",
+        "哥伦比亚",
+        "秘鲁",
+        "委内瑞拉"
+      ]
     },
     "E": {
       "name": "E组",
-      "teams": ["比利时", "克罗地亚", "葡萄牙", "捷克"]
+      "teams": [
+        "比利时",
+        "克罗地亚",
+        "葡萄牙",
+        "捷克"
+      ]
     },
     "F": {
       "name": "F组",
-      "teams": ["美国", "墨西哥", "加拿大", "巴拿马"]
+      "teams": [
+        "美国",
+        "墨西哥",
+        "加拿大",
+        "巴拿马"
+      ]
     },
     "G": {
       "name": "G组",
-      "teams": ["日本", "韩国", "澳大利亚", "伊朗"]
+      "teams": [
+        "日本",
+        "韩国",
+        "澳大利亚",
+        "伊朗"
+      ]
     },
     "H": {
       "name": "H组",
-      "teams": ["塞内加尔", "埃及", "科特迪瓦", "尼日利亚"]
+      "teams": [
+        "塞内加尔",
+        "埃及",
+        "科特迪瓦",
+        "尼日利亚"
+      ]
     },
     "I": {
       "name": "I组",
-      "teams": ["土耳其", "乌克兰", "格鲁吉亚", "阿尔及利亚"]
+      "teams": [
+        "土耳其",
+        "乌克兰",
+        "格鲁吉亚",
+        "阿尔及利亚"
+      ]
     },
     "J": {
       "name": "J组",
-      "teams": ["挪威", "瑞典", "苏格兰", "突尼斯"]
+      "teams": [
+        "挪威",
+        "瑞典",
+        "苏格兰",
+        "突尼斯"
+      ]
     },
     "K": {
       "name": "K组",
-      "teams": ["越南", "伊拉克", "卡塔尔", "乌兹别克斯坦"]
+      "teams": [
+        "越南",
+        "伊拉克",
+        "卡塔尔",
+        "乌兹别克斯坦"
+      ]
     },
     "L": {
       "name": "L组",
-      "teams": ["新西兰", "刚果民主共和国", "约旦", "洪都拉斯"]
+      "teams": [
+        "新西兰",
+        "刚果民主共和国",
+        "约旦",
+        "洪都拉斯"
+      ]
     }
   },
   "sample_predictions": [
     {
       "match_id": 1,
-      "home_team": "法国",
-      "away_team": "塞内加尔",
-      "home_win_probability": 72.5,
-      "away_win_probability": 27.5,
-      "prediction": "法国综合实力领先（85.00 vs 76.80），身价高出3.2亿美元",
-      "confidence": 85
+      "group": "A",
+      "date": "2026-06-11",
+      "beijing_time": "2026-06-11 03:00",
+      "home_team": "墨西哥",
+      "away_team": "南非",
+      "home_win_probability": 51.2,
+      "away_win_probability": 48.8,
+      "prediction": "墨西哥综合实力领先（73.9 vs 70.5）",
+      "confidence": 69
     },
     {
       "match_id": 2,
-      "home_team": "英格兰",
-      "away_team": "克罗地亚",
-      "home_win_probability": 68.3,
-      "away_win_probability": 31.7,
-      "prediction": "英格兰综合实力占优（84.20 vs 75.10），身价高出11亿美元",
-      "confidence": 82
+      "group": "A",
+      "date": "2026-06-11",
+      "beijing_time": "2026-06-11 10:00",
+      "home_team": "韩国",
+      "away_team": "捷克",
+      "home_win_probability": 49.5,
+      "away_win_probability": 50.5,
+      "prediction": "捷克综合实力领先（74.2 vs 72.8）",
+      "confidence": 64
     },
     {
       "match_id": 3,
-      "home_team": "西班牙",
-      "away_team": "德国",
-      "home_win_probability": 52.1,
-      "away_win_probability": 47.9,
-      "prediction": "西班牙综合实力略占优（83.40 vs 82.20），身价高出3.1亿美元",
-      "confidence": 65
+      "group": "B",
+      "date": "2026-06-12",
+      "beijing_time": "2026-06-12 03:00",
+      "home_team": "加拿大",
+      "away_team": "波黑",
+      "home_win_probability": 50.5,
+      "away_win_probability": 49.5,
+      "prediction": "加拿大综合实力领先（73.5 vs 72）",
+      "confidence": 64
     },
     {
       "match_id": 4,
+      "group": "D",
+      "date": "2026-06-12",
+      "beijing_time": "2026-06-12 09:00",
+      "home_team": "美国",
+      "away_team": "巴拉圭",
+      "home_win_probability": 50.8,
+      "away_win_probability": 49.2,
+      "prediction": "美国综合实力领先（74.8 vs 72.5）",
+      "confidence": 66
+    },
+    {
+      "match_id": 5,
+      "group": "B",
+      "date": "2026-06-13",
+      "beijing_time": "2026-06-13 03:00",
+      "home_team": "瑞士",
+      "away_team": "卡塔尔",
+      "home_win_probability": 52.6,
+      "away_win_probability": 47.4,
+      "prediction": "瑞士综合实力领先（75 vs 67.6）",
+      "confidence": 79
+    },
+    {
+      "match_id": 6,
+      "group": "C",
+      "date": "2026-06-13",
+      "beijing_time": "2026-06-13 06:00",
       "home_team": "巴西",
-      "away_team": "阿根廷",
-      "home_win_probability": 55.8,
-      "away_win_probability": 44.2,
-      "prediction": "巴西综合实力领先（81.80 vs 80.90），身价高出1.1亿美元",
+      "away_team": "摩洛哥",
+      "home_win_probability": 51.3,
+      "away_win_probability": 48.7,
+      "prediction": "巴西综合实力领先（81.8 vs 77.5）",
+      "confidence": 71
+    },
+    {
+      "match_id": 7,
+      "group": "C",
+      "date": "2026-06-13",
+      "beijing_time": "2026-06-13 09:00",
+      "home_team": "苏格兰",
+      "away_team": "海地",
+      "home_win_probability": 53.4,
+      "away_win_probability": 46.6,
+      "prediction": "苏格兰综合实力领先（74.5 vs 65）",
+      "confidence": 84
+    },
+    {
+      "match_id": 8,
+      "group": "E",
+      "date": "2026-06-14",
+      "beijing_time": "2026-06-14 01:00",
+      "home_team": "德国",
+      "away_team": "库拉索",
+      "home_win_probability": 54.7,
+      "away_win_probability": 45.3,
+      "prediction": "德国综合实力领先（82.2 vs 68.2）",
+      "confidence": 95
+    },
+    {
+      "match_id": 9,
+      "group": "F",
+      "date": "2026-06-14",
+      "beijing_time": "2026-06-14 04:00",
+      "home_team": "荷兰",
+      "away_team": "日本",
+      "home_win_probability": 52.7,
+      "away_win_probability": 47.3,
+      "prediction": "荷兰综合实力领先（81.4 vs 73.1）",
+      "confidence": 81
+    },
+    {
+      "match_id": 10,
+      "group": "E",
+      "date": "2026-06-14",
+      "beijing_time": "2026-06-14 07:00",
+      "home_team": "科特迪瓦",
+      "away_team": "厄瓜多尔",
+      "home_win_probability": 50.8,
+      "away_win_probability": 49.2,
+      "prediction": "科特迪瓦综合实力领先（76.1 vs 73.8）",
+      "confidence": 66
+    },
+    {
+      "match_id": 11,
+      "group": "H",
+      "date": "2026-06-15",
+      "beijing_time": "2026-06-15 01:00",
+      "home_team": "西班牙",
+      "away_team": "沙特阿拉伯",
+      "home_win_probability": 54.4,
+      "away_win_probability": 45.6,
+      "prediction": "西班牙综合实力领先（83.4 vs 70）",
+      "confidence": 94
+    },
+    {
+      "match_id": 12,
+      "group": "G",
+      "date": "2026-06-15",
+      "beijing_time": "2026-06-15 04:00",
+      "home_team": "比利时",
+      "away_team": "埃及",
+      "home_win_probability": 52.1,
+      "away_win_probability": 47.9,
+      "prediction": "比利时综合实力领先（78.2 vs 71.8）",
+      "confidence": 76
+    },
+    {
+      "match_id": 13,
+      "group": "H",
+      "date": "2026-06-15",
+      "beijing_time": "2026-06-15 06:00",
+      "home_team": "乌拉圭",
+      "away_team": "圣文森特和格林纳丁斯",
+      "home_win_probability": 55,
+      "away_win_probability": 45,
+      "prediction": "乌拉圭综合实力领先（75.8 vs 62）",
+      "confidence": 95
+    },
+    {
+      "match_id": 14,
+      "group": "I",
+      "date": "2026-06-16",
+      "beijing_time": "2026-06-16 03:00",
+      "home_team": "法国",
+      "away_team": "塞内加尔",
+      "home_win_probability": 52.5,
+      "away_win_probability": 47.5,
+      "prediction": "法国综合实力领先（85 vs 76.8）",
+      "confidence": 81
+    },
+    {
+      "match_id": 15,
+      "group": "J",
+      "date": "2026-06-16",
+      "beijing_time": "2026-06-16 09:00",
+      "home_team": "阿根廷",
+      "away_team": "阿尔及利亚",
+      "home_win_probability": 53.2,
+      "away_win_probability": 46.8,
+      "prediction": "阿根廷综合实力领先（80.9 vs 71.2）",
+      "confidence": 84
+    },
+    {
+      "match_id": 16,
+      "group": "L",
+      "date": "2026-06-17",
+      "beijing_time": "2026-06-17 04:00",
+      "home_team": "英格兰",
+      "away_team": "克罗地亚",
+      "home_win_probability": 52.9,
+      "away_win_probability": 47.1,
+      "prediction": "英格兰综合实力领先（84.2 vs 75.1）",
+      "confidence": 83
+    },
+    {
+      "match_id": 17,
+      "group": "L",
+      "date": "2026-06-17",
+      "beijing_time": "2026-06-17 07:00",
+      "home_team": "加纳",
+      "away_team": "巴拿马",
+      "home_win_probability": 51,
+      "away_win_probability": 49,
+      "prediction": "加纳综合实力领先（72.8 vs 70）",
+      "confidence": 67
+    },
+    {
+      "match_id": 18,
+      "group": "A",
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 00:00",
+      "home_team": "捷克",
+      "away_team": "南非",
+      "home_win_probability": 51.3,
+      "away_win_probability": 48.7,
+      "prediction": "捷克综合实力领先（74.2 vs 70.5）",
+      "confidence": 69
+    },
+    {
+      "match_id": 19,
+      "group": "B",
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 03:00",
+      "home_team": "瑞士",
+      "away_team": "波黑",
+      "home_win_probability": 51,
+      "away_win_probability": 49,
+      "prediction": "瑞士综合实力领先（75 vs 72）",
+      "confidence": 68
+    },
+    {
+      "match_id": 20,
+      "group": "B",
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 06:00",
+      "home_team": "加拿大",
+      "away_team": "卡塔尔",
+      "home_win_probability": 52.1,
+      "away_win_probability": 47.9,
+      "prediction": "加拿大综合实力领先（73.5 vs 67.6）",
+      "confidence": 75
+    },
+    {
+      "match_id": 21,
+      "group": "D",
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 03:00",
+      "home_team": "美国",
+      "away_team": "澳大利亚",
+      "home_win_probability": 50.8,
+      "away_win_probability": 49.2,
+      "prediction": "美国综合实力领先（74.8 vs 72.5）",
+      "confidence": 66
+    },
+    {
+      "match_id": 22,
+      "group": "C",
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 06:00",
+      "home_team": "苏格兰",
+      "away_team": "摩洛哥",
+      "home_win_probability": 49,
+      "away_win_probability": 51,
+      "prediction": "摩洛哥综合实力领先（77.5 vs 74.5）",
+      "confidence": 68
+    },
+    {
+      "match_id": 23,
+      "group": "C",
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 09:00",
+      "home_team": "巴西",
+      "away_team": "海地",
+      "home_win_probability": 55.7,
+      "away_win_probability": 44.3,
+      "prediction": "巴西综合实力领先（81.8 vs 65）",
+      "confidence": 95
+    },
+    {
+      "match_id": 24,
+      "group": "F",
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 01:00",
+      "home_team": "荷兰",
+      "away_team": "突尼斯",
+      "home_win_probability": 53.6,
+      "away_win_probability": 46.4,
+      "prediction": "荷兰综合实力领先（81.4 vs 70.6）",
+      "confidence": 87
+    },
+    {
+      "match_id": 25,
+      "group": "E",
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 04:00",
+      "home_team": "德国",
+      "away_team": "科特迪瓦",
+      "home_win_probability": 51.9,
+      "away_win_probability": 48.1,
+      "prediction": "德国综合实力领先（82.2 vs 76.1）",
+      "confidence": 75
+    },
+    {
+      "match_id": 26,
+      "group": "E",
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 07:00",
+      "home_team": "厄瓜多尔",
+      "away_team": "库拉索",
+      "home_win_probability": 52,
+      "away_win_probability": 48,
+      "prediction": "厄瓜多尔综合实力领先（73.8 vs 68.2）",
+      "confidence": 74
+    },
+    {
+      "match_id": 27,
+      "group": "H",
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 00:00",
+      "home_team": "西班牙",
+      "away_team": "乌拉圭",
+      "home_win_probability": 52.4,
+      "away_win_probability": 47.6,
+      "prediction": "西班牙综合实力领先（83.4 vs 75.8）",
+      "confidence": 79
+    },
+    {
+      "match_id": 28,
+      "group": "G",
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 03:00",
+      "home_team": "比利时",
+      "away_team": "伊朗",
+      "home_win_probability": 52,
+      "away_win_probability": 48,
+      "prediction": "比利时综合实力领先（78.2 vs 72.1）",
+      "confidence": 75
+    },
+    {
+      "match_id": 29,
+      "group": "G",
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 06:00",
+      "home_team": "新西兰",
+      "away_team": "埃及",
+      "home_win_probability": 48.2,
+      "away_win_probability": 51.8,
+      "prediction": "埃及综合实力领先（71.8 vs 66.7）",
+      "confidence": 73
+    },
+    {
+      "match_id": 30,
+      "group": "J",
+      "date": "2026-06-22",
+      "beijing_time": "2026-06-22 01:00",
+      "home_team": "阿根廷",
+      "away_team": "奥地利",
+      "home_win_probability": 52.4,
+      "away_win_probability": 47.6,
+      "prediction": "阿根廷综合实力领先（80.9 vs 73.5）",
+      "confidence": 79
+    },
+    {
+      "match_id": 31,
+      "group": "I",
+      "date": "2026-06-22",
+      "beijing_time": "2026-06-22 05:00",
+      "home_team": "法国",
+      "away_team": "挪威",
+      "home_win_probability": 52,
+      "away_win_probability": 48,
+      "prediction": "法国综合实力领先（85 vs 78.6）",
+      "confidence": 76
+    },
+    {
+      "match_id": 32,
+      "group": "K",
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 01:00",
+      "home_team": "葡萄牙",
+      "away_team": "哥伦比亚",
+      "home_win_probability": 52.3,
+      "away_win_probability": 47.7,
+      "prediction": "葡萄牙综合实力领先（82.6 vs 75.4）",
       "confidence": 78
+    },
+    {
+      "match_id": 33,
+      "group": "L",
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 04:00",
+      "home_team": "英格兰",
+      "away_team": "加纳",
+      "home_win_probability": 53.6,
+      "away_win_probability": 46.4,
+      "prediction": "英格兰综合实力领先（84.2 vs 72.8）",
+      "confidence": 89
+    },
+    {
+      "match_id": 34,
+      "group": "L",
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 07:00",
+      "home_team": "巴拿马",
+      "away_team": "克罗地亚",
+      "home_win_probability": 48.2,
+      "away_win_probability": 51.8,
+      "prediction": "克罗地亚综合实力领先（75.1 vs 70）",
+      "confidence": 73
+    },
+    {
+      "match_id": 35,
+      "group": "B",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 03:00",
+      "home_team": "瑞士",
+      "away_team": "加拿大",
+      "home_win_probability": 50.5,
+      "away_win_probability": 49.5,
+      "prediction": "瑞士综合实力领先（75 vs 73.5）",
+      "confidence": 64
+    },
+    {
+      "match_id": 36,
+      "group": "C",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 06:00",
+      "home_team": "苏格兰",
+      "away_team": "巴西",
+      "home_win_probability": 47.7,
+      "away_win_probability": 52.3,
+      "prediction": "巴西综合实力领先（81.8 vs 74.5）",
+      "confidence": 78
+    },
+    {
+      "match_id": 37,
+      "group": "C",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 06:00",
+      "home_team": "摩洛哥",
+      "away_team": "海地",
+      "home_win_probability": 54.4,
+      "away_win_probability": 45.6,
+      "prediction": "摩洛哥综合实力领先（77.5 vs 65）",
+      "confidence": 91
+    },
+    {
+      "match_id": 38,
+      "group": "E",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 04:00",
+      "home_team": "厄瓜多尔",
+      "away_team": "德国",
+      "home_win_probability": 47.3,
+      "away_win_probability": 52.7,
+      "prediction": "德国综合实力领先（82.2 vs 73.8）",
+      "confidence": 81
+    },
+    {
+      "match_id": 39,
+      "group": "E",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 04:00",
+      "home_team": "库拉索",
+      "away_team": "科特迪瓦",
+      "home_win_probability": 47.3,
+      "away_win_probability": 52.7,
+      "prediction": "科特迪瓦综合实力领先（76.1 vs 68.2）",
+      "confidence": 80
+    },
+    {
+      "match_id": 40,
+      "group": "F",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 07:00",
+      "home_team": "日本",
+      "away_team": "乌兹别克斯坦",
+      "home_win_probability": 52.1,
+      "away_win_probability": 47.9,
+      "prediction": "日本综合实力领先（73.1 vs 67.3）",
+      "confidence": 75
+    },
+    {
+      "match_id": 41,
+      "group": "F",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 07:00",
+      "home_team": "突尼斯",
+      "away_team": "荷兰",
+      "home_win_probability": 46.4,
+      "away_win_probability": 53.6,
+      "prediction": "荷兰综合实力领先（81.4 vs 70.6）",
+      "confidence": 87
+    },
+    {
+      "match_id": 42,
+      "group": "D",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 07:00",
+      "home_team": "巴拉圭",
+      "away_team": "澳大利亚",
+      "home_win_probability": 50,
+      "away_win_probability": 50,
+      "prediction": "巴拉圭综合实力领先（72.5 vs 72.5）",
+      "confidence": 60
+    },
+    {
+      "match_id": 43,
+      "group": "I",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 03:00",
+      "home_team": "塞内加尔",
+      "away_team": "法国",
+      "home_win_probability": 47.5,
+      "away_win_probability": 52.5,
+      "prediction": "法国综合实力领先（85 vs 76.8）",
+      "confidence": 81
+    },
+    {
+      "match_id": 44,
+      "group": "H",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 07:00",
+      "home_team": "沙特阿拉伯",
+      "away_team": "西班牙",
+      "home_win_probability": 45.6,
+      "away_win_probability": 54.4,
+      "prediction": "西班牙综合实力领先（83.4 vs 70）",
+      "confidence": 94
+    },
+    {
+      "match_id": 45,
+      "group": "H",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 07:00",
+      "home_team": "乌拉圭",
+      "away_team": "圣文森特和格林纳丁斯",
+      "home_win_probability": 55,
+      "away_win_probability": 45,
+      "prediction": "乌拉圭综合实力领先（75.8 vs 62）",
+      "confidence": 95
+    },
+    {
+      "match_id": 46,
+      "group": "G",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 08:00",
+      "home_team": "埃及",
+      "away_team": "伊朗",
+      "home_win_probability": 49.9,
+      "away_win_probability": 50.1,
+      "prediction": "伊朗综合实力领先（72.1 vs 71.8）",
+      "confidence": 61
+    },
+    {
+      "match_id": 47,
+      "group": "G",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 08:00",
+      "home_team": "新西兰",
+      "away_team": "比利时",
+      "home_win_probability": 46,
+      "away_win_probability": 54,
+      "prediction": "比利时综合实力领先（78.2 vs 66.7）",
+      "confidence": 89
+    },
+    {
+      "match_id": 48,
+      "group": "L",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 05:00",
+      "home_team": "巴拿马",
+      "away_team": "英格兰",
+      "home_win_probability": 45.4,
+      "away_win_probability": 54.6,
+      "prediction": "英格兰综合实力领先（84.2 vs 70）",
+      "confidence": 95
+    },
+    {
+      "match_id": 49,
+      "group": "L",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 05:00",
+      "home_team": "克罗地亚",
+      "away_team": "加纳",
+      "home_win_probability": 50.8,
+      "away_win_probability": 49.2,
+      "prediction": "克罗地亚综合实力领先（75.1 vs 72.8）",
+      "confidence": 66
+    },
+    {
+      "match_id": 50,
+      "group": "K",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 07:30",
+      "home_team": "哥伦比亚",
+      "away_team": "葡萄牙",
+      "home_win_probability": 47.7,
+      "away_win_probability": 52.3,
+      "prediction": "葡萄牙综合实力领先（82.6 vs 75.4）",
+      "confidence": 78
+    },
+    {
+      "match_id": 51,
+      "group": "J",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 09:00",
+      "home_team": "阿尔及利亚",
+      "away_team": "奥地利",
+      "home_win_probability": 49.2,
+      "away_win_probability": 50.8,
+      "prediction": "奥地利综合实力领先（73.5 vs 71.2）",
+      "confidence": 66
+    },
+    {
+      "match_id": 52,
+      "group": "J",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 09:00",
+      "home_team": "约旦",
+      "away_team": "阿根廷",
+      "home_win_probability": 45,
+      "away_win_probability": 55,
+      "prediction": "阿根廷综合实力领先（80.9 vs 66.1）",
+      "confidence": 95
+    },
+    {
+      "match_id": 53,
+      "group": "A",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 09:00",
+      "home_team": "墨西哥",
+      "away_team": "韩国",
+      "home_win_probability": 50.4,
+      "away_win_probability": 49.6,
+      "prediction": "墨西哥综合实力领先（73.9 vs 72.8）",
+      "confidence": 63
+    },
+    {
+      "match_id": 54,
+      "group": "A",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 09:00",
+      "home_team": "捷克",
+      "away_team": "南非",
+      "home_win_probability": 51.3,
+      "away_win_probability": 48.7,
+      "prediction": "捷克综合实力领先（74.2 vs 70.5）",
+      "confidence": 69
+    },
+    {
+      "match_id": 55,
+      "group": "D",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 07:00",
+      "home_team": "美国",
+      "away_team": "乌拉圭",
+      "home_win_probability": 49.7,
+      "away_win_probability": 50.3,
+      "prediction": "乌拉圭综合实力领先（75.8 vs 74.8）",
+      "confidence": 63
     }
   ]
 }

@@ -17,8 +17,11 @@ interface TeamData {
   confederation: string;
 }
 
-interface PredictionData {
+  interface PredictionData {
   match_id: number;
+  group: string;
+  date: string;
+  beijing_time: string;
   home_team: string;
   away_team: string;
   home_win_probability: number;
@@ -60,6 +63,14 @@ export default function Home() {
       </div>
     );
   }
+
+  // Group predictions by group letter
+  const groupedPredictions: Record<string, PredictionData[]> = {};
+  predictions.forEach(p => {
+    if (!groupedPredictions[p.group]) groupedPredictions[p.group] = [];
+    groupedPredictions[p.group].push(p);
+  });
+  const groupKeys = Object.keys(groupedPredictions).sort();
 
   // 准备图表数据 - 只显示前15支球队以保持图表清晰
   const scoreChartData = teamsData.slice(0, 15).map(team => ({
@@ -218,37 +229,56 @@ export default function Home() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Target className="w-5 h-5" />
-                  样本比赛预测
+                  小组赛预测（共55场）
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="space-y-4">
-                  {predictions.map((pred) => (
-                    <div key={pred.match_id} className="p-4 border border-slate-200 dark:border-slate-700 rounded-lg">
-                      <div className="flex items-center justify-between mb-3">
-                        <div className="flex items-center gap-3">
-                          <div className="text-right">
-                            <p className="font-semibold text-slate-900 dark:text-white">{pred.home_team}</p>
-                            <p className="text-sm text-slate-500 dark:text-slate-400">{pred.home_win_probability}%</p>
+                <div className="space-y-8">
+                  {groupKeys.map((group) => (
+                    <div key={group}>
+                      <h3 className="text-lg font-bold text-slate-800 dark:text-slate-200 mb-3 border-b pb-2">
+                        {group}组
+                      </h3>
+                      <div className="space-y-3">
+                        {groupedPredictions[group].map((pred) => (
+                          <div
+                            key={pred.match_id}
+                            className="p-4 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800/50 transition cursor-pointer"
+                            onClick={() => navigate(`/match/${pred.match_id}`)}
+                          >
+                            <div className="flex items-center justify-between mb-2">
+                              <p className="text-xs text-slate-500 dark:text-slate-400">
+                                {pred.beijing_time?.replace(" ", " ")}
+                              </p>
+                              <Badge className={pred.home_win_probability >= pred.away_win_probability ? "bg-blue-500" : "bg-orange-500"}>
+                                {pred.home_win_probability >= pred.away_win_probability ? pred.home_team : pred.away_team}胜
+                              </Badge>
+                            </div>
+                            <div className="flex items-center justify-between mb-2">
+                              <div className="flex items-center gap-4 flex-1">
+                                <div className="text-right flex-1">
+                                  <p className="font-semibold text-slate-900 dark:text-white">{pred.home_team}</p>
+                                  <p className="text-sm text-blue-600 dark:text-blue-400 font-medium">{pred.home_win_probability}%</p>
+                                </div>
+                                <div className="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 rounded font-semibold text-sm">VS</div>
+                                <div className="flex-1">
+                                  <p className="font-semibold text-slate-900 dark:text-white">{pred.away_team}</p>
+                                  <p className="text-sm text-orange-600 dark:text-orange-400 font-medium">{pred.away_win_probability}%</p>
+                                </div>
+                              </div>
+                              <div className="ml-4 text-right">
+                                <p className="text-xs text-slate-500 dark:text-slate-400">置信度: {pred.confidence}%</p>
+                              </div>
+                            </div>
+                            <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2.5 relative">
+                              <div
+                                className="absolute inset-y-0 left-0 bg-gradient-to-r from-blue-500 to-blue-600 h-2.5 rounded-full transition-all"
+                                style={{ width: `${pred.home_win_probability}%` }}
+                              />
+                            </div>
+                            <p className="text-xs text-slate-500 dark:text-slate-400 mt-2">{pred.prediction}</p>
                           </div>
-                          <div className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded font-semibold text-sm">vs</div>
-                          <div>
-                            <p className="font-semibold text-slate-900 dark:text-white">{pred.away_team}</p>
-                            <p className="text-sm text-slate-500 dark:text-slate-400">{pred.away_win_probability}%</p>
-                          </div>
-                        </div>
-                        <div className="text-right">
-                          <Badge className={pred.prediction === 'Home Win' ? 'bg-green-500' : 'bg-orange-500'}>
-                            {pred.prediction}
-                          </Badge>
-                          <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">置信度: {pred.confidence}%</p>
-                        </div>
-                      </div>
-                      <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2">
-                        <div
-                          className="bg-blue-500 h-2 rounded-full transition-all"
-                          style={{ width: `${pred.home_win_probability}%` }}
-                        />
+                        ))}
                       </div>
                     </div>
                   ))}
