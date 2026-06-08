@@ -1,0 +1,522 @@
+{
+  "top_teams": [
+    {
+      "rank": 1,
+      "name": "法国",
+      "flag": "🇫🇷",
+      "confederation": "欧洲",
+      "squad_value": 1780000000,
+      "fifa_ranking": 1877.32,
+      "overall_score": 85.00,
+      "qualification_points": 20.0
+    },
+    {
+      "rank": 2,
+      "name": "英格兰",
+      "flag": "🇬🇧",
+      "confederation": "欧洲",
+      "squad_value": 1520000000,
+      "fifa_ranking": 1789.14,
+      "overall_score": 84.20,
+      "qualification_points": 19.7
+    },
+    {
+      "rank": 3,
+      "name": "西班牙",
+      "flag": "🇪🇸",
+      "confederation": "欧洲",
+      "squad_value": 1470000000,
+      "fifa_ranking": 1823.49,
+      "overall_score": 83.40,
+      "qualification_points": 19.4
+    },
+    {
+      "rank": 4,
+      "name": "葡萄牙",
+      "flag": "🇵🇹",
+      "confederation": "欧洲",
+      "squad_value": 1190000000,
+      "fifa_ranking": 1742.58,
+      "overall_score": 82.60,
+      "qualification_points": 19.1
+    },
+    {
+      "rank": 5,
+      "name": "德国",
+      "flag": "🇩🇪",
+      "confederation": "欧洲",
+      "squad_value": 1160000000,
+      "fifa_ranking": 1806.43,
+      "overall_score": 82.20,
+      "qualification_points": 18.8
+    },
+    {
+      "rank": 6,
+      "name": "巴西",
+      "flag": "🇧🇷",
+      "confederation": "南美洲",
+      "squad_value": 1060000000,
+      "fifa_ranking": 1850.65,
+      "overall_score": 81.80,
+      "qualification_points": 18.5
+    },
+    {
+      "rank": 7,
+      "name": "荷兰",
+      "flag": "🇳🇱",
+      "confederation": "欧洲",
+      "squad_value": 973680000,
+      "fifa_ranking": 1770.32,
+      "overall_score": 81.40,
+      "qualification_points": 18.2
+    },
+    {
+      "rank": 8,
+      "name": "阿根廷",
+      "flag": "🇦🇷",
+      "confederation": "南美洲",
+      "squad_value": 950760000,
+      "fifa_ranking": 1754.23,
+      "overall_score": 80.90,
+      "qualification_points": 17.9
+    },
+    {
+      "rank": 9,
+      "name": "挪威",
+      "flag": "🇳🇴",
+      "confederation": "欧洲",
+      "squad_value": 698970000,
+      "fifa_ranking": 1552.14,
+      "overall_score": 78.60,
+      "qualification_points": 17.6
+    },
+    {
+      "rank": 10,
+      "name": "比利时",
+      "flag": "🇧🇪",
+      "confederation": "欧洲",
+      "squad_value": 631400000,
+      "fifa_ranking": 1674.32,
+      "overall_score": 78.20,
+      "qualification_points": 17.3
+    },
+    {
+      "rank": 11,
+      "name": "摩洛哥",
+      "flag": "🇲🇦",
+      "confederation": "非洲",
+      "squad_value": 567780000,
+      "fifa_ranking": 1625.43,
+      "overall_score": 77.50,
+      "qualification_points": 17.0
+    },
+    {
+      "rank": 12,
+      "name": "塞内加尔",
+      "flag": "🇸🇳",
+      "confederation": "非洲",
+      "squad_value": 549990000,
+      "fifa_ranking": 1589.21,
+      "overall_score": 76.80,
+      "qualification_points": 16.7
+    },
+    {
+      "rank": 13,
+      "name": "土耳其",
+      "flag": "🇹🇷",
+      "confederation": "亚洲",
+      "squad_value": 549760000,
+      "fifa_ranking": 1615.32,
+      "overall_score": 76.50,
+      "qualification_points": 16.4
+    },
+    {
+      "rank": 14,
+      "name": "科特迪瓦",
+      "flag": "🇨🇮",
+      "confederation": "非洲",
+      "squad_value": 617440000,
+      "fifa_ranking": 1578.54,
+      "overall_score": 76.10,
+      "qualification_points": 16.1
+    },
+    {
+      "rank": 15,
+      "name": "乌拉圭",
+      "flag": "🇺🇾",
+      "confederation": "南美洲",
+      "squad_value": 520000000,
+      "fifa_ranking": 1654.21,
+      "overall_score": 75.80,
+      "qualification_points": 15.8
+    },
+    {
+      "rank": 16,
+      "name": "克罗地亚",
+      "flag": "🇭🇷",
+      "confederation": "欧洲",
+      "squad_value": 420000000,
+      "fifa_ranking": 1721.54,
+      "overall_score": 75.10,
+      "qualification_points": 15.5
+    },
+    {
+      "rank": 17,
+      "name": "哥伦比亚",
+      "flag": "🇨🇴",
+      "confederation": "南美洲",
+      "squad_value": 450000000,
+      "fifa_ranking": 1605.43,
+      "overall_score": 75.40,
+      "qualification_points": 15.2
+    },
+    {
+      "rank": 18,
+      "name": "美国",
+      "flag": "🇺🇸",
+      "confederation": "北美洲",
+      "squad_value": 443860000,
+      "fifa_ranking": 1568.32,
+      "overall_score": 74.80,
+      "qualification_points": 14.9
+    },
+    {
+      "rank": 19,
+      "name": "瑞典",
+      "flag": "🇸🇪",
+      "confederation": "欧洲",
+      "squad_value": 380000000,
+      "fifa_ranking": 1548.76,
+      "overall_score": 74.10,
+      "qualification_points": 14.6
+    },
+    {
+      "rank": 20,
+      "name": "墨西哥",
+      "flag": "🇲🇽",
+      "confederation": "北美洲",
+      "squad_value": 226260000,
+      "fifa_ranking": 1542.65,
+      "overall_score": 73.90,
+      "qualification_points": 14.3
+    },
+    {
+      "rank": 21,
+      "name": "波兰",
+      "flag": "🇵🇱",
+      "confederation": "欧洲",
+      "squad_value": 350000000,
+      "fifa_ranking": 1529.32,
+      "overall_score": 73.80,
+      "qualification_points": 14.0
+    },
+    {
+      "rank": 22,
+      "name": "加拿大",
+      "flag": "🇨🇦",
+      "confederation": "北美洲",
+      "squad_value": 228130000,
+      "fifa_ranking": 1535.43,
+      "overall_score": 73.50,
+      "qualification_points": 13.7
+    },
+    {
+      "rank": 23,
+      "name": "乌克兰",
+      "flag": "🇺🇦",
+      "confederation": "欧洲",
+      "squad_value": 320000000,
+      "fifa_ranking": 1558.54,
+      "overall_score": 73.40,
+      "qualification_points": 13.4
+    },
+    {
+      "rank": 24,
+      "name": "日本",
+      "flag": "🇯🇵",
+      "confederation": "亚洲",
+      "squad_value": 310000000,
+      "fifa_ranking": 1521.43,
+      "overall_score": 73.10,
+      "qualification_points": 13.1
+    },
+    {
+      "rank": 25,
+      "name": "韩国",
+      "flag": "🇰🇷",
+      "confederation": "亚洲",
+      "squad_value": 290000000,
+      "fifa_ranking": 1515.32,
+      "overall_score": 72.80,
+      "qualification_points": 12.8
+    },
+    {
+      "rank": 26,
+      "name": "澳大利亚",
+      "flag": "🇦🇺",
+      "confederation": "大洋洲",
+      "squad_value": 280000000,
+      "fifa_ranking": 1508.21,
+      "overall_score": 72.50,
+      "qualification_points": 12.5
+    },
+    {
+      "rank": 27,
+      "name": "伊朗",
+      "flag": "🇮🇷",
+      "confederation": "亚洲",
+      "squad_value": 37970000,
+      "fifa_ranking": 1501.54,
+      "overall_score": 72.10,
+      "qualification_points": 12.2
+    },
+    {
+      "rank": 28,
+      "name": "埃及",
+      "flag": "🇪🇬",
+      "confederation": "非洲",
+      "squad_value": 180000000,
+      "fifa_ranking": 1494.32,
+      "overall_score": 71.80,
+      "qualification_points": 11.9
+    },
+    {
+      "rank": 29,
+      "name": "尼日利亚",
+      "flag": "🇳🇬",
+      "confederation": "非洲",
+      "squad_value": 160000000,
+      "fifa_ranking": 1487.43,
+      "overall_score": 71.50,
+      "qualification_points": 11.6
+    },
+    {
+      "rank": 30,
+      "name": "阿尔及利亚",
+      "flag": "🇩🇿",
+      "confederation": "非洲",
+      "squad_value": 150000000,
+      "fifa_ranking": 1480.21,
+      "overall_score": 71.20,
+      "qualification_points": 11.3
+    },
+    {
+      "rank": 31,
+      "name": "格鲁吉亚",
+      "flag": "🇬🇪",
+      "confederation": "亚洲",
+      "squad_value": 140000000,
+      "fifa_ranking": 1473.54,
+      "overall_score": 70.90,
+      "qualification_points": 11.0
+    },
+    {
+      "rank": 32,
+      "name": "突尼斯",
+      "flag": "🇹🇳",
+      "confederation": "非洲",
+      "squad_value": 130000000,
+      "fifa_ranking": 1466.32,
+      "overall_score": 70.60,
+      "qualification_points": 10.7
+    },
+    {
+      "rank": 33,
+      "name": "越南",
+      "flag": "🇻🇳",
+      "confederation": "亚洲",
+      "squad_value": 120000000,
+      "fifa_ranking": 1459.43,
+      "overall_score": 70.30,
+      "qualification_points": 10.4
+    },
+    {
+      "rank": 34,
+      "name": "巴拿马",
+      "flag": "🇵🇦",
+      "confederation": "北美洲",
+      "squad_value": 110000000,
+      "fifa_ranking": 1452.21,
+      "overall_score": 70.00,
+      "qualification_points": 10.1
+    },
+    {
+      "rank": 35,
+      "name": "洪都拉斯",
+      "flag": "🇭🇳",
+      "confederation": "北美洲",
+      "squad_value": 100000000,
+      "fifa_ranking": 1445.54,
+      "overall_score": 69.70,
+      "qualification_points": 9.8
+    },
+    {
+      "rank": 36,
+      "name": "危地马拉",
+      "flag": "🇬🇹",
+      "confederation": "北美洲",
+      "squad_value": 95000000,
+      "fifa_ranking": 1438.32,
+      "overall_score": 69.40,
+      "qualification_points": 9.5
+    },
+    {
+      "rank": 37,
+      "name": "萨尔瓦多",
+      "flag": "🇸🇻",
+      "confederation": "北美洲",
+      "squad_value": 85000000,
+      "fifa_ranking": 1431.43,
+      "overall_score": 69.10,
+      "qualification_points": 9.2
+    },
+    {
+      "rank": 38,
+      "name": "哥斯达黎加",
+      "flag": "🇨🇷",
+      "confederation": "北美洲",
+      "squad_value": 80000000,
+      "fifa_ranking": 1424.21,
+      "overall_score": 68.80,
+      "qualification_points": 8.9
+    },
+    {
+      "rank": 39,
+      "name": "尼加拉瓜",
+      "flag": "🇳🇮",
+      "confederation": "北美洲",
+      "squad_value": 70000000,
+      "fifa_ranking": 1417.54,
+      "overall_score": 68.50,
+      "qualification_points": 8.6
+    },
+    {
+      "rank": 40,
+      "name": "库拉索",
+      "flag": "🇨🇼",
+      "confederation": "北美洲",
+      "squad_value": 30040000,
+      "fifa_ranking": 1410.32,
+      "overall_score": 68.20,
+      "qualification_points": 8.3
+    },
+    {
+      "rank": 41,
+      "name": "伊拉克",
+      "flag": "🇮🇶",
+      "confederation": "亚洲",
+      "squad_value": 24540000,
+      "fifa_ranking": 1403.43,
+      "overall_score": 67.90,
+      "qualification_points": 8.0
+    },
+    {
+      "rank": 42,
+      "name": "卡塔尔",
+      "flag": "🇶🇦",
+      "confederation": "亚洲",
+      "squad_value": 23180000,
+      "fifa_ranking": 1396.21,
+      "overall_score": 67.60,
+      "qualification_points": 7.7
+    },
+    {
+      "rank": 43,
+      "name": "乌兹别克斯坦",
+      "flag": "🇺🇿",
+      "confederation": "亚洲",
+      "squad_value": 20000000,
+      "fifa_ranking": 1389.54,
+      "overall_score": 67.30,
+      "qualification_points": 7.4
+    },
+    {
+      "rank": 44,
+      "name": "中国",
+      "flag": "🇨🇳",
+      "confederation": "亚洲",
+      "squad_value": 18000000,
+      "fifa_ranking": 1382.32,
+      "overall_score": 67.00,
+      "qualification_points": 7.1
+    },
+    {
+      "rank": 45,
+      "name": "新西兰",
+      "flag": "🇳🇿",
+      "confederation": "大洋洲",
+      "squad_value": 15000000,
+      "fifa_ranking": 1375.43,
+      "overall_score": 66.70,
+      "qualification_points": 6.8
+    },
+    {
+      "rank": 46,
+      "name": "刚果民主共和国",
+      "flag": "🇨🇩",
+      "confederation": "非洲",
+      "squad_value": 12000000,
+      "fifa_ranking": 1368.21,
+      "overall_score": 66.40,
+      "qualification_points": 6.5
+    },
+    {
+      "rank": 47,
+      "name": "约旦",
+      "flag": "🇯🇴",
+      "confederation": "亚洲",
+      "squad_value": 23120000,
+      "fifa_ranking": 1361.54,
+      "overall_score": 66.10,
+      "qualification_points": 6.2
+    },
+    {
+      "rank": 48,
+      "name": "瑞士",
+      "flag": "🇨🇭",
+      "confederation": "欧洲",
+      "squad_value": 540000000,
+      "fifa_ranking": 1732.14,
+      "overall_score": 75.00,
+      "qualification_points": 5.9
+    }
+  ],
+  "sample_predictions": [
+    {
+      "match_id": 1,
+      "home_team": "法国",
+      "away_team": "塞内加尔",
+      "home_win_probability": 72.5,
+      "away_win_probability": 27.5,
+      "prediction": "法国综合实力领先（85.00 vs 76.80），身价高出3.2亿美元",
+      "confidence": 85
+    },
+    {
+      "match_id": 2,
+      "home_team": "英格兰",
+      "away_team": "克罗地亚",
+      "home_win_probability": 68.3,
+      "away_win_probability": 31.7,
+      "prediction": "英格兰综合实力占优（84.20 vs 75.10），身价高出11亿美元",
+      "confidence": 82
+    },
+    {
+      "match_id": 3,
+      "home_team": "西班牙",
+      "away_team": "德国",
+      "home_win_probability": 52.1,
+      "away_win_probability": 47.9,
+      "prediction": "西班牙综合实力略占优（83.40 vs 82.20），身价高出3.1亿美元",
+      "confidence": 65
+    },
+    {
+      "match_id": 4,
+      "home_team": "巴西",
+      "away_team": "阿根廷",
+      "home_win_probability": 55.8,
+      "away_win_probability": 44.2,
+      "prediction": "巴西综合实力领先（81.80 vs 80.90），身价高出1.1亿美元",
+      "confidence": 78
+    }
+  ]
+}

@@ -1,0 +1,752 @@
+{
+  "teams": {
+    "法国": {
+      "flag": "🇫🇷",
+      "group": "I",
+      "fifa_ranking": 1877.32,
+      "squad_value": 1780000000,
+      "qualification_points": 23,
+      "attack_strength": 88,
+      "defense_strength": 90,
+      "midfield_control": 87,
+      "injury_status": 95,
+      "key_players": [
+        "姆巴佩",
+        "本泽马",
+        "格里兹曼"
+      ],
+      "overall_score": 88.5
+    },
+    "英格兰": {
+      "flag": "🇬🇧",
+      "group": "L",
+      "fifa_ranking": 1825.97,
+      "squad_value": 1870000000,
+      "qualification_points": 24,
+      "attack_strength": 86,
+      "defense_strength": 88,
+      "midfield_control": 85,
+      "injury_status": 92,
+      "key_players": [
+        "贝林厄姆",
+        "凯恩",
+        "斯特林"
+      ],
+      "overall_score": 87.8
+    },
+    "西班牙": {
+      "flag": "🇪🇸",
+      "group": "H",
+      "fifa_ranking": 1876.4,
+      "squad_value": 1510000000,
+      "qualification_points": 22,
+      "attack_strength": 85,
+      "defense_strength": 86,
+      "midfield_control": 90,
+      "injury_status": 94,
+      "key_players": [
+        "亚马尔",
+        "佩德里",
+        "加维"
+      ],
+      "overall_score": 87.2
+    },
+    "德国": {
+      "flag": "🇩🇪",
+      "group": "E",
+      "fifa_ranking": 1735.77,
+      "squad_value": 1160000000,
+      "qualification_points": 21,
+      "attack_strength": 84,
+      "defense_strength": 85,
+      "midfield_control": 86,
+      "injury_status": 93,
+      "key_players": [
+        "维尔茨",
+        "穆西亚拉",
+        "哈弗茨"
+      ],
+      "overall_score": 85.6
+    },
+    "巴西": {
+      "flag": "🇧🇷",
+      "group": "C",
+      "fifa_ranking": 1720.5,
+      "squad_value": 1060000000,
+      "qualification_points": 24,
+      "attack_strength": 92,
+      "defense_strength": 84,
+      "midfield_control": 88,
+      "injury_status": 90,
+      "key_players": [
+        "维尼修斯",
+        "内马尔",
+        "罗德里戈"
+      ],
+      "overall_score": 87.3
+    },
+    "阿根廷": {
+      "flag": "🇦🇷",
+      "group": "J",
+      "fifa_ranking": 1874.81,
+      "squad_value": 951000000,
+      "qualification_points": 23,
+      "attack_strength": 87,
+      "defense_strength": 82,
+      "midfield_control": 84,
+      "injury_status": 91,
+      "key_players": [
+        "梅西",
+        "马丁内斯",
+        "阿尔瓦雷斯"
+      ],
+      "overall_score": 86.4
+    },
+    "荷兰": {
+      "flag": "🇳🇱",
+      "group": "F",
+      "fifa_ranking": 1715.2,
+      "squad_value": 974000000,
+      "qualification_points": 19,
+      "attack_strength": 83,
+      "defense_strength": 87,
+      "midfield_control": 85,
+      "injury_status": 93,
+      "key_players": [
+        "范迪克",
+        "加克波",
+        "蒂姆贝"
+      ],
+      "overall_score": 85.2
+    },
+    "葡萄牙": {
+      "flag": "🇵🇹",
+      "group": "K",
+      "fifa_ranking": 1705.4,
+      "squad_value": 1190000000,
+      "qualification_points": 20,
+      "attack_strength": 82,
+      "defense_strength": 83,
+      "midfield_control": 83,
+      "injury_status": 92,
+      "key_players": [
+        "罗纳尔多",
+        "维蒂尼亚",
+        "内维斯"
+      ],
+      "overall_score": 84.1
+    },
+    "比利时": {
+      "flag": "🇧🇪",
+      "group": "G",
+      "fifa_ranking": 1710.3,
+      "squad_value": 631000000,
+      "qualification_points": 18,
+      "attack_strength": 80,
+      "defense_strength": 81,
+      "midfield_control": 82,
+      "injury_status": 88,
+      "key_players": [
+        "德布劳内",
+        "卢卡库",
+        "多库"
+      ],
+      "overall_score": 82.3
+    },
+    "克罗地亚": {
+      "flag": "🇭🇷",
+      "group": "L",
+      "fifa_ranking": 1714.87,
+      "squad_value": 580000000,
+      "qualification_points": 12,
+      "attack_strength": 76,
+      "defense_strength": 80,
+      "midfield_control": 84,
+      "injury_status": 89,
+      "key_players": [
+        "莫德里奇",
+        "拉基蒂奇",
+        "佩里西奇"
+      ],
+      "overall_score": 80.2
+    },
+    "乌拉圭": {
+      "flag": "🇺🇾",
+      "group": "D",
+      "fifa_ranking": 1698.5,
+      "squad_value": 520000000,
+      "qualification_points": 22,
+      "attack_strength": 85,
+      "defense_strength": 86,
+      "midfield_control": 80,
+      "injury_status": 91,
+      "key_players": [
+        "卡瓦尼",
+        "苏亚雷斯",
+        "瓦尔韦德"
+      ],
+      "overall_score": 84.6
+    },
+    "哥伦比亚": {
+      "flag": "🇨🇴",
+      "group": "K",
+      "fifa_ranking": 1695.99,
+      "squad_value": 620000000,
+      "qualification_points": 21,
+      "attack_strength": 81,
+      "defense_strength": 79,
+      "midfield_control": 78,
+      "injury_status": 87,
+      "key_players": [
+        "罗德里格斯",
+        "法尔考",
+        "阿里亚斯"
+      ],
+      "overall_score": 81.2
+    },
+    "美国": {
+      "flag": "🇺🇸",
+      "group": "D",
+      "fifa_ranking": 1650.2,
+      "squad_value": 444000000,
+      "qualification_points": 16,
+      "attack_strength": 77,
+      "defense_strength": 75,
+      "midfield_control": 74,
+      "injury_status": 83,
+      "key_players": [
+        "普利西奇",
+        "麦肯尼",
+        "雷纳"
+      ],
+      "overall_score": 76.8
+    },
+    "墨西哥": {
+      "flag": "🇲🇽",
+      "group": "A",
+      "fifa_ranking": 1680.2,
+      "squad_value": 226000000,
+      "qualification_points": 15,
+      "attack_strength": 79,
+      "defense_strength": 77,
+      "midfield_control": 76,
+      "injury_status": 85,
+      "key_players": [
+        "希梅内斯",
+        "洛萨诺",
+        "埃雷拉"
+      ],
+      "overall_score": 76.4
+    },
+    "加拿大": {
+      "flag": "🇨🇦",
+      "group": "B",
+      "fifa_ranking": 1640.2,
+      "squad_value": 228000000,
+      "qualification_points": 14,
+      "attack_strength": 75,
+      "defense_strength": 74,
+      "midfield_control": 73,
+      "injury_status": 86,
+      "key_players": [
+        "阿方索",
+        "麦肯尼",
+        "布坎南"
+      ],
+      "overall_score": 74.6
+    },
+    "日本": {
+      "flag": "🇯🇵",
+      "group": "F",
+      "fifa_ranking": 1720.0,
+      "squad_value": 750000000,
+      "qualification_points": 18,
+      "attack_strength": 74,
+      "defense_strength": 78,
+      "midfield_control": 77,
+      "injury_status": 88,
+      "key_players": [
+        "三笘薫",
+        "久保建英",
+        "富安健洋"
+      ],
+      "overall_score": 78.2
+    },
+    "韩国": {
+      "flag": "🇰🇷",
+      "group": "A",
+      "fifa_ranking": 1710.0,
+      "squad_value": 700000000,
+      "qualification_points": 17,
+      "attack_strength": 75,
+      "defense_strength": 82,
+      "midfield_control": 79,
+      "injury_status": 90,
+      "key_players": [
+        "孙兴慜",
+        "金民哲",
+        "李昇宇"
+      ],
+      "overall_score": 80.1
+    },
+    "澳大利亚": {
+      "flag": "🇦🇺",
+      "group": "D",
+      "fifa_ranking": 1680.0,
+      "squad_value": 680000000,
+      "qualification_points": 16,
+      "attack_strength": 72,
+      "defense_strength": 76,
+      "midfield_control": 75,
+      "injury_status": 86,
+      "key_players": [
+        "莱基",
+        "罗吉奇",
+        "贝希奇"
+      ],
+      "overall_score": 77.0
+    },
+    "埃及": {
+      "flag": "🇪🇬",
+      "group": "G",
+      "fifa_ranking": 1680.0,
+      "squad_value": 650000000,
+      "qualification_points": 19,
+      "attack_strength": 80,
+      "defense_strength": 75,
+      "midfield_control": 74,
+      "injury_status": 84,
+      "key_players": [
+        "萨拉赫",
+        "特雷泽盖",
+        "埃尔赛义德"
+      ],
+      "overall_score": 78.6
+    },
+    "摩洛哥": {
+      "flag": "🇲🇦",
+      "group": "C",
+      "fifa_ranking": 1670.0,
+      "squad_value": 568000000,
+      "qualification_points": 18,
+      "attack_strength": 82,
+      "defense_strength": 84,
+      "midfield_control": 81,
+      "injury_status": 89,
+      "key_players": [
+        "齐耶赫",
+        "哈基米",
+        "马兹劳"
+      ],
+      "overall_score": 82.8
+    },
+    "塞内加尔": {
+      "flag": "🇸🇳",
+      "group": "I",
+      "fifa_ranking": 1660.0,
+      "squad_value": 550000000,
+      "qualification_points": 17,
+      "attack_strength": 79,
+      "defense_strength": 77,
+      "midfield_control": 76,
+      "injury_status": 86,
+      "key_players": [
+        "马内",
+        "萨尔",
+        "库利巴利"
+      ],
+      "overall_score": 78.9
+    },
+    "突尼斯": {
+      "flag": "🇹🇳",
+      "group": "F",
+      "fifa_ranking": 1650.0,
+      "squad_value": 520000000,
+      "qualification_points": 16,
+      "attack_strength": 74,
+      "defense_strength": 76,
+      "midfield_control": 73,
+      "injury_status": 84,
+      "key_players": [
+        "斯利蒂",
+        "布罗恩",
+        "迪斯"
+      ],
+      "overall_score": 75.6
+    },
+    "科特迪瓦": {
+      "flag": "🇨🇮",
+      "group": "E",
+      "fifa_ranking": 1640.0,
+      "squad_value": 617000000,
+      "qualification_points": 15,
+      "attack_strength": 81,
+      "defense_strength": 74,
+      "midfield_control": 75,
+      "injury_status": 85,
+      "key_players": [
+        "扎哈",
+        "佩佩",
+        "凯西"
+      ],
+      "overall_score": 77.8
+    },
+    "加纳": {
+      "flag": "🇬🇭",
+      "group": "L",
+      "fifa_ranking": 1630.0,
+      "squad_value": 580000000,
+      "qualification_points": 14,
+      "attack_strength": 76,
+      "defense_strength": 73,
+      "midfield_control": 72,
+      "injury_status": 83,
+      "key_players": [
+        "库多斯",
+        "帕蒂",
+        "阿耶"
+      ],
+      "overall_score": 75.8
+    },
+    "南非": {
+      "flag": "🇿🇦",
+      "group": "A",
+      "fifa_ranking": 1620.0,
+      "squad_value": 520000000,
+      "qualification_points": 13,
+      "attack_strength": 73,
+      "defense_strength": 71,
+      "midfield_control": 70,
+      "injury_status": 81,
+      "key_players": [
+        "恩科西",
+        "茨瓦内",
+        "沙卢莱"
+      ],
+      "overall_score": 73.6
+    },
+    "阿尔及利亚": {
+      "flag": "🇩🇿",
+      "group": "J",
+      "fifa_ranking": 1610.0,
+      "squad_value": 480000000,
+      "qualification_points": 12,
+      "attack_strength": 72,
+      "defense_strength": 75,
+      "midfield_control": 74,
+      "injury_status": 84,
+      "key_players": [
+        "马赫雷兹",
+        "本塔莱布",
+        "费古利"
+      ],
+      "overall_score": 75.2
+    },
+    "厄瓜多尔": {
+      "flag": "🇪🇨",
+      "group": "E",
+      "fifa_ranking": 1670.0,
+      "squad_value": 620000000,
+      "qualification_points": 20,
+      "attack_strength": 78,
+      "defense_strength": 74,
+      "midfield_control": 76,
+      "injury_status": 85,
+      "key_players": [
+        "瓦伦西亚",
+        "伊巴拉",
+        "阿博莱达"
+      ],
+      "overall_score": 77.0
+    },
+    "巴拉圭": {
+      "flag": "🇵🇾",
+      "group": "D",
+      "fifa_ranking": 1650.0,
+      "squad_value": 580000000,
+      "qualification_points": 19,
+      "attack_strength": 75,
+      "defense_strength": 76,
+      "midfield_control": 74,
+      "injury_status": 86,
+      "key_players": [
+        "阿尔米隆",
+        "戈麦斯",
+        "罗梅罗"
+      ],
+      "overall_score": 77.8
+    },
+    "奥地利": {
+      "flag": "🇦🇹",
+      "group": "J",
+      "fifa_ranking": 1665.5,
+      "squad_value": 570000000,
+      "qualification_points": 17,
+      "attack_strength": 80,
+      "defense_strength": 82,
+      "midfield_control": 81,
+      "injury_status": 90,
+      "key_players": [
+        "萨博茨",
+        "阿瑙托维奇",
+        "拉姆"
+      ],
+      "overall_score": 80.6
+    },
+    "瑞士": {
+      "flag": "🇨🇭",
+      "group": "B",
+      "fifa_ranking": 1675.3,
+      "squad_value": 540000000,
+      "qualification_points": 14,
+      "attack_strength": 76,
+      "defense_strength": 85,
+      "midfield_control": 84,
+      "injury_status": 92,
+      "key_players": [
+        "沙卡",
+        "恩博洛",
+        "扎卡"
+      ],
+      "overall_score": 80.2
+    },
+    "捷克": {
+      "flag": "🇨🇿",
+      "group": "A",
+      "fifa_ranking": 1660.6,
+      "squad_value": 530000000,
+      "qualification_points": 13,
+      "attack_strength": 75,
+      "defense_strength": 80,
+      "midfield_control": 79,
+      "injury_status": 88,
+      "key_players": [
+        "克雷奇",
+        "塞斯塔克",
+        "帕瓦尔"
+      ],
+      "overall_score": 78.4
+    },
+    "波黑": {
+      "flag": "🇧🇦",
+      "group": "B",
+      "fifa_ranking": 1577.3,
+      "squad_value": 430000000,
+      "qualification_points": 7,
+      "attack_strength": 70,
+      "defense_strength": 74,
+      "midfield_control": 73,
+      "injury_status": 84,
+      "key_players": [
+        "皮亚尼奇",
+        "杜米",
+        "贝戈维奇"
+      ],
+      "overall_score": 72.0
+    },
+    "卡塔尔": {
+      "flag": "🇶🇦",
+      "group": "B",
+      "fifa_ranking": 1500.0,
+      "squad_value": 230000000,
+      "qualification_points": 10,
+      "attack_strength": 68,
+      "defense_strength": 71,
+      "midfield_control": 70,
+      "injury_status": 84,
+      "key_players": [
+        "阿尔莫兹",
+        "阿尔谢赫里",
+        "阿尔贾西姆"
+      ],
+      "overall_score": 69.8
+    },
+    "库拉索": {
+      "flag": "🇨🇼",
+      "group": "E",
+      "fifa_ranking": 1550.0,
+      "squad_value": 300000000,
+      "qualification_points": 8,
+      "attack_strength": 66,
+      "defense_strength": 66,
+      "midfield_control": 67,
+      "injury_status": 79,
+      "key_players": [
+        "马丁",
+        "里茨卡",
+        "巴克罗"
+      ],
+      "overall_score": 67.2
+    },
+    "乌兹别克斯坦": {
+      "flag": "🇺🇿",
+      "group": "F",
+      "fifa_ranking": 1530.0,
+      "squad_value": 280000000,
+      "qualification_points": 11,
+      "attack_strength": 72,
+      "defense_strength": 74,
+      "midfield_control": 73,
+      "injury_status": 86,
+      "key_players": [
+        "伊斯马图洛夫",
+        "伊斯马伊洛夫",
+        "卡利莫夫"
+      ],
+      "overall_score": 74.0
+    },
+    "伊朗": {
+      "flag": "🇮🇷",
+      "group": "G",
+      "fifa_ranking": 1650.0,
+      "squad_value": 420000000,
+      "qualification_points": 15,
+      "attack_strength": 68,
+      "defense_strength": 72,
+      "midfield_control": 71,
+      "injury_status": 82,
+      "key_players": [
+        "阿兹蒙",
+        "塔雷米",
+        "贝兰万德"
+      ],
+      "overall_score": 71.6
+    },
+    "新西兰": {
+      "flag": "🇳🇿",
+      "group": "G",
+      "fifa_ranking": 1580.0,
+      "squad_value": 320000000,
+      "qualification_points": 6,
+      "attack_strength": 68,
+      "defense_strength": 72,
+      "midfield_control": 71,
+      "injury_status": 85,
+      "key_players": [
+        "斯梅尔茨",
+        "博斯尼奇",
+        "卡切"
+      ],
+      "overall_score": 71.2
+    },
+    "沙特阿拉伯": {
+      "flag": "🇸🇦",
+      "group": "H",
+      "fifa_ranking": 1620.0,
+      "squad_value": 380000000,
+      "qualification_points": 14,
+      "attack_strength": 65,
+      "defense_strength": 70,
+      "midfield_control": 68,
+      "injury_status": 80,
+      "key_players": [
+        "阿尔道萨里",
+        "阿尔谢赫里",
+        "阿尔贾西姆"
+      ],
+      "overall_score": 68.6
+    },
+    "苏格兰": {
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "group": "C",
+      "fifa_ranking": 1645.9,
+      "squad_value": 450000000,
+      "qualification_points": 9,
+      "attack_strength": 74,
+      "defense_strength": 76,
+      "midfield_control": 75,
+      "injury_status": 87,
+      "key_players": [
+        "罗伯森",
+        "麦格雷戈",
+        "吉尔莫尔"
+      ],
+      "overall_score": 76.2
+    },
+    "海地": {
+      "flag": "🇭🇹",
+      "group": "C",
+      "fifa_ranking": 1560.0,
+      "squad_value": 350000000,
+      "qualification_points": 9,
+      "attack_strength": 64,
+      "defense_strength": 65,
+      "midfield_control": 64,
+      "injury_status": 77,
+      "key_players": [
+        "普拉西德",
+        "阿德",
+        "阿库斯"
+      ],
+      "overall_score": 66.8
+    },
+    "巴拿马": {
+      "flag": "🇵🇦",
+      "group": "L",
+      "fifa_ranking": 1590.0,
+      "squad_value": 420000000,
+      "qualification_points": 13,
+      "attack_strength": 68,
+      "defense_strength": 70,
+      "midfield_control": 69,
+      "injury_status": 81,
+      "key_players": [
+        "托雷斯",
+        "穆里略",
+        "戈多伊"
+      ],
+      "overall_score": 70.2
+    },
+    "挪威": {
+      "flag": "🇳🇴",
+      "group": "I",
+      "fifa_ranking": 1655.7,
+      "squad_value": 699000000,
+      "qualification_points": 8,
+      "attack_strength": 82,
+      "defense_strength": 80,
+      "midfield_control": 79,
+      "injury_status": 91,
+      "key_players": [
+        "哈兰德",
+        "厄德高",
+        "斯特兰德·拉森"
+      ],
+      "overall_score": 82.2
+    },
+    "约旦": {
+      "flag": "🇯🇴",
+      "group": "J",
+      "fifa_ranking": 1566.0,
+      "squad_value": 230000000,
+      "qualification_points": 12,
+      "attack_strength": 65,
+      "defense_strength": 70,
+      "midfield_control": 68,
+      "injury_status": 83,
+      "key_players": [
+        "阿尔达赫",
+        "阿尔阿马里",
+        "阿尔卡德"
+      ],
+      "overall_score": 69.6
+    },
+    "圣文森特和格林纳丁斯": {
+      "flag": "🇻🇨",
+      "group": "H",
+      "fifa_ranking": 1520.0,
+      "squad_value": 180000000,
+      "qualification_points": 5,
+      "attack_strength": 60,
+      "defense_strength": 62,
+      "midfield_control": 61,
+      "injury_status": 78,
+      "key_players": [
+        "劳伦",
+        "库珀",
+        "查尔斯"
+      ],
+      "overall_score": 64.2
+    }
+  }
+}
