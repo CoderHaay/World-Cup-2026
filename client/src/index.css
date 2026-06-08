@@ -78,8 +78,6 @@
   --sidebar-ring: oklch(0.623 0.214 259.815);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap');
-
 .dark {
   --primary: var(--color-blue-600);
   --primary-foreground: var(--color-blue-50);
