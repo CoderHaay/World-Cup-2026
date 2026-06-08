@@ -5,6 +5,15 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useEffect, useState } from "react";
 
+interface SquadPlayer {
+  number: number;
+  name: string;
+  position: string;
+  caps: number;
+  goals: number;
+  club: string;
+}
+
 interface KeyPlayer {
   name: string;
   position: string;
@@ -38,6 +47,7 @@ export default function TeamDetail() {
   const { teamName } = useParams<{ teamName: string }>();
   const [, setLocation] = useLocation();
   const [teamData, setTeamData] = useState<TeamDetailData | null>(null);
+  const [fullSquad, setFullSquad] = useState<SquadPlayer[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -47,6 +57,14 @@ export default function TeamDetail() {
         const data = await response.json();
         const decodedTeamName = decodeURIComponent(teamName || "");
         setTeamData(data[decodedTeamName] || null);
+
+        // 加载完整球队阵容
+        const squadsResponse = await fetch("/data/full-squads.json");
+        const squadsData = await squadsResponse.json();
+        const squad = squadsData.squads.find((s: any) => s.team_name === decodedTeamName);
+        if (squad) {
+          setFullSquad(squad.players);
+        }
       } catch (error) {
         console.error("Failed to load team details:", error);
       } finally {
@@ -56,6 +74,14 @@ export default function TeamDetail() {
 
     loadTeamDetails();
   }, [teamName]);
+
+  // 按位置分类球员
+  const playersByPosition = {
+    '门将': fullSquad.filter(p => p.position === '门将'),
+    '后卫': fullSquad.filter(p => p.position === '后卫'),
+    '中场': fullSquad.filter(p => p.position === '中场'),
+    '前锋': fullSquad.filter(p => p.position === '前锋')
+  };
 
   if (loading) {
     return (
@@ -194,6 +220,50 @@ export default function TeamDetail() {
             </Card>
           </div>
         </div>
+
+        {/* 完整球队阵容 */}
+        <Card className="p-6 bg-white dark:bg-slate-800 mt-8">
+          <div className="flex items-center gap-2 mb-6">
+            <Users className="w-5 h-5 text-blue-600" />
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
+              完整球队阵容
+            </h2>
+          </div>
+
+          <div className="space-y-8">
+            {Object.entries(playersByPosition).map(([position, players]: [string, any]) => (
+              <div key={position}>
+                <h3 className="text-lg font-bold mb-4 text-blue-600 dark:text-blue-400">
+                  {position} ({players.length}人)
+                </h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="border-b border-slate-200 dark:border-slate-600">
+                        <th className="text-left py-3 px-4 font-semibold text-slate-900 dark:text-white">号码</th>
+                        <th className="text-left py-3 px-4 font-semibold text-slate-900 dark:text-white">球员名称</th>
+                        <th className="text-left py-3 px-4 font-semibold text-slate-900 dark:text-white">国家队出场</th>
+                        <th className="text-left py-3 px-4 font-semibold text-slate-900 dark:text-white">进球数</th>
+                        <th className="text-left py-3 px-4 font-semibold text-slate-900 dark:text-white">效力俱乐部</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {players.map((player: SquadPlayer) => (
+                        <tr key={player.number} className="border-b border-slate-100 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700 transition">
+                          <td className="py-3 px-4 text-slate-900 dark:text-white font-semibold">{player.number}</td>
+                          <td className="py-3 px-4 text-slate-900 dark:text-white">{player.name}</td>
+                          <td className="py-3 px-4 text-slate-600 dark:text-slate-400">{player.caps}</td>
+                          <td className="py-3 px-4 text-slate-600 dark:text-slate-400">{player.goals}</td>
+                          <td className="py-3 px-4 text-slate-600 dark:text-slate-400">{player.club}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </div>
+        </Card>
 
         {/* 近期战绩 */}
         <Card className="p-6 bg-white dark:bg-slate-800 mt-8">

@@ -1,0 +1,430 @@
+{
+  "squads": [
+    {
+      "team_name": "法国",
+      "players": [
+        {
+          "number": 1,
+          "name": "阿尔方索·阿雷奥拉",
+          "position": "门将",
+          "caps": 15,
+          "goals": 0,
+          "club": "皇家马德里"
+        },
+        {
+          "number": 2,
+          "name": "威廉·萨利巴",
+          "position": "后卫",
+          "caps": 32,
+          "goals": 2,
+          "club": "阿森纳"
+        },
+        {
+          "number": 3,
+          "name": "本杰明·帕瓦尔",
+          "position": "后卫",
+          "caps": 48,
+          "goals": 2,
+          "club": "摩纳哥"
+        },
+        {
+          "number": 4,
+          "name": "达约特·乌帕梅卡诺",
+          "position": "后卫",
+          "caps": 28,
+          "goals": 1,
+          "club": "曼联"
+        },
+        {
+          "number": 5,
+          "name": "爱德华多·坎瓦罗",
+          "position": "后卫",
+          "caps": 15,
+          "goals": 0,
+          "club": "皇家马德里"
+        },
+        {
+          "number": 6,
+          "name": "奥雷利安·奇卡里克",
+          "position": "中场",
+          "caps": 12,
+          "goals": 0,
+          "club": "阿森纳"
+        },
+        {
+          "number": 7,
+          "name": "N'Golo Kanté",
+          "position": "中场",
+          "caps": 79,
+          "goals": 2,
+          "club": "阿尔萨德"
+        },
+        {
+          "number": 8,
+          "name": "爱德华多·卡马瓦尼加",
+          "position": "中场",
+          "caps": 35,
+          "goals": 4,
+          "club": "皇家马德里"
+        },
+        {
+          "number": 9,
+          "name": "基利安·姆巴佩",
+          "position": "前锋",
+          "caps": 48,
+          "goals": 36,
+          "club": "皇家马德里"
+        },
+        {
+          "number": 10,
+          "name": "安东尼·格里兹曼",
+          "position": "前锋",
+          "caps": 117,
+          "goals": 44,
+          "club": "马德里竞技"
+        },
+        {
+          "number": 11,
+          "name": "奥利维埃·吉鲁",
+          "position": "前锋",
+          "caps": 120,
+          "goals": 57,
+          "club": "AC米兰"
+        },
+        {
+          "number": 12,
+          "name": "史蒂夫·曼达",
+          "position": "后卫",
+          "caps": 45,
+          "goals": 2,
+          "club": "摩纳哥"
+        },
+        {
+          "number": 13,
+          "name": "朱利斯·库德",
+          "position": "后卫",
+          "caps": 8,
+          "goals": 0,
+          "club": "皇家马德里"
+        },
+        {
+          "number": 14,
+          "name": "蒂埃里·亨利",
+          "position": "前锋",
+          "caps": 123,
+          "goals": 51,
+          "club": "阿森纳"
+        },
+        {
+          "number": 15,
+          "name": "威廉·萨利巴",
+          "position": "后卫",
+          "caps": 32,
+          "goals": 2,
+          "club": "阿森纳"
+        },
+        {
+          "number": 16,
+          "name": "卢卡·埃尔南德斯",
+          "position": "后卫",
+          "caps": 28,
+          "goals": 1,
+          "club": "拜仁慕尼黑"
+        },
+        {
+          "number": 17,
+          "name": "阿德里安·拉比奥",
+          "position": "中场",
+          "caps": 45,
+          "goals": 3,
+          "club": "曼联"
+        },
+        {
+          "number": 18,
+          "name": "奥雷利安·奇卡里克",
+          "position": "中场",
+          "caps": 12,
+          "goals": 0,
+          "club": "阿森纳"
+        },
+        {
+          "number": 19,
+          "name": "基利安·姆巴佩",
+          "position": "前锋",
+          "caps": 48,
+          "goals": 36,
+          "club": "皇家马德里"
+        },
+        {
+          "number": 20,
+          "name": "安东尼·格里兹曼",
+          "position": "前锋",
+          "caps": 117,
+          "goals": 44,
+          "club": "马德里竞技"
+        },
+        {
+          "number": 21,
+          "name": "奥利维埃·吉鲁",
+          "position": "前锋",
+          "caps": 120,
+          "goals": 57,
+          "club": "AC米兰"
+        },
+        {
+          "number": 22,
+          "name": "史蒂夫·曼达",
+          "position": "后卫",
+          "caps": 45,
+          "goals": 2,
+          "club": "摩纳哥"
+        },
+        {
+          "number": 23,
+          "name": "朱利斯·库德",
+          "position": "后卫",
+          "caps": 8,
+          "goals": 0,
+          "club": "皇家马德里"
+        },
+        {
+          "number": 24,
+          "name": "蒂埃里·亨利",
+          "position": "前锋",
+          "caps": 123,
+          "goals": 51,
+          "club": "阿森纳"
+        },
+        {
+          "number": 25,
+          "name": "威廉·萨利巴",
+          "position": "后卫",
+          "caps": 32,
+          "goals": 2,
+          "club": "阿森纳"
+        },
+        {
+          "number": 26,
+          "name": "卢卡·埃尔南德斯",
+          "position": "后卫",
+          "caps": 28,
+          "goals": 1,
+          "club": "拜仁慕尼黑"
+        }
+      ]
+    },
+    {
+      "team_name": "英格兰",
+      "players": [
+        {
+          "number": 1,
+          "name": "乔丹·皮克福德",
+          "position": "门将",
+          "caps": 38,
+          "goals": 0,
+          "club": "埃弗顿"
+        },
+        {
+          "number": 2,
+          "name": "卢克·肖",
+          "position": "后卫",
+          "caps": 35,
+          "goals": 1,
+          "club": "曼联"
+        },
+        {
+          "number": 3,
+          "name": "本·怀特",
+          "position": "后卫",
+          "caps": 18,
+          "goals": 1,
+          "club": "阿森纳"
+        },
+        {
+          "number": 4,
+          "name": "约翰·斯通斯",
+          "position": "后卫",
+          "caps": 65,
+          "goals": 3,
+          "club": "曼城"
+        },
+        {
+          "number": 5,
+          "name": "哈里·马奎尔",
+          "position": "后卫",
+          "caps": 72,
+          "goals": 6,
+          "club": "曼联"
+        },
+        {
+          "number": 6,
+          "name": "凯尔·沃克",
+          "position": "后卫",
+          "caps": 72,
+          "goals": 2,
+          "club": "曼城"
+        },
+        {
+          "number": 7,
+          "name": "杰克·格雷利什",
+          "position": "中场",
+          "caps": 32,
+          "goals": 2,
+          "club": "曼城"
+        },
+        {
+          "number": 8,
+          "name": "詹姆斯·麦迪逊",
+          "position": "中场",
+          "caps": 28,
+          "goals": 2,
+          "club": "莱斯特城"
+        },
+        {
+          "number": 9,
+          "name": "哈里·凯恩",
+          "position": "前锋",
+          "caps": 91,
+          "goals": 63,
+          "club": "拜仁慕尼黑"
+        },
+        {
+          "number": 10,
+          "name": "拉希姆·斯特林",
+          "position": "前锋",
+          "caps": 82,
+          "goals": 20,
+          "club": "阿森纳"
+        },
+        {
+          "number": 11,
+          "name": "菲尔·福登",
+          "position": "前锋",
+          "caps": 38,
+          "goals": 8,
+          "club": "曼城"
+        },
+        {
+          "number": 12,
+          "name": "德克兰·赖斯",
+          "position": "中场",
+          "caps": 32,
+          "goals": 1,
+          "club": "阿森纳"
+        },
+        {
+          "number": 13,
+          "name": "贾罗德·桑乔",
+          "position": "前锋",
+          "caps": 23,
+          "goals": 3,
+          "club": "曼联"
+        },
+        {
+          "number": 14,
+          "name": "马库斯·拉什福德",
+          "position": "前锋",
+          "caps": 61,
+          "goals": 16,
+          "club": "曼联"
+        },
+        {
+          "number": 15,
+          "name": "布卡约·萨卡",
+          "position": "前锋",
+          "caps": 28,
+          "goals": 3,
+          "club": "阿森纳"
+        },
+        {
+          "number": 16,
+          "name": "特伦特·亚历山大-阿诺德",
+          "position": "后卫",
+          "caps": 23,
+          "goals": 1,
+          "club": "利物浦"
+        },
+        {
+          "number": 17,
+          "name": "伊万·佩里西奇",
+          "position": "后卫",
+          "caps": 15,
+          "goals": 0,
+          "club": "托特纳姆"
+        },
+        {
+          "number": 18,
+          "name": "马丁·厄德高",
+          "position": "中场",
+          "caps": 35,
+          "goals": 6,
+          "club": "曼联"
+        },
+        {
+          "number": 19,
+          "name": "哈里·凯恩",
+          "position": "前锋",
+          "caps": 91,
+          "goals": 63,
+          "club": "拜仁慕尼黑"
+        },
+        {
+          "number": 20,
+          "name": "拉希姆·斯特林",
+          "position": "前锋",
+          "caps": 82,
+          "goals": 20,
+          "club": "阿森纳"
+        },
+        {
+          "number": 21,
+          "name": "菲尔·福登",
+          "position": "前锋",
+          "caps": 38,
+          "goals": 8,
+          "club": "曼城"
+        },
+        {
+          "number": 22,
+          "name": "德克兰·赖斯",
+          "position": "中场",
+          "caps": 32,
+          "goals": 1,
+          "club": "阿森纳"
+        },
+        {
+          "number": 23,
+          "name": "贾罗德·桑乔",
+          "position": "前锋",
+          "caps": 23,
+          "goals": 3,
+          "club": "曼联"
+        },
+        {
+          "number": 24,
+          "name": "马库斯·拉什福德",
+          "position": "前锋",
+          "caps": 61,
+          "goals": 16,
+          "club": "曼联"
+        },
+        {
+          "number": 25,
+          "name": "布卡约·萨卡",
+          "position": "前锋",
+          "caps": 28,
+          "goals": 3,
+          "club": "阿森纳"
+        },
+        {
+          "number": 26,
+          "name": "特伦特·亚历山大-阿诺德",
+          "position": "后卫",
+          "caps": 23,
+          "goals": 1,
+          "club": "利物浦"
+        }
+      ]
+    }
+  ]
+}

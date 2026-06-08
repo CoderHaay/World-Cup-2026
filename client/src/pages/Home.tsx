@@ -92,14 +92,21 @@ export default function Home() {
       </header>
 
       <main className="container py-12">
-        {/* Navigation to Schedule */}
-        <div className="mb-8">
+        {/* Navigation to Schedule and Simulator */}
+        <div className="mb-8 flex gap-4">
           <button
             onClick={() => navigate("/schedule")}
             className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold rounded-lg transition shadow-lg"
           >
             <Calendar className="w-5 h-5" />
             查看完整赛程与比赛预测
+          </button>
+          <button
+            onClick={() => navigate("/simulator")}
+            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-semibold rounded-lg transition shadow-lg"
+          >
+            <Target className="w-5 h-5" />
+            小组出线模拟器
           </button>
         </div>
 

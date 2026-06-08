@@ -35,13 +35,7 @@
         "number": 8
       }
     ],
-    "injuries": [
-      {
-        "player": "保罗·博格巴",
-        "status": "康复中",
-        "return_date": "2026-06-01"
-      }
-    ],
+    "injuries": [],
     "recent_matches": [
       {
         "opponent": "荷兰",
@@ -157,13 +151,7 @@
         "number": 1
       }
     ],
-    "injuries": [
-      {
-        "player": "塞尔吉奥·布斯克茨",
-        "status": "轻伤",
-        "return_date": "2026-06-05"
-      }
-    ],
+    "injuries": [],
     "recent_matches": [
       {
         "opponent": "英格兰",
@@ -182,6 +170,3748 @@
         "score": "1-1",
         "date": "2026-05-05",
         "result": "平"
+      }
+    ]
+  },
+  "葡萄牙": {
+    "name": "葡萄牙",
+    "flag": "🇵🇹",
+    "coach": "罗伯托·马丁内斯",
+    "key_players": [
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      },
+      {
+        "name": "布鲁诺·费尔南德斯",
+        "position": "中场",
+        "club": "曼联",
+        "number": 8
+      },
+      {
+        "name": "鲁本·迪亚斯",
+        "position": "后卫",
+        "club": "曼城",
+        "number": 3
+      },
+      {
+        "name": "若昂·菲利普斯",
+        "position": "中场",
+        "club": "曼城",
+        "number": 4
+      },
+      {
+        "name": "帕特里西奥",
+        "position": "门将",
+        "club": "罗马",
+        "number": 1
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "西班牙",
+        "score": "1-1",
+        "date": "2026-05-05",
+        "result": "平"
+      },
+      {
+        "opponent": "英格兰",
+        "score": "1-3",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "法国",
+        "score": "0-2",
+        "date": "2026-05-20",
+        "result": "负"
+      }
+    ]
+  },
+  "德国": {
+    "name": "德国",
+    "flag": "🇩🇪",
+    "coach": "尤利安·纳格尔斯曼",
+    "key_players": [
+      {
+        "name": "塞尔日·格纳布里",
+        "position": "前锋",
+        "club": "拜仁慕尼黑",
+        "number": 10
+      },
+      {
+        "name": "莱罗伊·萨内",
+        "position": "前锋",
+        "club": "拜仁慕尼黑",
+        "number": 19
+      },
+      {
+        "name": "约书亚·基米希",
+        "position": "中场",
+        "club": "拜仁慕尼黑",
+        "number": 6
+      },
+      {
+        "name": "鲁迪·卡瓦略",
+        "position": "后卫",
+        "club": "曼城",
+        "number": 4
+      },
+      {
+        "name": "曼努埃尔·诺伊尔",
+        "position": "门将",
+        "club": "拜仁慕尼黑",
+        "number": 1
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "法国",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "荷兰",
+        "score": "2-1",
+        "date": "2026-05-18",
+        "result": "胜"
+      },
+      {
+        "opponent": "比利时",
+        "score": "3-0",
+        "date": "2026-05-22",
+        "result": "胜"
+      }
+    ]
+  },
+  "巴西": {
+    "name": "巴西",
+    "flag": "🇧🇷",
+    "coach": "卡洛·安切洛蒂",
+    "key_players": [
+      {
+        "name": "内马尔",
+        "position": "前锋",
+        "club": "阿尔希拉尔",
+        "number": 10
+      },
+      {
+        "name": "维尼修斯·朱尼奥尔",
+        "position": "前锋",
+        "club": "皇家马德里",
+        "number": 7
+      },
+      {
+        "name": "卡塞米罗",
+        "position": "中场",
+        "club": "曼联",
+        "number": 5
+      },
+      {
+        "name": "蒂亚戈·席尔瓦",
+        "position": "后卫",
+        "club": "弗卢米嫩塞",
+        "number": 3
+      },
+      {
+        "name": "阿利松",
+        "position": "门将",
+        "club": "利物浦",
+        "number": 1
+      }
+    ],
+    "injuries": [
+      {
+        "player": "内马尔",
+        "status": "轻伤",
+        "return_date": "2026-06-05"
+      }
+    ],
+    "recent_matches": [
+      {
+        "opponent": "阿根廷",
+        "score": "1-0",
+        "date": "2026-05-18",
+        "result": "胜"
+      },
+      {
+        "opponent": "乌拉圭",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "哥伦比亚",
+        "score": "3-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "阿根廷": {
+    "name": "阿根廷",
+    "flag": "🇦🇷",
+    "coach": "莱昂内尔·斯卡洛尼",
+    "key_players": [
+      {
+        "name": "莱昂内尔·梅西",
+        "position": "前锋",
+        "club": "迈阿密国际",
+        "number": 10
+      },
+      {
+        "name": "胡利安·阿尔瓦雷斯",
+        "position": "前锋",
+        "club": "马德里竞技",
+        "number": 9
+      },
+      {
+        "name": "安赫尔·迪玛里亚",
+        "position": "中场",
+        "club": "本菲卡",
+        "number": 11
+      },
+      {
+        "name": "尼古拉斯·奥塔门迪",
+        "position": "后卫",
+        "club": "本菲卡",
+        "number": 3
+      },
+      {
+        "name": "贡萨洛·蒙铁尔",
+        "position": "门将",
+        "club": "曼城",
+        "number": 1
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "巴西",
+        "score": "0-1",
+        "date": "2026-05-18",
+        "result": "负"
+      },
+      {
+        "opponent": "乌拉圭",
+        "score": "2-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "智利",
+        "score": "3-1",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "荷兰": {
+    "name": "荷兰",
+    "flag": "🇳🇱",
+    "coach": "罗纳尔德·科曼",
+    "key_players": [
+      {
+        "name": "门菲斯·德佩",
+        "position": "前锋",
+        "club": "马赛",
+        "number": 10
+      },
+      {
+        "name": "史蒂文·博格鸡",
+        "position": "前锋",
+        "club": "阿贾克斯",
+        "number": 9
+      },
+      {
+        "name": "弗兰基·德容",
+        "position": "中场",
+        "club": "巴塞罗那",
+        "number": 8
+      },
+      {
+        "name": "维吉尔·范迪克",
+        "position": "后卫",
+        "club": "利物浦",
+        "number": 4
+      },
+      {
+        "name": "贾斯珀·西莱森",
+        "position": "门将",
+        "club": "阿尔梅罗",
+        "number": 1
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "法国",
+        "score": "1-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "德国",
+        "score": "1-2",
+        "date": "2026-05-18",
+        "result": "负"
+      },
+      {
+        "opponent": "比利时",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      }
+    ]
+  },
+  "比利时": {
+    "name": "比利时",
+    "flag": "🇧🇪",
+    "coach": "多米尼克·特德斯科",
+    "key_players": [
+      {
+        "name": "伊登·阿扎尔",
+        "position": "前锋",
+        "club": "皇家马德里",
+        "number": 7
+      },
+      {
+        "name": "罗梅罗·卢卡库",
+        "position": "前锋",
+        "club": "国际米兰",
+        "number": 9
+      },
+      {
+        "name": "凯文·德布劳内",
+        "position": "中场",
+        "club": "曼城",
+        "number": 8
+      },
+      {
+        "name": "托比·阿尔德韦雷尔德",
+        "position": "后卫",
+        "club": "安特卫普",
+        "number": 3
+      },
+      {
+        "name": "蒂博·库尔图瓦",
+        "position": "门将",
+        "club": "皇家马德里",
+        "number": 1
+      }
+    ],
+    "injuries": [
+      {
+        "player": "凯文·德布劳内",
+        "status": "康复中",
+        "return_date": "2026-06-08"
+      }
+    ],
+    "recent_matches": [
+      {
+        "opponent": "法国",
+        "score": "0-3",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "荷兰",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "德国",
+        "score": "0-3",
+        "date": "2026-05-22",
+        "result": "负"
+      }
+    ]
+  },
+  "意大利": {
+    "name": "意大利",
+    "flag": "🇮🇹",
+    "coach": "卢西亚诺·斯帕莱蒂",
+    "key_players": [
+      {
+        "name": "贾尼路易吉·多纳鲁马",
+        "position": "门将",
+        "club": "巴黎圣日耳曼",
+        "number": 1
+      },
+      {
+        "name": "亚历山德罗·巴斯塔尼",
+        "position": "后卫",
+        "club": "那不勒斯",
+        "number": 4
+      },
+      {
+        "name": "马可·维拉蒂",
+        "position": "中场",
+        "club": "巴黎圣日耳曼",
+        "number": 8
+      },
+      {
+        "name": "费德里科·基耶萨",
+        "position": "前锋",
+        "club": "尤文图斯",
+        "number": 14
+      },
+      {
+        "name": "洛伦佐·因西尼",
+        "position": "前锋",
+        "club": "那不勒斯",
+        "number": 10
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "西班牙",
+        "score": "0-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "法国",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "奥地利",
+        "score": "2-1",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "瑞士": {
+    "name": "瑞士",
+    "flag": "🇨🇭",
+    "coach": "穆拉特·亚金",
+    "key_players": [
+      {
+        "name": "格拉尼特·扎卡",
+        "position": "中场",
+        "club": "阿森纳",
+        "number": 34
+      },
+      {
+        "name": "塞尔日·格纳布里",
+        "position": "前锋",
+        "club": "拜仁慕尼黑",
+        "number": 10
+      },
+      {
+        "name": "扬·索默",
+        "position": "门将",
+        "club": "门兴格拉德巴赫",
+        "number": 1
+      },
+      {
+        "name": "曼努埃尔·阿卡尼",
+        "position": "后卫",
+        "club": "都灵",
+        "number": 3
+      },
+      {
+        "name": "鲁本·瓦格斯",
+        "position": "中场",
+        "club": "尤文图斯",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "奥地利",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "捷克",
+        "score": "2-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "克罗地亚",
+        "score": "1-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "奥地利": {
+    "name": "奥地利",
+    "flag": "🇦🇹",
+    "coach": "克里斯蒂安·伊利内克",
+    "key_players": [
+      {
+        "name": "大卫·阿拉巴",
+        "position": "后卫",
+        "club": "皇家马德里",
+        "number": 3
+      },
+      {
+        "name": "克里斯蒂安·普罗德尔",
+        "position": "后卫",
+        "club": "阿森纳",
+        "number": 4
+      },
+      {
+        "name": "萨博·塞茨",
+        "position": "中场",
+        "club": "莱比锡红牛",
+        "number": 8
+      },
+      {
+        "name": "马可·阿尔尼托维奇",
+        "position": "前锋",
+        "club": "威尼斯",
+        "number": 7
+      },
+      {
+        "name": "彼得·古拉奇",
+        "position": "门将",
+        "club": "格拉茨风暴",
+        "number": 1
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "瑞士",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "意大利",
+        "score": "1-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "捷克",
+        "score": "2-0",
+        "date": "2026-05-25",
+        "result": "胜"
+      }
+    ]
+  },
+  "克罗地亚": {
+    "name": "克罗地亚",
+    "flag": "🇭🇷",
+    "coach": "兹拉特科·达利奇",
+    "key_players": [
+      {
+        "name": "卢卡·莫德里奇",
+        "position": "中场",
+        "club": "皇家马德里",
+        "number": 10
+      },
+      {
+        "name": "伊万·佩里西奇",
+        "position": "前锋",
+        "club": "托特纳姆热刺",
+        "number": 14
+      },
+      {
+        "name": "马特奥·科瓦契奇",
+        "position": "中场",
+        "club": "切尔西",
+        "number": 8
+      },
+      {
+        "name": "德扬·洛夫伦",
+        "position": "后卫",
+        "club": "利物浦",
+        "number": 6
+      },
+      {
+        "name": "多米尼克·利瓦科维奇",
+        "position": "门将",
+        "club": "萨格勒布迪纳摩",
+        "number": 1
+      }
+    ],
+    "injuries": [
+      {
+        "player": "卢卡·莫德里奇",
+        "status": "轻伤",
+        "return_date": "2026-06-10"
+      }
+    ],
+    "recent_matches": [
+      {
+        "opponent": "瑞士",
+        "score": "0-1",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "斯洛伐克",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "匈牙利",
+        "score": "3-1",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "捷克": {
+    "name": "捷克",
+    "flag": "🇨🇿",
+    "coach": "伊万·哈塞克",
+    "key_players": [
+      {
+        "name": "帕特里克·希克",
+        "position": "前锋",
+        "club": "勒沃库森",
+        "number": 10
+      },
+      {
+        "name": "托马什·霍莱什",
+        "position": "中场",
+        "club": "阿森纳",
+        "number": 8
+      },
+      {
+        "name": "弗拉基米尔·科瓦尔",
+        "position": "门将",
+        "club": "塞维利亚",
+        "number": 1
+      },
+      {
+        "name": "托马什·卡拉瓦耶克",
+        "position": "后卫",
+        "club": "帕尔玛",
+        "number": 3
+      },
+      {
+        "name": "亚历山德·克拉尔",
+        "position": "中场",
+        "club": "沃尔夫斯堡",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "瑞士",
+        "score": "0-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "奥地利",
+        "score": "0-2",
+        "date": "2026-05-25",
+        "result": "负"
+      },
+      {
+        "opponent": "克罗地亚",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      }
+    ]
+  },
+  "匈牙利": {
+    "name": "匈牙利",
+    "flag": "🇭🇺",
+    "coach": "马尔科·罗西",
+    "key_players": [
+      {
+        "name": "多米尼克·索博斯莱",
+        "position": "前锋",
+        "club": "莱比锡红牛",
+        "number": 10
+      },
+      {
+        "name": "彼得·古拉奇",
+        "position": "门将",
+        "club": "格拉茨风暴",
+        "number": 1
+      },
+      {
+        "name": "阿蒂拉·菲奥拉",
+        "position": "后卫",
+        "club": "弗拉门戈",
+        "number": 3
+      },
+      {
+        "name": "罗兰德·萨莱",
+        "position": "中场",
+        "club": "弗拉门戈",
+        "number": 8
+      },
+      {
+        "name": "米克",
+        "position": "中场",
+        "club": "莱比锡红牛",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "克罗地亚",
+        "score": "1-3",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "斯洛伐克",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "罗马尼亚",
+        "score": "1-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "斯洛伐克": {
+    "name": "斯洛伐克",
+    "flag": "🇸🇰",
+    "coach": "卡洛尔·莫特尔",
+    "key_players": [
+      {
+        "name": "彼得·佩卡里克",
+        "position": "后卫",
+        "club": "赫塔菲",
+        "number": 3
+      },
+      {
+        "name": "马丁·杜里斯",
+        "position": "前锋",
+        "club": "阿尔梅罗",
+        "number": 10
+      },
+      {
+        "name": "米兰·什基里尼亚尔",
+        "position": "后卫",
+        "club": "国际米兰",
+        "number": 4
+      },
+      {
+        "name": "斯坦尼斯拉夫·洛博茨基",
+        "position": "中场",
+        "club": "莱比锡红牛",
+        "number": 8
+      },
+      {
+        "name": "马丁·杜库",
+        "position": "门将",
+        "club": "布拉迪斯拉发斯劳万",
+        "number": 1
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "克罗地亚",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "匈牙利",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "波兰",
+        "score": "2-1",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "罗马尼亚": {
+    "name": "罗马尼亚",
+    "flag": "🇷🇴",
+    "coach": "爱德华多·多尔多",
+    "key_players": [
+      {
+        "name": "乔治·普什卡什",
+        "position": "前锋",
+        "club": "巴塞罗那",
+        "number": 10
+      },
+      {
+        "name": "尼古拉·斯坦丘",
+        "position": "前锋",
+        "club": "斯托克城",
+        "number": 9
+      },
+      {
+        "name": "弗洛林·尼塔",
+        "position": "门将",
+        "club": "奥林匹亚克斯",
+        "number": 1
+      },
+      {
+        "name": "拉杜·德里奥",
+        "position": "后卫",
+        "club": "阿斯顿维拉",
+        "number": 3
+      },
+      {
+        "name": "尼古拉·曼迪",
+        "position": "中场",
+        "club": "莱斯特城",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "匈牙利",
+        "score": "0-1",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "保加利亚",
+        "score": "2-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "塞尔维亚",
+        "score": "1-1",
+        "date": "2026-05-10",
+        "result": "平"
+      }
+    ]
+  },
+  "波兰": {
+    "name": "波兰",
+    "flag": "🇵🇱",
+    "coach": "米哈伊·米希亚",
+    "key_players": [
+      {
+        "name": "罗伯特·莱万多夫斯基",
+        "position": "前锋",
+        "club": "巴塞罗那",
+        "number": 9
+      },
+      {
+        "name": "皮奥特尔·泽林斯基",
+        "position": "中场",
+        "club": "那不勒斯",
+        "number": 10
+      },
+      {
+        "name": "沃伊切赫·什琴斯尼",
+        "position": "门将",
+        "club": "尤文图斯",
+        "number": 1
+      },
+      {
+        "name": "扬·贝德纳雷克",
+        "position": "后卫",
+        "club": "阿斯顿维拉",
+        "number": 3
+      },
+      {
+        "name": "格雷戈尔·克拉赫",
+        "position": "中场",
+        "club": "尤文图斯",
+        "number": 8
+      }
+    ],
+    "injuries": [
+      {
+        "player": "罗伯特·莱万多夫斯基",
+        "status": "康复中",
+        "return_date": "2026-06-01"
+      }
+    ],
+    "recent_matches": [
+      {
+        "opponent": "斯洛伐克",
+        "score": "1-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "乌克兰",
+        "score": "3-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "保加利亚",
+        "score": "2-1",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "乌克兰": {
+    "name": "乌克兰",
+    "flag": "🇺🇦",
+    "coach": "谢尔盖·雷布罗夫",
+    "key_players": [
+      {
+        "name": "安德里·亚尔莫连科",
+        "position": "前锋",
+        "club": "加拉塔萨雷",
+        "number": 7
+      },
+      {
+        "name": "罗马·亚尔莫连科",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 8
+      },
+      {
+        "name": "阿纳托利·特鲁宾",
+        "position": "门将",
+        "club": "沃尔夫斯堡",
+        "number": 1
+      },
+      {
+        "name": "谢尔盖·克里瓦采夫",
+        "position": "后卫",
+        "club": "沙尔克04",
+        "number": 3
+      },
+      {
+        "name": "米科拉·马特维延科",
+        "position": "后卫",
+        "club": "沙尔克04",
+        "number": 4
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "波兰",
+        "score": "0-3",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "保加利亚",
+        "score": "2-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "斯洛文尼亚",
+        "score": "1-1",
+        "date": "2026-05-20",
+        "result": "平"
+      }
+    ]
+  },
+  "保加利亚": {
+    "name": "保加利亚",
+    "flag": "🇧🇬",
+    "coach": "伊万·科瓦切夫",
+    "key_players": [
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      },
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      },
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      },
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      },
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "罗马尼亚",
+        "score": "0-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "乌克兰",
+        "score": "0-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "波兰",
+        "score": "1-2",
+        "date": "2026-05-10",
+        "result": "负"
+      }
+    ]
+  },
+  "塞尔维亚": {
+    "name": "塞尔维亚",
+    "flag": "🇷🇸",
+    "coach": "德拉甘·斯图帕",
+    "key_players": [
+      {
+        "name": "亚历山大·米特罗维奇",
+        "position": "前锋",
+        "club": "沙尔克04",
+        "number": 9
+      },
+      {
+        "name": "杜桑·塔迪奇",
+        "position": "中场",
+        "club": "阿贾克斯",
+        "number": 10
+      },
+      {
+        "name": "弗拉迪米尔·斯图帕",
+        "position": "门将",
+        "club": "帕尔玛",
+        "number": 1
+      },
+      {
+        "name": "尼古拉·米连科维奇",
+        "position": "后卫",
+        "club": "佛罗伦萨",
+        "number": 3
+      },
+      {
+        "name": "尼马尼亚·马蒂奇",
+        "position": "中场",
+        "club": "曼联",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "罗马尼亚",
+        "score": "1-1",
+        "date": "2026-05-10",
+        "result": "平"
+      },
+      {
+        "opponent": "斯洛文尼亚",
+        "score": "2-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "阿尔巴尼亚",
+        "score": "3-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "斯洛文尼亚": {
+    "name": "斯洛文尼亚",
+    "flag": "🇸🇮",
+    "coach": "马蒂亚兹·克克",
+    "key_players": [
+      {
+        "name": "约什·伊利切维奇",
+        "position": "前锋",
+        "club": "热那亚",
+        "number": 10
+      },
+      {
+        "name": "雅恩·奥布拉克",
+        "position": "门将",
+        "club": "马德里竞技",
+        "number": 1
+      },
+      {
+        "name": "米兰·米林科维奇-萨维奇",
+        "position": "中场",
+        "club": "拉齐奥",
+        "number": 8
+      },
+      {
+        "name": "约什·伯格",
+        "position": "后卫",
+        "club": "莱比锡红牛",
+        "number": 3
+      },
+      {
+        "name": "尼克·埃里克森",
+        "position": "中场",
+        "club": "帕尔玛",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "乌克兰",
+        "score": "1-1",
+        "date": "2026-05-20",
+        "result": "平"
+      },
+      {
+        "opponent": "塞尔维亚",
+        "score": "0-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "阿尔巴尼亚",
+        "score": "1-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "阿尔巴尼亚": {
+    "name": "阿尔巴尼亚",
+    "flag": "🇦🇱",
+    "coach": "西尔维斯特罗·瓦尔蒂纳",
+    "key_players": [
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      },
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      },
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      },
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      },
+      {
+        "name": "克里斯蒂亚诺·罗纳尔多",
+        "position": "前锋",
+        "club": "利雅得胜利",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "斯洛文尼亚",
+        "score": "0-1",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "塞尔维亚",
+        "score": "0-3",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "格鲁吉亚",
+        "score": "1-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      }
+    ]
+  },
+  "格鲁吉亚": {
+    "name": "格鲁吉亚",
+    "flag": "🇬🇪",
+    "coach": "维克多·桑尼亚",
+    "key_players": [
+      {
+        "name": "基瓦·克瓦拉茨赫利亚",
+        "position": "前锋",
+        "club": "阿贾克斯",
+        "number": 10
+      },
+      {
+        "name": "乔治·米卡瓦泽",
+        "position": "中场",
+        "club": "莱比锡红牛",
+        "number": 8
+      },
+      {
+        "name": "吉奥尔吉·洛托金",
+        "position": "门将",
+        "club": "莫斯科中央陆军",
+        "number": 1
+      },
+      {
+        "name": "索洛·达夫",
+        "position": "后卫",
+        "club": "阿贾克斯",
+        "number": 3
+      },
+      {
+        "name": "奥塔尔·卡卡巴泽",
+        "position": "中场",
+        "club": "那不勒斯",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "阿尔巴尼亚",
+        "score": "0-1",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "威尔士",
+        "score": "2-1",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "土耳其",
+        "score": "1-1",
+        "date": "2026-05-20",
+        "result": "平"
+      }
+    ]
+  },
+  "威尔士": {
+    "name": "威尔士",
+    "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "coach": "克雷格·贝尔瓦蒂",
+    "key_players": [
+      {
+        "name": "加雷思·贝尔",
+        "position": "前锋",
+        "club": "洛杉矶FC",
+        "number": 11
+      },
+      {
+        "name": "阿隆·拉姆齐",
+        "position": "中场",
+        "club": "尤文图斯",
+        "number": 8
+      },
+      {
+        "name": "丹尼·沃德",
+        "position": "门将",
+        "club": "莱斯特城",
+        "number": 1
+      },
+      {
+        "name": "本·戴维斯",
+        "position": "后卫",
+        "club": "普雷斯顿",
+        "number": 3
+      },
+      {
+        "name": "乔·艾伦",
+        "position": "中场",
+        "club": "斯托克城",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "格鲁吉亚",
+        "score": "1-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "土耳其",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "冰岛",
+        "score": "2-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "土耳其": {
+    "name": "土耳其",
+    "flag": "🇹🇷",
+    "coach": "斯坦·科瓦尔斯基",
+    "key_players": [
+      {
+        "name": "伊尔汗·贝克",
+        "position": "前锋",
+        "club": "加拉塔萨雷",
+        "number": 10
+      },
+      {
+        "name": "恰尔汗奥卢",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 8
+      },
+      {
+        "name": "阿尔泰·贝伊汗",
+        "position": "门将",
+        "club": "加拉塔萨雷",
+        "number": 1
+      },
+      {
+        "name": "梅尔特·穆图",
+        "position": "后卫",
+        "club": "费内巴切",
+        "number": 3
+      },
+      {
+        "name": "塞尔达尔·阿兹蒙",
+        "position": "中场",
+        "club": "费内巴切",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "格鲁吉亚",
+        "score": "1-1",
+        "date": "2026-05-20",
+        "result": "平"
+      },
+      {
+        "opponent": "威尔士",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "冰岛",
+        "score": "2-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "冰岛": {
+    "name": "冰岛",
+    "flag": "🇮🇸",
+    "coach": "阿尔弗雷德·芬博阿松",
+    "key_players": [
+      {
+        "name": "吉尔菲·西古尔德松",
+        "position": "中场",
+        "club": "埃弗顿",
+        "number": 8
+      },
+      {
+        "name": "阿尔弗雷德·芬博阿松",
+        "position": "前锋",
+        "club": "赫罗纳",
+        "number": 10
+      },
+      {
+        "name": "汉内斯·哈尔多松",
+        "position": "门将",
+        "club": "雷克雅未克",
+        "number": 1
+      },
+      {
+        "name": "赛瓦尔·阿蒙德松",
+        "position": "后卫",
+        "club": "阿尔梅罗",
+        "number": 3
+      },
+      {
+        "name": "比亚尔尼·比亚尔纳松",
+        "position": "中场",
+        "club": "阿尔梅罗",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "威尔士",
+        "score": "0-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "土耳其",
+        "score": "0-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "北爱尔兰",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      }
+    ]
+  },
+  "北爱尔兰": {
+    "name": "北爱尔兰",
+    "flag": "🇬🇧",
+    "coach": "迈克尔·奥尼尔",
+    "key_players": [
+      {
+        "name": "凯尔·拉姆斯代尔",
+        "position": "门将",
+        "club": "阿森纳",
+        "number": 1
+      },
+      {
+        "name": "帕迪·麦克诺尔",
+        "position": "前锋",
+        "club": "阿斯顿维拉",
+        "number": 10
+      },
+      {
+        "name": "乔治·埃文斯",
+        "position": "中场",
+        "club": "莱斯特城",
+        "number": 8
+      },
+      {
+        "name": "乔尼·埃文斯",
+        "position": "后卫",
+        "club": "莱斯特城",
+        "number": 6
+      },
+      {
+        "name": "克里斯·布雷迪",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "冰岛",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "苏格兰",
+        "score": "0-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "芬兰",
+        "score": "2-1",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "苏格兰": {
+    "name": "苏格兰",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "coach": "史蒂夫·克拉克",
+    "key_players": [
+      {
+        "name": "安迪·罗伯逊",
+        "position": "后卫",
+        "club": "利物浦",
+        "number": 3
+      },
+      {
+        "name": "基里安·蒂尼",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 8
+      },
+      {
+        "name": "克雷格·戈登",
+        "position": "门将",
+        "club": "心脏病学家",
+        "number": 1
+      },
+      {
+        "name": "斯图尔特·阿姆斯特朗",
+        "position": "中场",
+        "club": "南安普顿",
+        "number": 7
+      },
+      {
+        "name": "卡勒姆·麦克格雷戈",
+        "position": "前锋",
+        "club": "凯尔特人",
+        "number": 10
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "北爱尔兰",
+        "score": "2-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "芬兰",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "挪威",
+        "score": "1-1",
+        "date": "2026-05-20",
+        "result": "平"
+      }
+    ]
+  },
+  "芬兰": {
+    "name": "芬兰",
+    "flag": "🇫🇮",
+    "coach": "马库·卡嫩",
+    "key_players": [
+      {
+        "name": "蒂莫·韦尔德",
+        "position": "前锋",
+        "club": "汉堡",
+        "number": 10
+      },
+      {
+        "name": "卢卡·卡米",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 8
+      },
+      {
+        "name": "卢卡斯·赫迪拉",
+        "position": "门将",
+        "club": "赫尔辛基",
+        "number": 1
+      },
+      {
+        "name": "帕里·尼斯卡宁",
+        "position": "后卫",
+        "club": "莱斯特城",
+        "number": 3
+      },
+      {
+        "name": "格伦·卡马拉",
+        "position": "中场",
+        "club": "莱斯特城",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "北爱尔兰",
+        "score": "1-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "苏格兰",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "挪威",
+        "score": "0-1",
+        "date": "2026-05-10",
+        "result": "负"
+      }
+    ]
+  },
+  "挪威": {
+    "name": "挪威",
+    "flag": "🇳🇴",
+    "coach": "斯坦·克拉克",
+    "key_players": [
+      {
+        "name": "埃尔林·哈兰德",
+        "position": "前锋",
+        "club": "曼城",
+        "number": 9
+      },
+      {
+        "name": "马丁·厄德高德",
+        "position": "中场",
+        "club": "曼联",
+        "number": 8
+      },
+      {
+        "name": "大卫·德赫亚",
+        "position": "门将",
+        "club": "曼联",
+        "number": 1
+      },
+      {
+        "name": "克里斯蒂安·诺尔加德",
+        "position": "后卫",
+        "club": "布伦特福德",
+        "number": 3
+      },
+      {
+        "name": "约翰·阿蒙德",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 7
+      }
+    ],
+    "injuries": [
+      {
+        "player": "埃尔林·哈兰德",
+        "status": "康复中",
+        "return_date": "2026-06-08"
+      }
+    ],
+    "recent_matches": [
+      {
+        "opponent": "芬兰",
+        "score": "1-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "苏格兰",
+        "score": "1-1",
+        "date": "2026-05-20",
+        "result": "平"
+      },
+      {
+        "opponent": "瑞典",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      }
+    ]
+  },
+  "瑞典": {
+    "name": "瑞典",
+    "flag": "🇸🇪",
+    "coach": "约翰·埃里克松",
+    "key_players": [
+      {
+        "name": "亚历山德·伊萨克",
+        "position": "前锋",
+        "club": "纽卡斯尔联",
+        "number": 10
+      },
+      {
+        "name": "埃米尔·福斯贝里",
+        "position": "前锋",
+        "club": "克里斯蒂亚诺",
+        "number": 9
+      },
+      {
+        "name": "罗宾·奥尔森",
+        "position": "门将",
+        "club": "罗马",
+        "number": 1
+      },
+      {
+        "name": "维克多·林德洛夫",
+        "position": "后卫",
+        "club": "曼联",
+        "number": 3
+      },
+      {
+        "name": "塞巴斯蒂安·拉罗斯",
+        "position": "中场",
+        "club": "帕尔玛",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "挪威",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "丹麦",
+        "score": "1-1",
+        "date": "2026-05-10",
+        "result": "平"
+      },
+      {
+        "opponent": "希腊",
+        "score": "2-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "丹麦": {
+    "name": "丹麦",
+    "flag": "🇩🇰",
+    "coach": "卡斯帕·赫尔曼",
+    "key_players": [
+      {
+        "name": "克里斯蒂安·埃里克森",
+        "position": "中场",
+        "club": "曼联",
+        "number": 8
+      },
+      {
+        "name": "皮埃尔-埃米尔·霍伊别尔",
+        "position": "中场",
+        "club": "托特纳姆热刺",
+        "number": 5
+      },
+      {
+        "name": "卡斯帕·施梅切尔",
+        "position": "门将",
+        "club": "莱斯特城",
+        "number": 1
+      },
+      {
+        "name": "西蒙·克亚尔",
+        "position": "后卫",
+        "club": "塞维利亚",
+        "number": 3
+      },
+      {
+        "name": "安德烈亚斯·克里斯滕森",
+        "position": "后卫",
+        "club": "切尔西",
+        "number": 4
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "瑞典",
+        "score": "1-1",
+        "date": "2026-05-10",
+        "result": "平"
+      },
+      {
+        "opponent": "希腊",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "塞尔维亚",
+        "score": "1-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "希腊": {
+    "name": "希腊",
+    "flag": "🇬🇷",
+    "coach": "约翰·卡拉帕帕迪斯",
+    "key_players": [
+      {
+        "name": "帕帕斯塔索普洛斯",
+        "position": "后卫",
+        "club": "奥林匹亚克斯",
+        "number": 3
+      },
+      {
+        "name": "帕帕多普洛斯",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 8
+      },
+      {
+        "name": "瓦西利斯·萨马拉斯",
+        "position": "门将",
+        "club": "奥林匹亚克斯",
+        "number": 1
+      },
+      {
+        "name": "帕帕多普洛斯",
+        "position": "后卫",
+        "club": "奥林匹亚克斯",
+        "number": 4
+      },
+      {
+        "name": "帕帕斯塔索普洛斯",
+        "position": "中场",
+        "club": "奥林匹亚克斯",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "瑞典",
+        "score": "0-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "丹麦",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "塞尔维亚",
+        "score": "0-3",
+        "date": "2026-05-10",
+        "result": "负"
+      }
+    ]
+  },
+  "美国": {
+    "name": "美国",
+    "flag": "🇺🇸",
+    "coach": "格雷格·伯哈尔特",
+    "key_players": [
+      {
+        "name": "克里斯蒂安·普利西奇",
+        "position": "中场",
+        "club": "AC米兰",
+        "number": 10
+      },
+      {
+        "name": "韦斯顿·麦肯尼",
+        "position": "中场",
+        "club": "尤文图斯",
+        "number": 8
+      },
+      {
+        "name": "泽克·斯蒂芬",
+        "position": "门将",
+        "club": "阿森纳",
+        "number": 1
+      },
+      {
+        "name": "塞吉·德斯特",
+        "position": "后卫",
+        "club": "巴塞罗那",
+        "number": 3
+      },
+      {
+        "name": "泰勒·亚当斯",
+        "position": "中场",
+        "club": "莱斯特城",
+        "number": 6
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "墨西哥",
+        "score": "2-1",
+        "date": "2026-05-20",
+        "result": "胜"
+      },
+      {
+        "opponent": "加拿大",
+        "score": "3-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "哥斯达黎加",
+        "score": "2-1",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "墨西哥": {
+    "name": "墨西哥",
+    "flag": "🇲🇽",
+    "coach": "哈维尔·阿圭雷",
+    "key_players": [
+      {
+        "name": "劳尔·希门尼斯",
+        "position": "前锋",
+        "club": "沃尔夫斯堡",
+        "number": 9
+      },
+      {
+        "name": "赫苏斯·克朗",
+        "position": "前锋",
+        "club": "克鲁斯",
+        "number": 10
+      },
+      {
+        "name": "吉列尔莫·奥乔亚",
+        "position": "门将",
+        "club": "萨格勒布迪纳摩",
+        "number": 1
+      },
+      {
+        "name": "埃德松·阿尔瓦雷斯",
+        "position": "后卫",
+        "club": "曼城",
+        "number": 3
+      },
+      {
+        "name": "路易斯·查瓦斯",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "美国",
+        "score": "1-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "加拿大",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "巴拿马",
+        "score": "3-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "加拿大": {
+    "name": "加拿大",
+    "flag": "🇨🇦",
+    "coach": "杰西·马什",
+    "key_players": [
+      {
+        "name": "阿方索·戴维斯",
+        "position": "后卫",
+        "club": "拜仁慕尼黑",
+        "number": 3
+      },
+      {
+        "name": "乔纳森·戴维",
+        "position": "前锋",
+        "club": "莱尔",
+        "number": 10
+      },
+      {
+        "name": "马克西姆·克雷皮",
+        "position": "门将",
+        "club": "多伦多FC",
+        "number": 1
+      },
+      {
+        "name": "史蒂芬·埃乌斯塔基奥",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 8
+      },
+      {
+        "name": "史蒂芬·埃乌斯塔基奥",
+        "position": "后卫",
+        "club": "克鲁斯",
+        "number": 4
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "美国",
+        "score": "0-3",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "墨西哥",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "哥斯达黎加",
+        "score": "2-1",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "哥斯达黎加": {
+    "name": "哥斯达黎加",
+    "flag": "🇨🇷",
+    "coach": "路易斯·费尔南多·塞利亚",
+    "key_players": [
+      {
+        "name": "安东尼奥·鲁伊斯",
+        "position": "前锋",
+        "club": "皇家马德里",
+        "number": 10
+      },
+      {
+        "name": "卡洛斯·瓦尔德斯",
+        "position": "中场",
+        "club": "波尔图",
+        "number": 8
+      },
+      {
+        "name": "凯文·纳瓦罗",
+        "position": "门将",
+        "club": "萨普里萨",
+        "number": 1
+      },
+      {
+        "name": "卡洛斯·马丁内斯",
+        "position": "后卫",
+        "club": "萨普里萨",
+        "number": 3
+      },
+      {
+        "name": "约翰·杜阿尔特",
+        "position": "中场",
+        "club": "萨普里萨",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "美国",
+        "score": "1-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "加拿大",
+        "score": "1-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "巴拿马",
+        "score": "2-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      }
+    ]
+  },
+  "巴拿马": {
+    "name": "巴拿马",
+    "flag": "🇵🇦",
+    "coach": "托马斯·克里斯坦特",
+    "key_players": [
+      {
+        "name": "胡安·迪亚斯",
+        "position": "前锋",
+        "club": "阿尔梅罗",
+        "number": 10
+      },
+      {
+        "name": "何塞·路易斯·罗德里格斯",
+        "position": "中场",
+        "club": "圣地亚哥晨曦",
+        "number": 8
+      },
+      {
+        "name": "路易斯·帕尼亚瓜",
+        "position": "门将",
+        "club": "圣地亚哥晨曦",
+        "number": 1
+      },
+      {
+        "name": "费利佩·巴尔博亚",
+        "position": "后卫",
+        "club": "圣地亚哥晨曦",
+        "number": 3
+      },
+      {
+        "name": "埃德温·莫雷诺",
+        "position": "中场",
+        "club": "圣地亚哥晨曦",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "墨西哥",
+        "score": "0-3",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "哥斯达黎加",
+        "score": "0-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "牙买加",
+        "score": "1-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "乌拉圭": {
+    "name": "乌拉圭",
+    "flag": "🇺🇾",
+    "coach": "马塞洛·比埃尔萨",
+    "key_players": [
+      {
+        "name": "路易斯·苏亚雷斯",
+        "position": "前锋",
+        "club": "格雷米奥",
+        "number": 9
+      },
+      {
+        "name": "费德里科·瓦尔韦德",
+        "position": "中场",
+        "club": "皇家马德里",
+        "number": 8
+      },
+      {
+        "name": "阿方索·埃斯皮诺拉",
+        "position": "门将",
+        "club": "本菲卡",
+        "number": 1
+      },
+      {
+        "name": "迭戈·戈丁",
+        "position": "后卫",
+        "club": "卡利亚里",
+        "number": 3
+      },
+      {
+        "name": "吉安卢卡·拉帕杜拉",
+        "position": "中场",
+        "club": "那不勒斯",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "巴西",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "阿根廷",
+        "score": "0-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "巴拉圭",
+        "score": "2-1",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "巴拉圭": {
+    "name": "巴拉圭",
+    "flag": "🇵🇾",
+    "coach": "丹尼尔·加夫",
+    "key_players": [
+      {
+        "name": "米格尔·阿尔米龙",
+        "position": "中场",
+        "club": "纽卡斯尔联",
+        "number": 10
+      },
+      {
+        "name": "胡安·卡尼亚斯",
+        "position": "前锋",
+        "club": "克鲁斯",
+        "number": 9
+      },
+      {
+        "name": "西尔维奥·塔瓦雷斯",
+        "position": "门将",
+        "club": "圣地亚哥晨曦",
+        "number": 1
+      },
+      {
+        "name": "胡安·埃斯皮诺萨",
+        "position": "后卫",
+        "club": "圣地亚哥晨曦",
+        "number": 3
+      },
+      {
+        "name": "胡安·帕蒂尼奥",
+        "position": "中场",
+        "club": "圣地亚哥晨曦",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "乌拉圭",
+        "score": "1-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "智利",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "秘鲁",
+        "score": "2-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "智利": {
+    "name": "智利",
+    "flag": "🇨🇱",
+    "coach": "里卡多·加雷卡",
+    "key_players": [
+      {
+        "name": "阿莱克西斯·桑切斯",
+        "position": "前锋",
+        "club": "乌迪内斯",
+        "number": 7
+      },
+      {
+        "name": "阿图罗·比达尔",
+        "position": "中场",
+        "club": "国际米兰",
+        "number": 23
+      },
+      {
+        "name": "克劳迪奥·布拉沃",
+        "position": "门将",
+        "club": "皇家贝蒂斯",
+        "number": 1
+      },
+      {
+        "name": "加里·梅德尔",
+        "position": "后卫",
+        "club": "皇家贝蒂斯",
+        "number": 3
+      },
+      {
+        "name": "查尔斯·阿朗吉斯",
+        "position": "中场",
+        "club": "皇家贝蒂斯",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "阿根廷",
+        "score": "1-3",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "巴拉圭",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "秘鲁",
+        "score": "2-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "秘鲁": {
+    "name": "秘鲁",
+    "flag": "🇵🇪",
+    "coach": "胡安·卡洛斯·奥索里奥",
+    "key_players": [
+      {
+        "name": "吉安卢卡·拉帕杜拉",
+        "position": "前锋",
+        "club": "那不勒斯",
+        "number": 10
+      },
+      {
+        "name": "克里斯蒂安·库埃瓦",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 8
+      },
+      {
+        "name": "佩德罗·加莱斯",
+        "position": "门将",
+        "club": "克鲁斯",
+        "number": 1
+      },
+      {
+        "name": "卡洛斯·桑布亚",
+        "position": "后卫",
+        "club": "克鲁斯",
+        "number": 3
+      },
+      {
+        "name": "安德烈·卡里略",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "巴拉圭",
+        "score": "0-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "智利",
+        "score": "0-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "哥伦比亚",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      }
+    ]
+  },
+  "哥伦比亚": {
+    "name": "哥伦比亚",
+    "flag": "🇨🇴",
+    "coach": "内斯托尔·洛伦佐",
+    "key_players": [
+      {
+        "name": "哈梅斯·罗德里格斯",
+        "position": "中场",
+        "club": "皇家马德里",
+        "number": 10
+      },
+      {
+        "name": "胡安·吉尔",
+        "position": "前锋",
+        "club": "韦斯卡",
+        "number": 9
+      },
+      {
+        "name": "大卫·奥斯皮纳",
+        "position": "门将",
+        "club": "阿尔梅罗",
+        "number": 1
+      },
+      {
+        "name": "威廉·特斯蒂罗",
+        "position": "后卫",
+        "club": "阿尔梅罗",
+        "number": 3
+      },
+      {
+        "name": "胡安·曼努埃尔·桑蒂亚戈",
+        "position": "中场",
+        "club": "阿尔梅罗",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "巴西",
+        "score": "0-3",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "秘鲁",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "厄瓜多尔",
+        "score": "2-1",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "厄瓜多尔": {
+    "name": "厄瓜多尔",
+    "flag": "🇪🇨",
+    "coach": "费利克斯·桑切斯",
+    "key_players": [
+      {
+        "name": "恩纳·瓦伦西亚",
+        "position": "后卫",
+        "club": "阿尔梅罗",
+        "number": 3
+      },
+      {
+        "name": "帕特里西奥·帕尔博",
+        "position": "前锋",
+        "club": "克鲁斯",
+        "number": 10
+      },
+      {
+        "name": "赫尔南·加拉尔多",
+        "position": "门将",
+        "club": "克鲁斯",
+        "number": 1
+      },
+      {
+        "name": "卡洛斯·格鲁埃索",
+        "position": "后卫",
+        "club": "克鲁斯",
+        "number": 4
+      },
+      {
+        "name": "何塞·塞萨尔",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "哥伦比亚",
+        "score": "1-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "委内瑞拉",
+        "score": "2-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "玻利维亚",
+        "score": "3-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "委内瑞拉": {
+    "name": "委内瑞拉",
+    "flag": "🇻🇪",
+    "coach": "费尔南多·巴蒂斯塔",
+    "key_players": [
+      {
+        "name": "萨尔蒙·龙多尼",
+        "position": "前锋",
+        "club": "克鲁斯",
+        "number": 10
+      },
+      {
+        "name": "胡安·卡洛斯·阿里亚斯",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 8
+      },
+      {
+        "name": "威弗雷德·卡瓦莱罗",
+        "position": "门将",
+        "club": "克鲁斯",
+        "number": 1
+      },
+      {
+        "name": "威廉·门德斯",
+        "position": "后卫",
+        "club": "克鲁斯",
+        "number": 3
+      },
+      {
+        "name": "何塞·马丁内斯",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "厄瓜多尔",
+        "score": "0-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "玻利维亚",
+        "score": "2-1",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "巴拉圭",
+        "score": "0-1",
+        "date": "2026-05-20",
+        "result": "负"
+      }
+    ]
+  },
+  "玻利维亚": {
+    "name": "玻利维亚",
+    "flag": "🇧🇴",
+    "coach": "塞萨尔·费雷罗",
+    "key_players": [
+      {
+        "name": "马尔塞洛·莫雷诺",
+        "position": "前锋",
+        "club": "克鲁斯",
+        "number": 10
+      },
+      {
+        "name": "埃尔南·克鲁斯",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 8
+      },
+      {
+        "name": "卡洛斯·拉蒙",
+        "position": "门将",
+        "club": "克鲁斯",
+        "number": 1
+      },
+      {
+        "name": "卡洛斯·桑布亚",
+        "position": "后卫",
+        "club": "克鲁斯",
+        "number": 3
+      },
+      {
+        "name": "何塞·塞萨尔",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "厄瓜多尔",
+        "score": "0-3",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "委内瑞拉",
+        "score": "1-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "巴拉圭",
+        "score": "0-2",
+        "date": "2026-05-20",
+        "result": "负"
+      }
+    ]
+  },
+  "日本": {
+    "name": "日本",
+    "flag": "🇯🇵",
+    "coach": "哈利霍季奇",
+    "key_players": [
+      {
+        "name": "南野拓实",
+        "position": "前锋",
+        "club": "摩纳哥",
+        "number": 10
+      },
+      {
+        "name": "香川真司",
+        "position": "中场",
+        "club": "特温特",
+        "number": 8
+      },
+      {
+        "name": "川島永嗣",
+        "position": "门将",
+        "club": "斯特拉斯堡",
+        "number": 1
+      },
+      {
+        "name": "吉田麻也",
+        "position": "后卫",
+        "club": "南安普顿",
+        "number": 3
+      },
+      {
+        "name": "长友佑都",
+        "position": "后卫",
+        "club": "加拉塔萨雷",
+        "number": 4
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "韩国",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "澳大利亚",
+        "score": "2-1",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "伊朗",
+        "score": "3-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "韩国": {
+    "name": "韩国",
+    "flag": "🇰🇷",
+    "coach": "洪明甫",
+    "key_players": [
+      {
+        "name": "孙兴慜",
+        "position": "前锋",
+        "club": "托特纳姆热刺",
+        "number": 7
+      },
+      {
+        "name": "李康仁",
+        "position": "中场",
+        "club": "曼城",
+        "number": 8
+      },
+      {
+        "name": "赵成祐",
+        "position": "门将",
+        "club": "全北现代",
+        "number": 1
+      },
+      {
+        "name": "金民友",
+        "position": "后卫",
+        "club": "阿尔梅罗",
+        "number": 3
+      },
+      {
+        "name": "李在成",
+        "position": "中场",
+        "club": "全北现代",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "日本",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "澳大利亚",
+        "score": "2-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      },
+      {
+        "opponent": "伊朗",
+        "score": "2-1",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "澳大利亚": {
+    "name": "澳大利亚",
+    "flag": "🇦🇺",
+    "coach": "格拉汉姆·阿诺德",
+    "key_players": [
+      {
+        "name": "蒂姆·卡希尔",
+        "position": "前锋",
+        "club": "墨尔本城",
+        "number": 10
+      },
+      {
+        "name": "阿隆·莫伊",
+        "position": "中场",
+        "club": "中日德丰",
+        "number": 8
+      },
+      {
+        "name": "马修·瑞恩",
+        "position": "门将",
+        "club": "阿斯顿维拉",
+        "number": 1
+      },
+      {
+        "name": "米克·德尔",
+        "position": "后卫",
+        "club": "珀斯光荣",
+        "number": 3
+      },
+      {
+        "name": "阿什利·杨",
+        "position": "后卫",
+        "club": "阿斯顿维拉",
+        "number": 4
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "日本",
+        "score": "1-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "韩国",
+        "score": "0-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "伊朗",
+        "score": "1-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      }
+    ]
+  },
+  "伊朗": {
+    "name": "伊朗",
+    "flag": "🇮🇷",
+    "coach": "卡洛斯·奎罗斯",
+    "key_players": [
+      {
+        "name": "萨尔达尔·阿兹蒙",
+        "position": "前锋",
+        "club": "费内巴切",
+        "number": 10
+      },
+      {
+        "name": "阿里·卡里米",
+        "position": "中场",
+        "club": "波尔图",
+        "number": 8
+      },
+      {
+        "name": "贝赫鲁兹·德扎瓦里",
+        "position": "门将",
+        "club": "卡拉巴克",
+        "number": 1
+      },
+      {
+        "name": "埃赫桑·哈吉萨菲",
+        "position": "后卫",
+        "club": "卡拉巴克",
+        "number": 3
+      },
+      {
+        "name": "梅赫迪·塔雷米",
+        "position": "中场",
+        "club": "波尔图",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "日本",
+        "score": "0-3",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "韩国",
+        "score": "1-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "澳大利亚",
+        "score": "0-1",
+        "date": "2026-05-15",
+        "result": "负"
+      }
+    ]
+  },
+  "沙特阿拉伯": {
+    "name": "沙特阿拉伯",
+    "flag": "🇸🇦",
+    "coach": "胡安·劳塔罗",
+    "key_players": [
+      {
+        "name": "萨勒曼·阿尔法拉吉",
+        "position": "前锋",
+        "club": "利雅得新月",
+        "number": 10
+      },
+      {
+        "name": "穆罕默德·阿尔-布赖克",
+        "position": "中场",
+        "club": "利雅得新月",
+        "number": 8
+      },
+      {
+        "name": "穆罕默德·阿尔-欧维斯",
+        "position": "门将",
+        "club": "利雅得新月",
+        "number": 1
+      },
+      {
+        "name": "阿卜杜拉·阿尔-卡伊比",
+        "position": "后卫",
+        "club": "利雅得新月",
+        "number": 3
+      },
+      {
+        "name": "法赫德·阿尔-穆瓦利德",
+        "position": "中场",
+        "club": "利雅得新月",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "阿联酋",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "乌兹别克斯坦",
+        "score": "1-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "印度",
+        "score": "3-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "阿联酋": {
+    "name": "阿联酋",
+    "flag": "🇦🇪",
+    "coach": "伊戈尔·斯蒂马切维奇",
+    "key_players": [
+      {
+        "name": "阿里·马布胡特",
+        "position": "前锋",
+        "club": "阿尔艾因",
+        "number": 10
+      },
+      {
+        "name": "穆罕默德·阿尔-阿塔斯",
+        "position": "中场",
+        "club": "阿尔艾因",
+        "number": 8
+      },
+      {
+        "name": "哈立德·埃萨",
+        "position": "门将",
+        "club": "阿尔艾因",
+        "number": 1
+      },
+      {
+        "name": "萨勒姆·阿尔-多斯里",
+        "position": "后卫",
+        "club": "阿尔艾因",
+        "number": 3
+      },
+      {
+        "name": "穆罕默德·阿尔-哈马迪",
+        "position": "中场",
+        "club": "阿尔艾因",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "沙特阿拉伯",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "乌兹别克斯坦",
+        "score": "1-1",
+        "date": "2026-05-20",
+        "result": "平"
+      },
+      {
+        "opponent": "印度",
+        "score": "2-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "乌兹别克斯坦": {
+    "name": "乌兹别克斯坦",
+    "flag": "🇺🇿",
+    "coach": "米罗斯拉夫·索博塔",
+    "key_players": [
+      {
+        "name": "奥迪尔·阿赫梅多夫",
+        "position": "中场",
+        "club": "费内巴切",
+        "number": 10
+      },
+      {
+        "name": "塞尔达尔·阿兹蒙",
+        "position": "前锋",
+        "club": "费内巴切",
+        "number": 9
+      },
+      {
+        "name": "谢尔盖·皮尔马托夫",
+        "position": "门将",
+        "club": "帕克塔科尔",
+        "number": 1
+      },
+      {
+        "name": "阿卜杜哈米德·阿布杜哈基莫夫",
+        "position": "后卫",
+        "club": "帕克塔科尔",
+        "number": 3
+      },
+      {
+        "name": "阿卜杜拉·阿尔-卡伊比",
+        "position": "中场",
+        "club": "帕克塔科尔",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "沙特阿拉伯",
+        "score": "0-1",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "阿联酋",
+        "score": "1-1",
+        "date": "2026-05-20",
+        "result": "平"
+      },
+      {
+        "opponent": "印度",
+        "score": "2-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      }
+    ]
+  },
+  "印度": {
+    "name": "印度",
+    "flag": "🇮🇳",
+    "coach": "伊戈尔·斯蒂马切维奇",
+    "key_players": [
+      {
+        "name": "苏尼尔·切特里",
+        "position": "前锋",
+        "club": "印度斯坦FC",
+        "number": 10
+      },
+      {
+        "name": "阿迪尔·汗",
+        "position": "中场",
+        "club": "印度斯坦FC",
+        "number": 8
+      },
+      {
+        "name": "古尔普雷特·辛格",
+        "position": "门将",
+        "club": "印度斯坦FC",
+        "number": 1
+      },
+      {
+        "name": "普拉蒂克·帕特尔",
+        "position": "后卫",
+        "club": "印度斯坦FC",
+        "number": 3
+      },
+      {
+        "name": "拉杰·辛格",
+        "position": "中场",
+        "club": "印度斯坦FC",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "沙特阿拉伯",
+        "score": "0-3",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "阿联酋",
+        "score": "0-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "乌兹别克斯坦",
+        "score": "0-2",
+        "date": "2026-05-15",
+        "result": "负"
+      }
+    ]
+  },
+  "摩洛哥": {
+    "name": "摩洛哥",
+    "flag": "🇲🇦",
+    "coach": "瓦利德·雷格拉吉",
+    "key_players": [
+      {
+        "name": "哈基姆·齐耶什",
+        "position": "中场",
+        "club": "加拉塔萨雷",
+        "number": 10
+      },
+      {
+        "name": "阿什拉夫·哈基米",
+        "position": "后卫",
+        "club": "巴黎圣日耳曼",
+        "number": 3
+      },
+      {
+        "name": "雅辛·布努",
+        "position": "门将",
+        "club": "塞维利亚",
+        "number": 1
+      },
+      {
+        "name": "罗梅罗·卢卡库",
+        "position": "前锋",
+        "club": "国际米兰",
+        "number": 9
+      },
+      {
+        "name": "诺哈伊尔·穆基埃莱",
+        "position": "后卫",
+        "club": "切尔西",
+        "number": 4
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "塞内加尔",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "喀麦隆",
+        "score": "1-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "加纳",
+        "score": "2-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "塞内加尔": {
+    "name": "塞内加尔",
+    "flag": "🇸🇳",
+    "coach": "阿里乌·西塞",
+    "key_players": [
+      {
+        "name": "萨迪奥·马内",
+        "position": "前锋",
+        "club": "拜仁慕尼黑",
+        "number": 10
+      },
+      {
+        "name": "伊德里萨·盖耶",
+        "position": "中场",
+        "club": "埃弗顿",
+        "number": 8
+      },
+      {
+        "name": "埃迪乌·门迪",
+        "position": "门将",
+        "club": "切尔西",
+        "number": 1
+      },
+      {
+        "name": "卡利杜·库利巴利",
+        "position": "后卫",
+        "club": "那不勒斯",
+        "number": 3
+      },
+      {
+        "name": "帕帕·古耶",
+        "position": "中场",
+        "club": "埃弗顿",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "摩洛哥",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "喀麦隆",
+        "score": "2-1",
+        "date": "2026-05-20",
+        "result": "胜"
+      },
+      {
+        "opponent": "加纳",
+        "score": "1-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "喀麦隆": {
+    "name": "喀麦隆",
+    "flag": "🇨🇲",
+    "coach": "里奥内尔·萨蒙",
+    "key_players": [
+      {
+        "name": "卡洛·阿库",
+        "position": "前锋",
+        "club": "阿尔梅罗",
+        "number": 10
+      },
+      {
+        "name": "安德烈·奥尼亚",
+        "position": "中场",
+        "club": "阿尔梅罗",
+        "number": 8
+      },
+      {
+        "name": "安德烈·奥尼亚",
+        "position": "门将",
+        "club": "阿尔梅罗",
+        "number": 1
+      },
+      {
+        "name": "卡洛斯·阿库",
+        "position": "后卫",
+        "club": "阿尔梅罗",
+        "number": 3
+      },
+      {
+        "name": "卡洛斯·阿库",
+        "position": "中场",
+        "club": "阿尔梅罗",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "摩洛哥",
+        "score": "0-1",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "塞内加尔",
+        "score": "1-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "加纳",
+        "score": "1-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      }
+    ]
+  },
+  "加纳": {
+    "name": "加纳",
+    "flag": "🇬🇭",
+    "coach": "克里斯·赫顿",
+    "key_players": [
+      {
+        "name": "穆罕默德·库德斯",
+        "position": "前锋",
+        "club": "阿斯顿维拉",
+        "number": 10
+      },
+      {
+        "name": "托马斯·帕蒂",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 8
+      },
+      {
+        "name": "约瑟夫·瓦尔",
+        "position": "门将",
+        "club": "雷丁",
+        "number": 1
+      },
+      {
+        "name": "亚历山大·迪杜",
+        "position": "后卫",
+        "club": "雷丁",
+        "number": 3
+      },
+      {
+        "name": "约翰·帕尼克",
+        "position": "中场",
+        "club": "雷丁",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "塞内加尔",
+        "score": "0-1",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "摩洛哥",
+        "score": "0-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "喀麦隆",
+        "score": "0-1",
+        "date": "2026-05-15",
+        "result": "负"
+      }
+    ]
+  },
+  "科特迪瓦": {
+    "name": "科特迪瓦",
+    "flag": "🇨🇮",
+    "coach": "让-路易·加斯帕尔",
+    "key_players": [
+      {
+        "name": "塞雷·阿尤",
+        "position": "前锋",
+        "club": "阿斯顿维拉",
+        "number": 10
+      },
+      {
+        "name": "弗兰克·基西",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 8
+      },
+      {
+        "name": "西尔万·格博",
+        "position": "门将",
+        "club": "阿斯顿维拉",
+        "number": 1
+      },
+      {
+        "name": "阿卜杜拉耶·迪亚洛",
+        "position": "后卫",
+        "club": "阿斯顿维拉",
+        "number": 3
+      },
+      {
+        "name": "威廉·吉亚斯",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "埃及",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "南非",
+        "score": "2-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "突尼斯",
+        "score": "1-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "埃及": {
+    "name": "埃及",
+    "flag": "🇪🇬",
+    "coach": "卡洛斯·奎罗斯",
+    "key_players": [
+      {
+        "name": "穆罕默德·萨拉赫",
+        "position": "前锋",
+        "club": "利物浦",
+        "number": 10
+      },
+      {
+        "name": "穆罕默德·埃尔内尼",
+        "position": "中场",
+        "club": "阿尔阿赫利",
+        "number": 8
+      },
+      {
+        "name": "埃尔-沙纳维",
+        "position": "门将",
+        "club": "阿尔阿赫利",
+        "number": 1
+      },
+      {
+        "name": "阿赫梅德·阿卜杜拉",
+        "position": "后卫",
+        "club": "阿尔阿赫利",
+        "number": 3
+      },
+      {
+        "name": "阿卜杜拉·萨义德",
+        "position": "中场",
+        "club": "阿尔阿赫利",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "科特迪瓦",
+        "score": "1-1",
+        "date": "2026-05-15",
+        "result": "平"
+      },
+      {
+        "opponent": "南非",
+        "score": "2-1",
+        "date": "2026-05-20",
+        "result": "胜"
+      },
+      {
+        "opponent": "突尼斯",
+        "score": "3-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      }
+    ]
+  },
+  "南非": {
+    "name": "南非",
+    "flag": "🇿🇦",
+    "coach": "于戈·布鲁马",
+    "key_players": [
+      {
+        "name": "珀西·陶",
+        "position": "前锋",
+        "club": "莱斯特城",
+        "number": 10
+      },
+      {
+        "name": "恩古莫",
+        "position": "中场",
+        "club": "莱斯特城",
+        "number": 8
+      },
+      {
+        "name": "罗温·威廉姆斯",
+        "position": "门将",
+        "club": "莱斯特城",
+        "number": 1
+      },
+      {
+        "name": "鲁本·迪亚斯",
+        "position": "后卫",
+        "club": "曼城",
+        "number": 3
+      },
+      {
+        "name": "阿伦·莫伊",
+        "position": "中场",
+        "club": "曼城",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "科特迪瓦",
+        "score": "0-2",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "埃及",
+        "score": "1-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "突尼斯",
+        "score": "1-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      }
+    ]
+  },
+  "突尼斯": {
+    "name": "突尼斯",
+    "flag": "🇹🇳",
+    "coach": "蒙塞夫·萨伊迪",
+    "key_players": [
+      {
+        "name": "哈姆扎·马图伊",
+        "position": "前锋",
+        "club": "阿尔阿赫利",
+        "number": 10
+      },
+      {
+        "name": "阿卜杜拉·萨义德",
+        "position": "中场",
+        "club": "阿尔阿赫利",
+        "number": 8
+      },
+      {
+        "name": "埃尔-沙纳维",
+        "position": "门将",
+        "club": "阿尔阿赫利",
+        "number": 1
+      },
+      {
+        "name": "阿赫梅德·阿卜杜拉",
+        "position": "后卫",
+        "club": "阿尔阿赫利",
+        "number": 3
+      },
+      {
+        "name": "阿卜杜拉·萨义德",
+        "position": "中场",
+        "club": "阿尔阿赫利",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "科特迪瓦",
+        "score": "0-1",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "埃及",
+        "score": "0-3",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "南非",
+        "score": "0-1",
+        "date": "2026-05-15",
+        "result": "负"
+      }
+    ]
+  },
+  "刚果民主共和国": {
+    "name": "刚果民主共和国",
+    "flag": "🇨🇩",
+    "coach": "塞巴斯蒂安·德斯法尔",
+    "key_players": [
+      {
+        "name": "塞雷·阿尤",
+        "position": "前锋",
+        "club": "阿斯顿维拉",
+        "number": 10
+      },
+      {
+        "name": "弗兰克·基西",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 8
+      },
+      {
+        "name": "西尔万·格博",
+        "position": "门将",
+        "club": "阿斯顿维拉",
+        "number": 1
+      },
+      {
+        "name": "阿卜杜拉耶·迪亚洛",
+        "position": "后卫",
+        "club": "阿斯顿维拉",
+        "number": 3
+      },
+      {
+        "name": "威廉·吉亚斯",
+        "position": "中场",
+        "club": "阿斯顿维拉",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "佛得角",
+        "score": "2-1",
+        "date": "2026-05-15",
+        "result": "胜"
+      },
+      {
+        "opponent": "阿尔及利亚",
+        "score": "1-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "马里",
+        "score": "2-0",
+        "date": "2026-05-20",
+        "result": "胜"
+      }
+    ]
+  },
+  "佛得角": {
+    "name": "佛得角",
+    "flag": "🇨🇻",
+    "coach": "佩德罗·门德斯",
+    "key_players": [
+      {
+        "name": "克劳迪奥·瓦尔迪亚诺",
+        "position": "前锋",
+        "club": "克鲁斯",
+        "number": 10
+      },
+      {
+        "name": "克劳迪奥·瓦尔迪亚诺",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 8
+      },
+      {
+        "name": "克劳迪奥·瓦尔迪亚诺",
+        "position": "门将",
+        "club": "克鲁斯",
+        "number": 1
+      },
+      {
+        "name": "克劳迪奥·瓦尔迪亚诺",
+        "position": "后卫",
+        "club": "克鲁斯",
+        "number": 3
+      },
+      {
+        "name": "克劳迪奥·瓦尔迪亚诺",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "刚果民主共和国",
+        "score": "1-2",
+        "date": "2026-05-15",
+        "result": "负"
+      },
+      {
+        "opponent": "阿尔及利亚",
+        "score": "1-1",
+        "date": "2026-05-20",
+        "result": "平"
+      },
+      {
+        "opponent": "马里",
+        "score": "0-1",
+        "date": "2026-05-10",
+        "result": "负"
+      }
+    ]
+  },
+  "阿尔及利亚": {
+    "name": "阿尔及利亚",
+    "flag": "🇩🇿",
+    "coach": "沃尔夫冈·施坦德",
+    "key_players": [
+      {
+        "name": "里亚德·马赫雷兹",
+        "position": "中场",
+        "club": "曼城",
+        "number": 10
+      },
+      {
+        "name": "伊斯梅尔·本纳塞尔",
+        "position": "前锋",
+        "club": "阿尔梅罗",
+        "number": 9
+      },
+      {
+        "name": "阿卜杜拉耶·迪亚洛",
+        "position": "门将",
+        "club": "阿尔梅罗",
+        "number": 1
+      },
+      {
+        "name": "阿卜杜拉耶·迪亚洛",
+        "position": "后卫",
+        "club": "阿尔梅罗",
+        "number": 3
+      },
+      {
+        "name": "阿卜杜拉耶·迪亚洛",
+        "position": "中场",
+        "club": "阿尔梅罗",
+        "number": 8
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "刚果民主共和国",
+        "score": "0-1",
+        "date": "2026-05-10",
+        "result": "负"
+      },
+      {
+        "opponent": "佛得角",
+        "score": "1-1",
+        "date": "2026-05-20",
+        "result": "平"
+      },
+      {
+        "opponent": "马里",
+        "score": "1-0",
+        "date": "2026-05-15",
+        "result": "胜"
+      }
+    ]
+  },
+  "马里": {
+    "name": "马里",
+    "flag": "🇲🇱",
+    "coach": "埃里克·蒂莫",
+    "key_players": [
+      {
+        "name": "莫哈梅德·西西",
+        "position": "前锋",
+        "club": "克鲁斯",
+        "number": 10
+      },
+      {
+        "name": "莫哈梅德·西西",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 8
+      },
+      {
+        "name": "莫哈梅德·西西",
+        "position": "门将",
+        "club": "克鲁斯",
+        "number": 1
+      },
+      {
+        "name": "莫哈梅德·西西",
+        "position": "后卫",
+        "club": "克鲁斯",
+        "number": 3
+      },
+      {
+        "name": "莫哈梅德·西西",
+        "position": "中场",
+        "club": "克鲁斯",
+        "number": 7
+      }
+    ],
+    "injuries": [],
+    "recent_matches": [
+      {
+        "opponent": "刚果民主共和国",
+        "score": "0-2",
+        "date": "2026-05-20",
+        "result": "负"
+      },
+      {
+        "opponent": "佛得角",
+        "score": "1-0",
+        "date": "2026-05-10",
+        "result": "胜"
+      },
+      {
+        "opponent": "阿尔及利亚",
+        "score": "0-1",
+        "date": "2026-05-15",
+        "result": "负"
       }
     ]
   }
