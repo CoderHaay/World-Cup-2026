@@ -212,13 +212,13 @@ export default function Home() {
                 <div className="space-y-3">
                   <h3 className="font-semibold text-slate-900 dark:text-white">核心指标</h3>
                   <div className="space-y-2">
-                    {[
-                      { name: 'FIFA排名', weight: '25%', desc: '反映球队在国际足坛的整体实力排名' },
-                      { name: '球队身价', weight: '25%', desc: '根据球队所有球员的市场价值总和计算' },
-                      { name: '预选赛成绩', weight: '25%', desc: '基于球队在世界杯预选赛中的积分表现' },
-                      { name: '核心球员实力', weight: '15%', desc: '评估球队中关键球员的个人能力水平' },
-                      { name: '主客场优势', weight: '10%', desc: '考虑主队在熟悉场地上的心理优势' }
-                    ].map((factor, idx) => (
+                     {[
+                       { name: 'FIFA排名', weight: '25%', desc: '反映球队在国际足坛的整体实力排名' },
+                       { name: '球队身价', weight: '25%', desc: '根据球队所有球员的市场价值总和计算' },
+                       { name: '预选赛成绩', weight: '25%', desc: '基于球队在世界杯预选赛中的积分表现' },
+                       { name: '核心球员实力', weight: '15%', desc: '评估球队中关键球员的个人能力水平' },
+                       { name: '近期状态', weight: '10%', desc: '基于球队近期热身赛及友谊赛的表现趋势' }
+                     ].map((factor, idx) => (
                       <div key={idx} className="p-3 bg-slate-50 dark:bg-slate-800 rounded-lg">
                         <div className="flex items-center justify-between mb-1">
                           <p className="font-medium text-slate-900 dark:text-white">{factor.name}</p>

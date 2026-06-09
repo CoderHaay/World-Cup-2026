@@ -436,7 +436,7 @@ export default function MatchDetail() {
                 </div>
               </div>
               <p className="text-sm text-slate-600 dark:text-slate-400 mt-4">
-                本预测基于FIFA排名(15%)、球队身价(15%)、预选赛成绩(15%)、核心球员实力(10%)、进攻能力(12%)、防守稳定性(12%)、中场控制(10%)、伤病状况(6%)等多个因素综合计算得出。
+                本预测基于FIFA排名(25%)、球队身价(25%)、预选赛成绩(25%)、核心球员实力(15%)、近期状态(10%)等多个因素综合计算得出。
               </p>
             </div>
           </CardContent>
