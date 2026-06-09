@@ -295,9 +295,6 @@ export default function MatchDetail() {
                     <th className="text-center py-3 px-4 font-semibold text-slate-900 dark:text-white">
                       {awayTeam.name}
                     </th>
-                    <th className="text-center py-3 px-4 font-semibold text-slate-900 dark:text-white">
-                      优势
-                    </th>
                   </tr>
                 </thead>
                 <tbody>
@@ -311,19 +308,6 @@ export default function MatchDetail() {
                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
                       #{teamRanks[match.away] || "-"}
                     </td>
-                    <td className="py-3 px-4 text-center">
-                      <Badge
-                        variant={
-                          (teamRanks[match.home] ?? 99) < (teamRanks[match.away] ?? 99)
-                            ? "default"
-                            : "secondary"
-                        }
-                      >
-                        {(teamRanks[match.home] ?? 99) < (teamRanks[match.away] ?? 99)
-                          ? match.home
-                          : match.away}
-                      </Badge>
-                    </td>
                   </tr>
                   <tr className="border-b border-slate-100 dark:border-slate-800">
                     <td className="py-3 px-4 text-slate-600 dark:text-slate-400">
@@ -334,19 +318,6 @@ export default function MatchDetail() {
                     </td>
                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
                       {(awayTeam.squad_value / 100000000).toFixed(1)}亿美元
-                    </td>
-                    <td className="py-3 px-4 text-center">
-                      <Badge
-                        variant={
-                          homeTeam.squad_value > awayTeam.squad_value
-                            ? "default"
-                            : "secondary"
-                        }
-                      >
-                        {homeTeam.squad_value > awayTeam.squad_value
-                          ? homeTeam.name
-                          : awayTeam.name}
-                      </Badge>
                     </td>
                   </tr>
                   <tr className="border-b border-slate-100 dark:border-slate-800">
@@ -359,21 +330,6 @@ export default function MatchDetail() {
                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
                       {awayTeam.qualification_points}
                     </td>
-                    <td className="py-3 px-4 text-center">
-                      <Badge
-                        variant={
-                          homeTeam.qualification_points >
-                          awayTeam.qualification_points
-                            ? "default"
-                            : "secondary"
-                        }
-                      >
-                        {homeTeam.qualification_points >
-                        awayTeam.qualification_points
-                          ? homeTeam.name
-                          : awayTeam.name}
-                      </Badge>
-                    </td>
                   </tr>
                   <tr className="border-b border-slate-100 dark:border-slate-800">
                     <td className="py-3 px-4 text-slate-600 dark:text-slate-400">
@@ -384,19 +340,6 @@ export default function MatchDetail() {
                     </td>
                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
                       {awayTeam.attack_strength}
-                    </td>
-                    <td className="py-3 px-4 text-center">
-                      <Badge
-                        variant={
-                          homeTeam.attack_strength > awayTeam.attack_strength
-                            ? "default"
-                            : "secondary"
-                        }
-                      >
-                        {homeTeam.attack_strength > awayTeam.attack_strength
-                          ? homeTeam.name
-                          : awayTeam.name}
-                      </Badge>
                     </td>
                   </tr>
                   <tr className="border-b border-slate-100 dark:border-slate-800">
@@ -409,19 +352,6 @@ export default function MatchDetail() {
                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
                       {awayTeam.defense_strength}
                     </td>
-                    <td className="py-3 px-4 text-center">
-                      <Badge
-                        variant={
-                          homeTeam.defense_strength > awayTeam.defense_strength
-                            ? "default"
-                            : "secondary"
-                        }
-                      >
-                        {homeTeam.defense_strength > awayTeam.defense_strength
-                          ? homeTeam.name
-                          : awayTeam.name}
-                      </Badge>
-                    </td>
                   </tr>
                   <tr className="border-b border-slate-100 dark:border-slate-800">
                     <td className="py-3 px-4 text-slate-600 dark:text-slate-400">
@@ -433,44 +363,18 @@ export default function MatchDetail() {
                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
                       {awayTeam.midfield_control}
                     </td>
-                    <td className="py-3 px-4 text-center">
-                      <Badge
-                        variant={
-                          homeTeam.midfield_control > awayTeam.midfield_control
-                            ? "default"
-                            : "secondary"
-                        }
-                      >
-                        {homeTeam.midfield_control > awayTeam.midfield_control
-                          ? homeTeam.name
-                          : awayTeam.name}
-                      </Badge>
-                    </td>
                   </tr>
-                  <tr>
-                    <td className="py-3 px-4 text-slate-600 dark:text-slate-400">
-                      伤病状况
-                    </td>
-                    <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
-                      {homeTeam.injury_status}
-                    </td>
-                    <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
-                      {awayTeam.injury_status}
-                    </td>
-                    <td className="py-3 px-4 text-center">
-                      <Badge
-                        variant={
-                          homeTeam.injury_status > awayTeam.injury_status
-                            ? "default"
-                            : "secondary"
-                        }
-                      >
-                        {homeTeam.injury_status > awayTeam.injury_status
-                          ? homeTeam.name
-                          : awayTeam.name}
-                      </Badge>
-                    </td>
-                  </tr>
+                   <tr>
+                     <td className="py-3 px-4 text-slate-600 dark:text-slate-400">
+                       伤病状况
+                     </td>
+                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
+                       {homeTeam.injury_status}
+                     </td>
+                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
+                       {awayTeam.injury_status}
+                     </td>
+                   </tr>
                 </tbody>
               </table>
             </div>
