@@ -256,14 +256,14 @@ export default function MatchDetail() {
                   <PolarAngleAxis dataKey="category" />
                   <PolarRadiusAxis angle={90} domain={[0, 100]} />
                   <Radar
-                    name={homeTeam.name}
+                    name={match.home}
                     dataKey="home"
                     stroke="#3b82f6"
                     fill="#3b82f6"
                     fillOpacity={0.6}
                   />
                   <Radar
-                    name={awayTeam.name}
+                    name={match.away}
                     dataKey="away"
                     stroke="#f97316"
                     fill="#f97316"
