@@ -5,7 +5,7 @@
       "name": "法国",
       "flag": "🇫🇷",
       "confederation": "欧洲",
-      "squad_value": 1780000000,
+      "squad_value": 1920000000,
       "fifa_ranking": 1877.32,
       "overall_score": 85,
       "qualification_points": 20
@@ -13,9 +13,9 @@
     {
       "rank": 2,
       "name": "英格兰",
-      "flag": "🇬🇧",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "confederation": "欧洲",
-      "squad_value": 1520000000,
+      "squad_value": 1780000000,
       "fifa_ranking": 1789.14,
       "overall_score": 84.2,
       "qualification_points": 19.7
@@ -311,27 +311,7 @@
       "flag": "🇧🇦"
     },
     {
-      "name": "欧洲附加赛1",
-      "confederation": "欧洲",
-      "overall_score": 72,
-      "fifa_ranking": 1470,
-      "squad_value": 200000000,
-      "qualification_points": 14,
       "rank": 32,
-      "flag": "🏳️"
-    },
-    {
-      "name": "欧洲附加赛2",
-      "confederation": "欧洲",
-      "overall_score": 72,
-      "fifa_ranking": 1470,
-      "squad_value": 200000000,
-      "qualification_points": 14,
-      "rank": 33,
-      "flag": "🏳️"
-    },
-    {
-      "rank": 34,
       "name": "埃及",
       "flag": "🇪🇬",
       "confederation": "非洲",
@@ -341,7 +321,7 @@
       "qualification_points": 11.9
     },
     {
-      "rank": 35,
+      "rank": 33,
       "name": "阿尔及利亚",
       "flag": "🇩🇿",
       "confederation": "非洲",
@@ -351,7 +331,7 @@
       "qualification_points": 11.3
     },
     {
-      "rank": 36,
+      "rank": 34,
       "name": "突尼斯",
       "flag": "🇹🇳",
       "confederation": "非洲",
@@ -367,11 +347,11 @@
       "fifa_ranking": 1460,
       "squad_value": 120000000,
       "qualification_points": 15,
-      "rank": 37,
+      "rank": 35,
       "flag": "🇿🇦"
     },
     {
-      "rank": 38,
+      "rank": 36,
       "name": "巴拿马",
       "flag": "🇵🇦",
       "confederation": "北美洲",
@@ -387,11 +367,11 @@
       "fifa_ranking": 1450,
       "squad_value": 150000000,
       "qualification_points": 14.5,
-      "rank": 39,
+      "rank": 37,
       "flag": "🇸🇦"
     },
     {
-      "rank": 40,
+      "rank": 38,
       "name": "库拉索",
       "flag": "🇨🇼",
       "confederation": "北美洲",
@@ -401,7 +381,7 @@
       "qualification_points": 8.3
     },
     {
-      "rank": 41,
+      "rank": 39,
       "name": "卡塔尔",
       "flag": "🇶🇦",
       "confederation": "亚洲",
@@ -411,7 +391,7 @@
       "qualification_points": 7.7
     },
     {
-      "rank": 42,
+      "rank": 40,
       "name": "乌兹别克斯坦",
       "flag": "🇺🇿",
       "confederation": "亚洲",
@@ -421,7 +401,7 @@
       "qualification_points": 7.4
     },
     {
-      "rank": 43,
+      "rank": 41,
       "name": "新西兰",
       "flag": "🇳🇿",
       "confederation": "大洋洲",
@@ -431,7 +411,7 @@
       "qualification_points": 6.8
     },
     {
-      "rank": 44,
+      "rank": 42,
       "name": "约旦",
       "flag": "🇯🇴",
       "confederation": "亚洲",
@@ -447,18 +427,58 @@
       "fifa_ranking": 1350,
       "squad_value": 50000000,
       "qualification_points": 13,
-      "rank": 45,
+      "rank": 43,
       "flag": "🇭🇹"
     },
     {
-      "name": "圣文森特和格林纳丁斯",
-      "confederation": "北美洲",
-      "overall_score": 62,
-      "fifa_ranking": 1280,
-      "squad_value": 20000000,
-      "qualification_points": 11,
+      "rank": 44,
+      "name": "伊拉克",
+      "flag": "🇮🇶",
+      "confederation": "亚洲",
+      "squad_value": 15000000,
+      "fifa_ranking": 1500,
+      "overall_score": 70,
+      "qualification_points": 0
+    },
+    {
+      "rank": 45,
+      "name": "瑞典",
+      "flag": "🇸🇪",
+      "confederation": "欧洲",
+      "squad_value": 350000000,
+      "fifa_ranking": 1500,
+      "overall_score": 70,
+      "qualification_points": 0
+    },
+    {
       "rank": 46,
-      "flag": "🇻🇨"
+      "name": "佛得角",
+      "flag": "🇨🇻",
+      "confederation": "非洲",
+      "squad_value": 10000000,
+      "fifa_ranking": 1500,
+      "overall_score": 70,
+      "qualification_points": 0
+    },
+    {
+      "rank": 47,
+      "name": "刚果民主共和国",
+      "flag": "🇨🇩",
+      "confederation": "非洲",
+      "squad_value": 15000000,
+      "fifa_ranking": 1500,
+      "overall_score": 70,
+      "qualification_points": 0
+    },
+    {
+      "rank": 48,
+      "name": "土耳其",
+      "flag": "🇹🇷",
+      "confederation": "欧洲",
+      "squad_value": 320000000,
+      "fifa_ranking": 1500,
+      "overall_score": 70,
+      "qualification_points": 0
     }
   ],
   "groups": {

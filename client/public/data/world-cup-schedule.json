@@ -3,109 +3,253 @@
     "A": {
       "name": "第A组",
       "teams": [
-        { "name": "墨西哥", "flag": "🇲🇽" },
-        { "name": "南非", "flag": "🇿🇦" },
-        { "name": "韩国", "flag": "🇰🇷" },
-        { "name": "捷克", "flag": "🇨🇿" }
+        {
+          "name": "墨西哥",
+          "flag": "🇲🇽"
+        },
+        {
+          "name": "南非",
+          "flag": "🇿🇦"
+        },
+        {
+          "name": "韩国",
+          "flag": "🇰🇷"
+        },
+        {
+          "name": "捷克",
+          "flag": "🇨🇿"
+        }
       ]
     },
     "B": {
       "name": "第B组",
       "teams": [
-        { "name": "加拿大", "flag": "🇨🇦" },
-        { "name": "瑞士", "flag": "🇨🇭" },
-        { "name": "卡塔尔", "flag": "🇶🇦" },
-        { "name": "波黑", "flag": "🇧🇦" }
-      ]
-    },
-    "C": {
-      "name": "第C组",
-      "teams": [
-        { "name": "巴西", "flag": "🇧🇷" },
-        { "name": "摩洛哥", "flag": "🇲🇦" },
-        { "name": "苏格兰", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿" },
-        { "name": "海地", "flag": "🇭🇹" }
+        {
+          "name": "加拿大",
+          "flag": "🇨🇦"
+        },
+        {
+          "name": "波黑",
+          "flag": "🇧🇦"
+        },
+        {
+          "name": "卡塔尔",
+          "flag": "🇶🇦"
+        },
+        {
+          "name": "瑞士",
+          "flag": "🇨🇭"
+        }
       ]
     },
     "D": {
       "name": "第D组",
       "teams": [
-        { "name": "美国", "flag": "🇺🇸" },
-        { "name": "巴拉圭", "flag": "🇵🇾" },
-        { "name": "澳大利亚", "flag": "🇦🇺" },
-        { "name": "乌拉圭", "flag": "🇺🇾" }
+        {
+          "name": "美国",
+          "flag": "🇺🇸"
+        },
+        {
+          "name": "巴拉圭",
+          "flag": "🇵🇾"
+        },
+        {
+          "name": "澳大利亚",
+          "flag": "🇦🇺"
+        },
+        {
+          "name": "土耳其",
+          "flag": "🇹🇷"
+        }
+      ]
+    },
+    "C": {
+      "name": "第C组",
+      "teams": [
+        {
+          "name": "海地",
+          "flag": "🇭🇹"
+        },
+        {
+          "name": "苏格兰",
+          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+        },
+        {
+          "name": "巴西",
+          "flag": "🇧🇷"
+        },
+        {
+          "name": "摩洛哥",
+          "flag": "🇲🇦"
+        }
       ]
     },
     "E": {
       "name": "第E组",
       "teams": [
-        { "name": "德国", "flag": "🇩🇪" },
-        { "name": "库拉索", "flag": "🇨🇼" },
-        { "name": "科特迪瓦", "flag": "🇨🇮" },
-        { "name": "厄瓜多尔", "flag": "🇪🇨" }
+        {
+          "name": "科特迪瓦",
+          "flag": "🇨🇮"
+        },
+        {
+          "name": "厄瓜多尔",
+          "flag": "🇪🇨"
+        },
+        {
+          "name": "德国",
+          "flag": "🇩🇪"
+        },
+        {
+          "name": "库拉索",
+          "flag": "🇨🇼"
+        }
       ]
     },
     "F": {
       "name": "第F组",
       "teams": [
-        { "name": "荷兰", "flag": "🇳🇱" },
-        { "name": "日本", "flag": "🇯🇵" },
-        { "name": "突尼斯", "flag": "🇹🇳" },
-        { "name": "乌兹别克斯坦", "flag": "🇺🇿" }
-      ]
-    },
-    "G": {
-      "name": "第G组",
-      "teams": [
-        { "name": "比利时", "flag": "🇧🇪" },
-        { "name": "埃及", "flag": "🇪🇬" },
-        { "name": "伊朗", "flag": "🇮🇷" },
-        { "name": "新西兰", "flag": "🇳🇿" }
+        {
+          "name": "荷兰",
+          "flag": "🇳🇱"
+        },
+        {
+          "name": "日本",
+          "flag": "🇯🇵"
+        },
+        {
+          "name": "瑞典",
+          "flag": "🇸🇪"
+        },
+        {
+          "name": "突尼斯",
+          "flag": "🇹🇳"
+        }
       ]
     },
     "H": {
       "name": "第H组",
       "teams": [
-        { "name": "西班牙", "flag": "🇪🇸" },
-        { "name": "沙特阿拉伯", "flag": "🇸🇦" },
-        { "name": "乌拉圭", "flag": "🇺🇾" },
-        { "name": "圣文森特和格林纳丁斯", "flag": "🇻🇨" }
+        {
+          "name": "沙特阿拉伯",
+          "flag": "🇸🇦"
+        },
+        {
+          "name": "乌拉圭",
+          "flag": "🇺🇾"
+        },
+        {
+          "name": "西班牙",
+          "flag": "🇪🇸"
+        },
+        {
+          "name": "佛得角",
+          "flag": "🇨🇻"
+        }
+      ]
+    },
+    "G": {
+      "name": "第G组",
+      "teams": [
+        {
+          "name": "伊朗",
+          "flag": "🇮🇷"
+        },
+        {
+          "name": "新西兰",
+          "flag": "🇳🇿"
+        },
+        {
+          "name": "比利时",
+          "flag": "🇧🇪"
+        },
+        {
+          "name": "埃及",
+          "flag": "🇪🇬"
+        }
       ]
     },
     "I": {
       "name": "第I组",
       "teams": [
-        { "name": "法国", "flag": "🇫🇷" },
-        { "name": "塞内加尔", "flag": "🇸🇳" },
-        { "name": "挪威", "flag": "🇳🇴" },
-        { "name": "欧洲附加赛2", "flag": "🏳️" }
+        {
+          "name": "法国",
+          "flag": "🇫🇷"
+        },
+        {
+          "name": "塞内加尔",
+          "flag": "🇸🇳"
+        },
+        {
+          "name": "伊拉克",
+          "flag": "🇮🇶"
+        },
+        {
+          "name": "挪威",
+          "flag": "🇳🇴"
+        }
       ]
     },
     "J": {
       "name": "第J组",
       "teams": [
-        { "name": "阿根廷", "flag": "🇦🇷" },
-        { "name": "阿尔及利亚", "flag": "🇩🇿" },
-        { "name": "奥地利", "flag": "🇦🇹" },
-        { "name": "约旦", "flag": "🇯🇴" }
-      ]
-    },
-    "K": {
-      "name": "第K组",
-      "teams": [
-        { "name": "葡萄牙", "flag": "🇵🇹" },
-        { "name": "乌兹别克斯坦", "flag": "🇺🇿" },
-        { "name": "哥伦比亚", "flag": "🇨🇴" },
-        { "name": "欧洲附加赛1", "flag": "🏳️" }
+        {
+          "name": "阿根廷",
+          "flag": "🇦🇷"
+        },
+        {
+          "name": "阿尔及利亚",
+          "flag": "🇩🇿"
+        },
+        {
+          "name": "奥地利",
+          "flag": "🇦🇹"
+        },
+        {
+          "name": "约旦",
+          "flag": "🇯🇴"
+        }
       ]
     },
     "L": {
       "name": "第L组",
       "teams": [
-        { "name": "英格兰", "flag": "🇬🇧" },
-        { "name": "克罗地亚", "flag": "🇭🇷" },
-        { "name": "加纳", "flag": "🇬🇭" },
-        { "name": "巴拿马", "flag": "🇵🇦" }
+        {
+          "name": "加纳",
+          "flag": "🇬🇭"
+        },
+        {
+          "name": "巴拿马",
+          "flag": "🇵🇦"
+        },
+        {
+          "name": "英格兰",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+        },
+        {
+          "name": "克罗地亚",
+          "flag": "🇭🇷"
+        }
+      ]
+    },
+    "K": {
+      "name": "第K组",
+      "teams": [
+        {
+          "name": "葡萄牙",
+          "flag": "🇵🇹"
+        },
+        {
+          "name": "刚果民主共和国",
+          "flag": "🇨🇩"
+        },
+        {
+          "name": "乌兹别克斯坦",
+          "flag": "🇺🇿"
+        },
+        {
+          "name": "哥伦比亚",
+          "flag": "🇨🇴"
+        }
       ]
     }
   },
@@ -113,497 +257,2036 @@
     {
       "id": 1,
       "date": "2026-06-11",
-      "beijing_time": "2026-06-11 03:00",
+      "beijing_time": "2026-06-11 13:00",
       "group": "A",
       "home": "墨西哥",
       "away": "南非",
-      "stadium": "墨西哥城体育场"
+      "stadium": "阿兹特克体育场"
     },
     {
       "id": 2,
       "date": "2026-06-11",
-      "beijing_time": "2026-06-11 10:00",
+      "beijing_time": "2026-06-11 20:00",
       "group": "A",
       "home": "韩国",
       "away": "捷克",
-      "stadium": "萨波潘体育场"
+      "stadium": "阿克伦体育场"
     },
     {
       "id": 3,
       "date": "2026-06-12",
-      "beijing_time": "2026-06-12 03:00",
+      "beijing_time": "2026-06-12 15:00",
       "group": "B",
       "home": "加拿大",
       "away": "波黑",
-      "stadium": "多伦多体育场"
+      "stadium": "BMO体育场"
     },
     {
       "id": 4,
       "date": "2026-06-12",
-      "beijing_time": "2026-06-12 09:00",
+      "beijing_time": "2026-06-12 18:00",
       "group": "D",
       "home": "美国",
       "away": "巴拉圭",
-      "stadium": "英格尔伍德体育场"
+      "stadium": "SoFi体育场"
     },
     {
       "id": 5,
       "date": "2026-06-13",
-      "beijing_time": "2026-06-13 03:00",
-      "group": "B",
-      "home": "瑞士",
-      "away": "卡塔尔",
-      "stadium": "圣塔克拉拉体育场"
+      "beijing_time": "2026-06-13 21:00",
+      "group": "C",
+      "home": "海地",
+      "away": "苏格兰",
+      "stadium": "吉列体育场"
     },
     {
       "id": 6,
       "date": "2026-06-13",
-      "beijing_time": "2026-06-13 06:00",
-      "group": "C",
-      "home": "巴西",
-      "away": "摩洛哥",
-      "stadium": "东卢瑟福体育场"
+      "beijing_time": "2026-06-13 21:00",
+      "group": "D",
+      "home": "澳大利亚",
+      "away": "土耳其",
+      "stadium": "BC体育场"
     },
     {
       "id": 7,
       "date": "2026-06-13",
-      "beijing_time": "2026-06-13 09:00",
+      "beijing_time": "2026-06-13 18:00",
       "group": "C",
-      "home": "苏格兰",
-      "away": "海地",
-      "stadium": "福克斯伯勒体育场"
+      "home": "巴西",
+      "away": "摩洛哥",
+      "stadium": "大都会人寿体育场"
     },
     {
       "id": 8,
-      "date": "2026-06-14",
-      "beijing_time": "2026-06-14 01:00",
-      "group": "E",
-      "home": "德国",
-      "away": "库拉索",
-      "stadium": "休斯敦体育场"
+      "date": "2026-06-13",
+      "beijing_time": "2026-06-13 12:00",
+      "group": "B",
+      "home": "卡塔尔",
+      "away": "瑞士",
+      "stadium": "李维斯体育场"
     },
     {
       "id": 9,
       "date": "2026-06-14",
-      "beijing_time": "2026-06-14 04:00",
-      "group": "F",
-      "home": "荷兰",
-      "away": "日本",
-      "stadium": "阿灵顿体育场"
+      "beijing_time": "2026-06-14 19:00",
+      "group": "E",
+      "home": "科特迪瓦",
+      "away": "厄瓜多尔",
+      "stadium": "林肯金融体育场"
     },
     {
       "id": 10,
       "date": "2026-06-14",
-      "beijing_time": "2026-06-14 07:00",
+      "beijing_time": "2026-06-14 12:00",
       "group": "E",
-      "home": "科特迪瓦",
-      "away": "厄瓜多尔",
-      "stadium": "费城体育场"
+      "home": "德国",
+      "away": "库拉索",
+      "stadium": "NRG体育场"
     },
     {
       "id": 11,
-      "date": "2026-06-15",
-      "beijing_time": "2026-06-15 01:00",
-      "group": "H",
-      "home": "西班牙",
-      "away": "沙特阿拉伯",
-      "stadium": "亚特兰大体育场"
+      "date": "2026-06-14",
+      "beijing_time": "2026-06-14 15:00",
+      "group": "F",
+      "home": "荷兰",
+      "away": "日本",
+      "stadium": "AT&T体育场"
     },
     {
       "id": 12,
-      "date": "2026-06-15",
-      "beijing_time": "2026-06-15 04:00",
-      "group": "G",
-      "home": "比利时",
-      "away": "埃及",
-      "stadium": "西雅图体育场"
+      "date": "2026-06-14",
+      "beijing_time": "2026-06-14 20:00",
+      "group": "F",
+      "home": "瑞典",
+      "away": "突尼斯",
+      "stadium": "BBVA体育场"
     },
     {
       "id": 13,
       "date": "2026-06-15",
-      "beijing_time": "2026-06-15 06:00",
+      "beijing_time": "2026-06-15 18:00",
       "group": "H",
-      "home": "乌拉圭",
-      "away": "圣文森特和格林纳丁斯",
-      "stadium": "迈阿密体育场"
+      "home": "沙特阿拉伯",
+      "away": "乌拉圭",
+      "stadium": "硬石体育场"
     },
     {
       "id": 14,
-      "date": "2026-06-16",
-      "beijing_time": "2026-06-16 03:00",
-      "group": "I",
-      "home": "法国",
-      "away": "塞内加尔",
-      "stadium": "东卢瑟福体育场"
+      "date": "2026-06-15",
+      "beijing_time": "2026-06-15 12:00",
+      "group": "H",
+      "home": "西班牙",
+      "away": "佛得角",
+      "stadium": "梅赛德斯-奔驰体育场"
     },
     {
       "id": 15,
-      "date": "2026-06-16",
-      "beijing_time": "2026-06-16 09:00",
-      "group": "J",
-      "home": "阿根廷",
-      "away": "阿尔及利亚",
-      "stadium": "堪萨斯城体育场"
+      "date": "2026-06-15",
+      "beijing_time": "2026-06-15 18:00",
+      "group": "G",
+      "home": "伊朗",
+      "away": "新西兰",
+      "stadium": "SoFi体育场"
     },
     {
       "id": 16,
-      "date": "2026-06-17",
-      "beijing_time": "2026-06-17 04:00",
-      "group": "L",
-      "home": "英格兰",
-      "away": "克罗地亚",
-      "stadium": "阿灵顿体育场"
+      "date": "2026-06-15",
+      "beijing_time": "2026-06-15 12:00",
+      "group": "G",
+      "home": "比利时",
+      "away": "埃及",
+      "stadium": "流明体育场"
     },
     {
       "id": 17,
-      "date": "2026-06-17",
-      "beijing_time": "2026-06-17 07:00",
-      "group": "L",
-      "home": "加纳",
-      "away": "巴拿马",
-      "stadium": "多伦多体育场"
+      "date": "2026-06-16",
+      "beijing_time": "2026-06-16 15:00",
+      "group": "I",
+      "home": "法国",
+      "away": "塞内加尔",
+      "stadium": "大都会人寿体育场"
     },
     {
       "id": 18,
-      "date": "2026-06-18",
-      "beijing_time": "2026-06-18 00:00",
-      "group": "A",
-      "home": "捷克",
-      "away": "南非",
-      "stadium": "亚特兰大体育场"
+      "date": "2026-06-16",
+      "beijing_time": "2026-06-16 18:00",
+      "group": "I",
+      "home": "伊拉克",
+      "away": "挪威",
+      "stadium": "吉列体育场"
     },
     {
       "id": 19,
-      "date": "2026-06-18",
-      "beijing_time": "2026-06-18 03:00",
-      "group": "B",
-      "home": "瑞士",
-      "away": "波黑",
-      "stadium": "英格尔伍德体育场"
+      "date": "2026-06-16",
+      "beijing_time": "2026-06-16 20:00",
+      "group": "J",
+      "home": "阿根廷",
+      "away": "阿尔及利亚",
+      "stadium": "箭头体育场"
     },
     {
       "id": 20,
-      "date": "2026-06-18",
-      "beijing_time": "2026-06-18 06:00",
-      "group": "B",
-      "home": "加拿大",
-      "away": "卡塔尔",
-      "stadium": "温哥华体育场"
+      "date": "2026-06-16",
+      "beijing_time": "2026-06-16 21:00",
+      "group": "J",
+      "home": "奥地利",
+      "away": "约旦",
+      "stadium": "李维斯体育场"
     },
     {
       "id": 21,
-      "date": "2026-06-19",
-      "beijing_time": "2026-06-19 03:00",
-      "group": "D",
-      "home": "美国",
-      "away": "澳大利亚",
-      "stadium": "西雅图体育场"
+      "date": "2026-06-17",
+      "beijing_time": "2026-06-17 19:00",
+      "group": "L",
+      "home": "加纳",
+      "away": "巴拿马",
+      "stadium": "BMO体育场"
     },
     {
       "id": 22,
-      "date": "2026-06-19",
-      "beijing_time": "2026-06-19 06:00",
-      "group": "C",
-      "home": "苏格兰",
-      "away": "摩洛哥",
-      "stadium": "福克斯伯勒体育场"
+      "date": "2026-06-17",
+      "beijing_time": "2026-06-17 15:00",
+      "group": "L",
+      "home": "英格兰",
+      "away": "克罗地亚",
+      "stadium": "AT&T体育场"
     },
     {
       "id": 23,
-      "date": "2026-06-19",
-      "beijing_time": "2026-06-19 09:00",
-      "group": "C",
-      "home": "巴西",
-      "away": "海地",
-      "stadium": "费城体育场"
+      "date": "2026-06-17",
+      "beijing_time": "2026-06-17 12:00",
+      "group": "K",
+      "home": "葡萄牙",
+      "away": "刚果民主共和国",
+      "stadium": "NRG体育场"
     },
     {
       "id": 24,
-      "date": "2026-06-20",
-      "beijing_time": "2026-06-20 01:00",
-      "group": "F",
-      "home": "荷兰",
-      "away": "突尼斯",
-      "stadium": "堪萨斯城体育场"
+      "date": "2026-06-17",
+      "beijing_time": "2026-06-17 20:00",
+      "group": "K",
+      "home": "乌兹别克斯坦",
+      "away": "哥伦比亚",
+      "stadium": "阿兹特克体育场"
     },
     {
       "id": 25,
-      "date": "2026-06-20",
-      "beijing_time": "2026-06-20 04:00",
-      "group": "E",
-      "home": "德国",
-      "away": "科特迪瓦",
-      "stadium": "多伦多体育场"
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 12:00",
+      "group": "A",
+      "home": "捷克",
+      "away": "南非",
+      "stadium": "梅赛德斯-奔驰体育场"
     },
     {
       "id": 26,
-      "date": "2026-06-20",
-      "beijing_time": "2026-06-20 07:00",
-      "group": "E",
-      "home": "厄瓜多尔",
-      "away": "库拉索",
-      "stadium": "堪萨斯城体育场"
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 12:00",
+      "group": "B",
+      "home": "瑞士",
+      "away": "波黑",
+      "stadium": "SoFi体育场"
     },
     {
       "id": 27,
-      "date": "2026-06-21",
-      "beijing_time": "2026-06-21 00:00",
-      "group": "H",
-      "home": "西班牙",
-      "away": "乌拉圭",
-      "stadium": "亚特兰大体育场"
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 15:00",
+      "group": "B",
+      "home": "加拿大",
+      "away": "卡塔尔",
+      "stadium": "BC体育场"
     },
     {
       "id": 28,
-      "date": "2026-06-21",
-      "beijing_time": "2026-06-21 03:00",
-      "group": "G",
-      "home": "比利时",
-      "away": "伊朗",
-      "stadium": "英格尔伍德体育场"
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 19:00",
+      "group": "A",
+      "home": "墨西哥",
+      "away": "韩国",
+      "stadium": "阿克伦体育场"
     },
     {
       "id": 29,
-      "date": "2026-06-21",
-      "beijing_time": "2026-06-21 06:00",
-      "group": "G",
-      "home": "新西兰",
-      "away": "埃及",
-      "stadium": "温哥华体育场"
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 21:00",
+      "group": "C",
+      "home": "巴西",
+      "away": "海地",
+      "stadium": "林肯金融体育场"
     },
     {
       "id": 30,
-      "date": "2026-06-22",
-      "beijing_time": "2026-06-22 01:00",
-      "group": "J",
-      "home": "阿根廷",
-      "away": "奥地利",
-      "stadium": "阿灵顿体育场"
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 18:00",
+      "group": "C",
+      "home": "苏格兰",
+      "away": "摩洛哥",
+      "stadium": "吉列体育场"
     },
     {
       "id": 31,
-      "date": "2026-06-22",
-      "beijing_time": "2026-06-22 05:00",
-      "group": "I",
-      "home": "法国",
-      "away": "挪威",
-      "stadium": "费城体育场"
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 20:00",
+      "group": "D",
+      "home": "土耳其",
+      "away": "巴拉圭",
+      "stadium": "李维斯体育场"
     },
     {
       "id": 32,
-      "date": "2026-06-23",
-      "beijing_time": "2026-06-23 01:00",
-      "group": "K",
-      "home": "葡萄牙",
-      "away": "哥伦比亚",
-      "stadium": "休斯敦体育场"
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 12:00",
+      "group": "D",
+      "home": "美国",
+      "away": "澳大利亚",
+      "stadium": "流明体育场"
     },
     {
       "id": 33,
-      "date": "2026-06-23",
-      "beijing_time": "2026-06-23 04:00",
-      "group": "L",
-      "home": "英格兰",
-      "away": "加纳",
-      "stadium": "福克斯伯勒体育场"
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 16:00",
+      "group": "E",
+      "home": "德国",
+      "away": "科特迪瓦",
+      "stadium": "BMO体育场"
     },
     {
       "id": 34,
-      "date": "2026-06-23",
-      "beijing_time": "2026-06-23 07:00",
-      "group": "L",
-      "home": "巴拿马",
-      "away": "克罗地亚",
-      "stadium": "多伦多体育场"
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 19:00",
+      "group": "E",
+      "home": "厄瓜多尔",
+      "away": "库拉索",
+      "stadium": "箭头体育场"
     },
     {
       "id": 35,
-      "date": "2026-06-24",
-      "beijing_time": "2026-06-24 03:00",
-      "group": "B",
-      "home": "瑞士",
-      "away": "加拿大",
-      "stadium": "温哥华体育场"
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 12:00",
+      "group": "F",
+      "home": "荷兰",
+      "away": "瑞典",
+      "stadium": "NRG体育场"
     },
     {
       "id": 36,
-      "date": "2026-06-24",
-      "beijing_time": "2026-06-24 06:00",
-      "group": "C",
-      "home": "苏格兰",
-      "away": "巴西",
-      "stadium": "迈阿密体育场"
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 22:00",
+      "group": "F",
+      "home": "突尼斯",
+      "away": "日本",
+      "stadium": "BBVA体育场"
     },
     {
       "id": 37,
-      "date": "2026-06-24",
-      "beijing_time": "2026-06-24 06:00",
-      "group": "C",
-      "home": "摩洛哥",
-      "away": "海地",
-      "stadium": "亚特兰大体育场"
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 18:00",
+      "group": "H",
+      "home": "乌拉圭",
+      "away": "佛得角",
+      "stadium": "硬石体育场"
     },
     {
       "id": 38,
-      "date": "2026-06-25",
-      "beijing_time": "2026-06-25 04:00",
-      "group": "E",
-      "home": "厄瓜多尔",
-      "away": "德国",
-      "stadium": "东卢瑟福体育场"
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 12:00",
+      "group": "H",
+      "home": "西班牙",
+      "away": "沙特阿拉伯",
+      "stadium": "梅赛德斯-奔驰体育场"
     },
     {
       "id": 39,
-      "date": "2026-06-25",
-      "beijing_time": "2026-06-25 04:00",
-      "group": "E",
-      "home": "库拉索",
-      "away": "科特迪瓦",
-      "stadium": "费城体育场"
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 12:00",
+      "group": "G",
+      "home": "比利时",
+      "away": "伊朗",
+      "stadium": "SoFi体育场"
     },
     {
       "id": 40,
-      "date": "2026-06-25",
-      "beijing_time": "2026-06-25 07:00",
-      "group": "F",
-      "home": "日本",
-      "away": "乌兹别克斯坦",
-      "stadium": "阿灵顿体育场"
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 18:00",
+      "group": "G",
+      "home": "新西兰",
+      "away": "埃及",
+      "stadium": "BC体育场"
     },
     {
       "id": 41,
-      "date": "2026-06-25",
-      "beijing_time": "2026-06-25 07:00",
-      "group": "F",
-      "home": "突尼斯",
-      "away": "荷兰",
-      "stadium": "堪萨斯城体育场"
+      "date": "2026-06-22",
+      "beijing_time": "2026-06-22 20:00",
+      "group": "I",
+      "home": "挪威",
+      "away": "塞内加尔",
+      "stadium": "大都会人寿体育场"
     },
     {
       "id": 42,
-      "date": "2026-06-25",
-      "beijing_time": "2026-06-25 07:00",
-      "group": "D",
-      "home": "巴拉圭",
-      "away": "澳大利亚",
-      "stadium": "圣塔克拉拉体育场"
+      "date": "2026-06-22",
+      "beijing_time": "2026-06-22 17:00",
+      "group": "I",
+      "home": "法国",
+      "away": "伊拉克",
+      "stadium": "林肯金融体育场"
     },
     {
       "id": 43,
-      "date": "2026-06-26",
-      "beijing_time": "2026-06-26 03:00",
-      "group": "I",
-      "home": "塞内加尔",
-      "away": "法国",
-      "stadium": "福克斯伯勒体育场"
+      "date": "2026-06-22",
+      "beijing_time": "2026-06-22 12:00",
+      "group": "J",
+      "home": "阿根廷",
+      "away": "奥地利",
+      "stadium": "AT&T体育场"
     },
     {
       "id": 44,
-      "date": "2026-06-26",
-      "beijing_time": "2026-06-26 07:00",
-      "group": "H",
-      "home": "沙特阿拉伯",
-      "away": "西班牙",
-      "stadium": "休斯敦体育场"
+      "date": "2026-06-22",
+      "beijing_time": "2026-06-22 20:00",
+      "group": "J",
+      "home": "约旦",
+      "away": "阿尔及利亚",
+      "stadium": "李维斯体育场"
     },
     {
       "id": 45,
-      "date": "2026-06-26",
-      "beijing_time": "2026-06-26 07:00",
-      "group": "H",
-      "home": "乌拉圭",
-      "away": "圣文森特和格林纳丁斯",
-      "stadium": "萨波潘体育场"
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 16:00",
+      "group": "L",
+      "home": "英格兰",
+      "away": "加纳",
+      "stadium": "吉列体育场"
     },
     {
       "id": 46,
-      "date": "2026-06-26",
-      "beijing_time": "2026-06-26 08:00",
-      "group": "G",
-      "home": "埃及",
-      "away": "伊朗",
-      "stadium": "西雅图体育场"
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 19:00",
+      "group": "L",
+      "home": "巴拿马",
+      "away": "克罗地亚",
+      "stadium": "BMO体育场"
     },
     {
       "id": 47,
-      "date": "2026-06-26",
-      "beijing_time": "2026-06-26 08:00",
-      "group": "G",
-      "home": "新西兰",
-      "away": "比利时",
-      "stadium": "温哥华体育场"
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 12:00",
+      "group": "K",
+      "home": "葡萄牙",
+      "away": "乌兹别克斯坦",
+      "stadium": "NRG体育场"
     },
     {
       "id": 48,
-      "date": "2026-06-27",
-      "beijing_time": "2026-06-27 05:00",
-      "group": "L",
-      "home": "巴拿马",
-      "away": "英格兰",
-      "stadium": "东卢瑟福体育场"
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 20:00",
+      "group": "K",
+      "home": "哥伦比亚",
+      "away": "刚果民主共和国",
+      "stadium": "阿克伦体育场"
     },
     {
       "id": 49,
-      "date": "2026-06-27",
-      "beijing_time": "2026-06-27 05:00",
-      "group": "L",
-      "home": "克罗地亚",
-      "away": "加纳",
-      "stadium": "费城体育场"
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 18:00",
+      "group": "C",
+      "home": "苏格兰",
+      "away": "巴西",
+      "stadium": "硬石体育场"
     },
     {
       "id": 50,
-      "date": "2026-06-27",
-      "beijing_time": "2026-06-27 07:30",
-      "group": "K",
-      "home": "哥伦比亚",
-      "away": "葡萄牙",
-      "stadium": "迈阿密体育场"
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 18:00",
+      "group": "C",
+      "home": "摩洛哥",
+      "away": "海地",
+      "stadium": "梅赛德斯-奔驰体育场"
     },
     {
       "id": 51,
-      "date": "2026-06-27",
-      "beijing_time": "2026-06-27 09:00",
-      "group": "J",
-      "home": "阿尔及利亚",
-      "away": "奥地利",
-      "stadium": "堪萨斯城体育场"
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 12:00",
+      "group": "B",
+      "home": "瑞士",
+      "away": "加拿大",
+      "stadium": "BC体育场"
     },
     {
       "id": 52,
-      "date": "2026-06-27",
-      "beijing_time": "2026-06-27 09:00",
-      "group": "J",
-      "home": "约旦",
-      "away": "阿根廷",
-      "stadium": "阿灵顿体育场"
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 12:00",
+      "group": "B",
+      "home": "波黑",
+      "away": "卡塔尔",
+      "stadium": "流明体育场"
     },
     {
       "id": 53,
       "date": "2026-06-24",
-      "beijing_time": "2026-06-24 09:00",
+      "beijing_time": "2026-06-24 19:00",
       "group": "A",
-      "home": "墨西哥",
-      "away": "韩国",
-      "stadium": "萨波潘体育场"
+      "home": "捷克",
+      "away": "墨西哥",
+      "stadium": "阿兹特克体育场"
     },
     {
       "id": 54,
       "date": "2026-06-24",
-      "beijing_time": "2026-06-24 09:00",
+      "beijing_time": "2026-06-24 19:00",
       "group": "A",
-      "home": "捷克",
-      "away": "南非",
-      "stadium": "墨西哥城体育场"
+      "home": "南非",
+      "away": "韩国",
+      "stadium": "BBVA体育场"
     },
     {
       "id": 55,
       "date": "2026-06-25",
-      "beijing_time": "2026-06-25 07:00",
+      "beijing_time": "2026-06-25 16:00",
+      "group": "E",
+      "home": "库拉索",
+      "away": "科特迪瓦",
+      "stadium": "林肯金融体育场"
+    },
+    {
+      "id": 56,
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 16:00",
+      "group": "E",
+      "home": "厄瓜多尔",
+      "away": "德国",
+      "stadium": "大都会人寿体育场"
+    },
+    {
+      "id": 57,
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 18:00",
+      "group": "F",
+      "home": "日本",
+      "away": "瑞典",
+      "stadium": "AT&T体育场"
+    },
+    {
+      "id": 58,
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 18:00",
+      "group": "F",
+      "home": "突尼斯",
+      "away": "荷兰",
+      "stadium": "箭头体育场"
+    },
+    {
+      "id": 59,
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 19:00",
       "group": "D",
+      "home": "土耳其",
+      "away": "美国",
+      "stadium": "SoFi体育场"
+    },
+    {
+      "id": 60,
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 19:00",
+      "group": "D",
+      "home": "巴拉圭",
+      "away": "澳大利亚",
+      "stadium": "李维斯体育场"
+    },
+    {
+      "id": 61,
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 15:00",
+      "group": "I",
+      "home": "挪威",
+      "away": "法国",
+      "stadium": "吉列体育场"
+    },
+    {
+      "id": 62,
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 15:00",
+      "group": "I",
+      "home": "塞内加尔",
+      "away": "伊拉克",
+      "stadium": "BMO体育场"
+    },
+    {
+      "id": 63,
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 20:00",
+      "group": "G",
+      "home": "埃及",
+      "away": "伊朗",
+      "stadium": "流明体育场"
+    },
+    {
+      "id": 64,
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 20:00",
+      "group": "G",
+      "home": "新西兰",
+      "away": "比利时",
+      "stadium": "BC体育场"
+    },
+    {
+      "id": 65,
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 19:00",
+      "group": "H",
+      "home": "佛得角",
+      "away": "沙特阿拉伯",
+      "stadium": "NRG体育场"
+    },
+    {
+      "id": 66,
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 18:00",
+      "group": "H",
+      "home": "乌拉圭",
+      "away": "西班牙",
+      "stadium": "阿克伦体育场"
+    },
+    {
+      "id": 67,
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 17:00",
+      "group": "L",
+      "home": "巴拿马",
+      "away": "英格兰",
+      "stadium": "大都会人寿体育场"
+    },
+    {
+      "id": 68,
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 17:00",
+      "group": "L",
+      "home": "克罗地亚",
+      "away": "加纳",
+      "stadium": "林肯金融体育场"
+    },
+    {
+      "id": 69,
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 21:00",
+      "group": "J",
+      "home": "阿尔及利亚",
+      "away": "奥地利",
+      "stadium": "箭头体育场"
+    },
+    {
+      "id": 70,
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 21:00",
+      "group": "J",
+      "home": "约旦",
+      "away": "阿根廷",
+      "stadium": "AT&T体育场"
+    },
+    {
+      "id": 71,
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 19:30",
+      "group": "K",
+      "home": "哥伦比亚",
+      "away": "葡萄牙",
+      "stadium": "硬石体育场"
+    },
+    {
+      "id": 72,
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 19:30",
+      "group": "K",
+      "home": "刚果民主共和国",
+      "away": "乌兹别克斯坦",
+      "stadium": "梅赛德斯-奔驰体育场"
+    }
+  ],
+  "all_matches": [
+    {
+      "id": 1,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "A",
+      "date": "2026-06-11",
+      "beijing_time": "2026-06-11 13:00",
+      "home": "墨西哥",
+      "away": "南非",
+      "stadium": "阿兹特克体育场",
+      "city": "Mexico City",
+      "country": "Mexico"
+    },
+    {
+      "id": 2,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "A",
+      "date": "2026-06-11",
+      "beijing_time": "2026-06-11 20:00",
+      "home": "韩国",
+      "away": "捷克",
+      "stadium": "阿克伦体育场",
+      "city": "Guadalajara",
+      "country": "Mexico"
+    },
+    {
+      "id": 3,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "B",
+      "date": "2026-06-12",
+      "beijing_time": "2026-06-12 15:00",
+      "home": "加拿大",
+      "away": "波黑",
+      "stadium": "BMO体育场",
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    {
+      "id": 4,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "D",
+      "date": "2026-06-12",
+      "beijing_time": "2026-06-12 18:00",
       "home": "美国",
+      "away": "巴拉圭",
+      "stadium": "SoFi体育场",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 5,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "C",
+      "date": "2026-06-13",
+      "beijing_time": "2026-06-13 21:00",
+      "home": "海地",
+      "away": "苏格兰",
+      "stadium": "吉列体育场",
+      "city": "Boston",
+      "country": "United States"
+    },
+    {
+      "id": 6,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "D",
+      "date": "2026-06-13",
+      "beijing_time": "2026-06-13 21:00",
+      "home": "澳大利亚",
+      "away": "土耳其",
+      "stadium": "BC体育场",
+      "city": "Vancouver",
+      "country": "Canada"
+    },
+    {
+      "id": 7,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "C",
+      "date": "2026-06-13",
+      "beijing_time": "2026-06-13 18:00",
+      "home": "巴西",
+      "away": "摩洛哥",
+      "stadium": "大都会人寿体育场",
+      "city": "New York/New Jersey",
+      "country": "United States"
+    },
+    {
+      "id": 8,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "B",
+      "date": "2026-06-13",
+      "beijing_time": "2026-06-13 12:00",
+      "home": "卡塔尔",
+      "away": "瑞士",
+      "stadium": "李维斯体育场",
+      "city": "San Francisco Bay Area",
+      "country": "United States"
+    },
+    {
+      "id": 9,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "E",
+      "date": "2026-06-14",
+      "beijing_time": "2026-06-14 19:00",
+      "home": "科特迪瓦",
+      "away": "厄瓜多尔",
+      "stadium": "林肯金融体育场",
+      "city": "Philadelphia",
+      "country": "United States"
+    },
+    {
+      "id": 10,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "E",
+      "date": "2026-06-14",
+      "beijing_time": "2026-06-14 12:00",
+      "home": "德国",
+      "away": "库拉索",
+      "stadium": "NRG体育场",
+      "city": "Houston",
+      "country": "United States"
+    },
+    {
+      "id": 11,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "F",
+      "date": "2026-06-14",
+      "beijing_time": "2026-06-14 15:00",
+      "home": "荷兰",
+      "away": "日本",
+      "stadium": "AT&T体育场",
+      "city": "Dallas",
+      "country": "United States"
+    },
+    {
+      "id": 12,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "F",
+      "date": "2026-06-14",
+      "beijing_time": "2026-06-14 20:00",
+      "home": "瑞典",
+      "away": "突尼斯",
+      "stadium": "BBVA体育场",
+      "city": "Monterrey",
+      "country": "Mexico"
+    },
+    {
+      "id": 13,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "H",
+      "date": "2026-06-15",
+      "beijing_time": "2026-06-15 18:00",
+      "home": "沙特阿拉伯",
       "away": "乌拉圭",
-      "stadium": "英格尔伍德体育场"
+      "stadium": "硬石体育场",
+      "city": "Miami",
+      "country": "United States"
+    },
+    {
+      "id": 14,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "H",
+      "date": "2026-06-15",
+      "beijing_time": "2026-06-15 12:00",
+      "home": "西班牙",
+      "away": "佛得角",
+      "stadium": "梅赛德斯-奔驰体育场",
+      "city": "Atlanta",
+      "country": "United States"
+    },
+    {
+      "id": 15,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "G",
+      "date": "2026-06-15",
+      "beijing_time": "2026-06-15 18:00",
+      "home": "伊朗",
+      "away": "新西兰",
+      "stadium": "SoFi体育场",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 16,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "G",
+      "date": "2026-06-15",
+      "beijing_time": "2026-06-15 12:00",
+      "home": "比利时",
+      "away": "埃及",
+      "stadium": "流明体育场",
+      "city": "Seattle",
+      "country": "United States"
+    },
+    {
+      "id": 17,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "I",
+      "date": "2026-06-16",
+      "beijing_time": "2026-06-16 15:00",
+      "home": "法国",
+      "away": "塞内加尔",
+      "stadium": "大都会人寿体育场",
+      "city": "New York/New Jersey",
+      "country": "United States"
+    },
+    {
+      "id": 18,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "I",
+      "date": "2026-06-16",
+      "beijing_time": "2026-06-16 18:00",
+      "home": "伊拉克",
+      "away": "挪威",
+      "stadium": "吉列体育场",
+      "city": "Boston",
+      "country": "United States"
+    },
+    {
+      "id": 19,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "J",
+      "date": "2026-06-16",
+      "beijing_time": "2026-06-16 20:00",
+      "home": "阿根廷",
+      "away": "阿尔及利亚",
+      "stadium": "箭头体育场",
+      "city": "Kansas City",
+      "country": "United States"
+    },
+    {
+      "id": 20,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "J",
+      "date": "2026-06-16",
+      "beijing_time": "2026-06-16 21:00",
+      "home": "奥地利",
+      "away": "约旦",
+      "stadium": "李维斯体育场",
+      "city": "San Francisco Bay Area",
+      "country": "United States"
+    },
+    {
+      "id": 21,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "L",
+      "date": "2026-06-17",
+      "beijing_time": "2026-06-17 19:00",
+      "home": "加纳",
+      "away": "巴拿马",
+      "stadium": "BMO体育场",
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    {
+      "id": 22,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "L",
+      "date": "2026-06-17",
+      "beijing_time": "2026-06-17 15:00",
+      "home": "英格兰",
+      "away": "克罗地亚",
+      "stadium": "AT&T体育场",
+      "city": "Dallas",
+      "country": "United States"
+    },
+    {
+      "id": 23,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "K",
+      "date": "2026-06-17",
+      "beijing_time": "2026-06-17 12:00",
+      "home": "葡萄牙",
+      "away": "刚果民主共和国",
+      "stadium": "NRG体育场",
+      "city": "Houston",
+      "country": "United States"
+    },
+    {
+      "id": 24,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "K",
+      "date": "2026-06-17",
+      "beijing_time": "2026-06-17 20:00",
+      "home": "乌兹别克斯坦",
+      "away": "哥伦比亚",
+      "stadium": "阿兹特克体育场",
+      "city": "Mexico City",
+      "country": "Mexico"
+    },
+    {
+      "id": 25,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "A",
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 12:00",
+      "home": "捷克",
+      "away": "南非",
+      "stadium": "梅赛德斯-奔驰体育场",
+      "city": "Atlanta",
+      "country": "United States"
+    },
+    {
+      "id": 26,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "B",
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 12:00",
+      "home": "瑞士",
+      "away": "波黑",
+      "stadium": "SoFi体育场",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 27,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "B",
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 15:00",
+      "home": "加拿大",
+      "away": "卡塔尔",
+      "stadium": "BC体育场",
+      "city": "Vancouver",
+      "country": "Canada"
+    },
+    {
+      "id": 28,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "A",
+      "date": "2026-06-18",
+      "beijing_time": "2026-06-18 19:00",
+      "home": "墨西哥",
+      "away": "韩国",
+      "stadium": "阿克伦体育场",
+      "city": "Guadalajara",
+      "country": "Mexico"
+    },
+    {
+      "id": 29,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "C",
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 21:00",
+      "home": "巴西",
+      "away": "海地",
+      "stadium": "林肯金融体育场",
+      "city": "Philadelphia",
+      "country": "United States"
+    },
+    {
+      "id": 30,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "C",
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 18:00",
+      "home": "苏格兰",
+      "away": "摩洛哥",
+      "stadium": "吉列体育场",
+      "city": "Boston",
+      "country": "United States"
+    },
+    {
+      "id": 31,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "D",
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 20:00",
+      "home": "土耳其",
+      "away": "巴拉圭",
+      "stadium": "李维斯体育场",
+      "city": "San Francisco Bay Area",
+      "country": "United States"
+    },
+    {
+      "id": 32,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "D",
+      "date": "2026-06-19",
+      "beijing_time": "2026-06-19 12:00",
+      "home": "美国",
+      "away": "澳大利亚",
+      "stadium": "流明体育场",
+      "city": "Seattle",
+      "country": "United States"
+    },
+    {
+      "id": 33,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "E",
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 16:00",
+      "home": "德国",
+      "away": "科特迪瓦",
+      "stadium": "BMO体育场",
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    {
+      "id": 34,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "E",
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 19:00",
+      "home": "厄瓜多尔",
+      "away": "库拉索",
+      "stadium": "箭头体育场",
+      "city": "Kansas City",
+      "country": "United States"
+    },
+    {
+      "id": 35,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "F",
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 12:00",
+      "home": "荷兰",
+      "away": "瑞典",
+      "stadium": "NRG体育场",
+      "city": "Houston",
+      "country": "United States"
+    },
+    {
+      "id": 36,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "F",
+      "date": "2026-06-20",
+      "beijing_time": "2026-06-20 22:00",
+      "home": "突尼斯",
+      "away": "日本",
+      "stadium": "BBVA体育场",
+      "city": "Monterrey",
+      "country": "Mexico"
+    },
+    {
+      "id": 37,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "H",
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 18:00",
+      "home": "乌拉圭",
+      "away": "佛得角",
+      "stadium": "硬石体育场",
+      "city": "Miami",
+      "country": "United States"
+    },
+    {
+      "id": 38,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "H",
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 12:00",
+      "home": "西班牙",
+      "away": "沙特阿拉伯",
+      "stadium": "梅赛德斯-奔驰体育场",
+      "city": "Atlanta",
+      "country": "United States"
+    },
+    {
+      "id": 39,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "G",
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 12:00",
+      "home": "比利时",
+      "away": "伊朗",
+      "stadium": "SoFi体育场",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 40,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "G",
+      "date": "2026-06-21",
+      "beijing_time": "2026-06-21 18:00",
+      "home": "新西兰",
+      "away": "埃及",
+      "stadium": "BC体育场",
+      "city": "Vancouver",
+      "country": "Canada"
+    },
+    {
+      "id": 41,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "I",
+      "date": "2026-06-22",
+      "beijing_time": "2026-06-22 20:00",
+      "home": "挪威",
+      "away": "塞内加尔",
+      "stadium": "大都会人寿体育场",
+      "city": "New York/New Jersey",
+      "country": "United States"
+    },
+    {
+      "id": 42,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "I",
+      "date": "2026-06-22",
+      "beijing_time": "2026-06-22 17:00",
+      "home": "法国",
+      "away": "伊拉克",
+      "stadium": "林肯金融体育场",
+      "city": "Philadelphia",
+      "country": "United States"
+    },
+    {
+      "id": 43,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "J",
+      "date": "2026-06-22",
+      "beijing_time": "2026-06-22 12:00",
+      "home": "阿根廷",
+      "away": "奥地利",
+      "stadium": "AT&T体育场",
+      "city": "Dallas",
+      "country": "United States"
+    },
+    {
+      "id": 44,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "J",
+      "date": "2026-06-22",
+      "beijing_time": "2026-06-22 20:00",
+      "home": "约旦",
+      "away": "阿尔及利亚",
+      "stadium": "李维斯体育场",
+      "city": "San Francisco Bay Area",
+      "country": "United States"
+    },
+    {
+      "id": 45,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "L",
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 16:00",
+      "home": "英格兰",
+      "away": "加纳",
+      "stadium": "吉列体育场",
+      "city": "Boston",
+      "country": "United States"
+    },
+    {
+      "id": 46,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "L",
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 19:00",
+      "home": "巴拿马",
+      "away": "克罗地亚",
+      "stadium": "BMO体育场",
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    {
+      "id": 47,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "K",
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 12:00",
+      "home": "葡萄牙",
+      "away": "乌兹别克斯坦",
+      "stadium": "NRG体育场",
+      "city": "Houston",
+      "country": "United States"
+    },
+    {
+      "id": 48,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "K",
+      "date": "2026-06-23",
+      "beijing_time": "2026-06-23 20:00",
+      "home": "哥伦比亚",
+      "away": "刚果民主共和国",
+      "stadium": "阿克伦体育场",
+      "city": "Guadalajara",
+      "country": "Mexico"
+    },
+    {
+      "id": 49,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "C",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 18:00",
+      "home": "苏格兰",
+      "away": "巴西",
+      "stadium": "硬石体育场",
+      "city": "Miami",
+      "country": "United States"
+    },
+    {
+      "id": 50,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "C",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 18:00",
+      "home": "摩洛哥",
+      "away": "海地",
+      "stadium": "梅赛德斯-奔驰体育场",
+      "city": "Atlanta",
+      "country": "United States"
+    },
+    {
+      "id": 51,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "B",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 12:00",
+      "home": "瑞士",
+      "away": "加拿大",
+      "stadium": "BC体育场",
+      "city": "Vancouver",
+      "country": "Canada"
+    },
+    {
+      "id": 52,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "B",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 12:00",
+      "home": "波黑",
+      "away": "卡塔尔",
+      "stadium": "流明体育场",
+      "city": "Seattle",
+      "country": "United States"
+    },
+    {
+      "id": 53,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "A",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 19:00",
+      "home": "捷克",
+      "away": "墨西哥",
+      "stadium": "阿兹特克体育场",
+      "city": "Mexico City",
+      "country": "Mexico"
+    },
+    {
+      "id": 54,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "A",
+      "date": "2026-06-24",
+      "beijing_time": "2026-06-24 19:00",
+      "home": "南非",
+      "away": "韩国",
+      "stadium": "BBVA体育场",
+      "city": "Monterrey",
+      "country": "Mexico"
+    },
+    {
+      "id": 55,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "E",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 16:00",
+      "home": "库拉索",
+      "away": "科特迪瓦",
+      "stadium": "林肯金融体育场",
+      "city": "Philadelphia",
+      "country": "United States"
+    },
+    {
+      "id": 56,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "E",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 16:00",
+      "home": "厄瓜多尔",
+      "away": "德国",
+      "stadium": "大都会人寿体育场",
+      "city": "New York/New Jersey",
+      "country": "United States"
+    },
+    {
+      "id": 57,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "F",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 18:00",
+      "home": "日本",
+      "away": "瑞典",
+      "stadium": "AT&T体育场",
+      "city": "Dallas",
+      "country": "United States"
+    },
+    {
+      "id": 58,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "F",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 18:00",
+      "home": "突尼斯",
+      "away": "荷兰",
+      "stadium": "箭头体育场",
+      "city": "Kansas City",
+      "country": "United States"
+    },
+    {
+      "id": 59,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "D",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 19:00",
+      "home": "土耳其",
+      "away": "美国",
+      "stadium": "SoFi体育场",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 60,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "D",
+      "date": "2026-06-25",
+      "beijing_time": "2026-06-25 19:00",
+      "home": "巴拉圭",
+      "away": "澳大利亚",
+      "stadium": "李维斯体育场",
+      "city": "San Francisco Bay Area",
+      "country": "United States"
+    },
+    {
+      "id": 61,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "I",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 15:00",
+      "home": "挪威",
+      "away": "法国",
+      "stadium": "吉列体育场",
+      "city": "Boston",
+      "country": "United States"
+    },
+    {
+      "id": 62,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "I",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 15:00",
+      "home": "塞内加尔",
+      "away": "伊拉克",
+      "stadium": "BMO体育场",
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    {
+      "id": 63,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "G",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 20:00",
+      "home": "埃及",
+      "away": "伊朗",
+      "stadium": "流明体育场",
+      "city": "Seattle",
+      "country": "United States"
+    },
+    {
+      "id": 64,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "G",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 20:00",
+      "home": "新西兰",
+      "away": "比利时",
+      "stadium": "BC体育场",
+      "city": "Vancouver",
+      "country": "Canada"
+    },
+    {
+      "id": 65,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "H",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 19:00",
+      "home": "佛得角",
+      "away": "沙特阿拉伯",
+      "stadium": "NRG体育场",
+      "city": "Houston",
+      "country": "United States"
+    },
+    {
+      "id": 66,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "H",
+      "date": "2026-06-26",
+      "beijing_time": "2026-06-26 18:00",
+      "home": "乌拉圭",
+      "away": "西班牙",
+      "stadium": "阿克伦体育场",
+      "city": "Guadalajara",
+      "country": "Mexico"
+    },
+    {
+      "id": 67,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "L",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 17:00",
+      "home": "巴拿马",
+      "away": "英格兰",
+      "stadium": "大都会人寿体育场",
+      "city": "New York/New Jersey",
+      "country": "United States"
+    },
+    {
+      "id": 68,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "L",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 17:00",
+      "home": "克罗地亚",
+      "away": "加纳",
+      "stadium": "林肯金融体育场",
+      "city": "Philadelphia",
+      "country": "United States"
+    },
+    {
+      "id": 69,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "J",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 21:00",
+      "home": "阿尔及利亚",
+      "away": "奥地利",
+      "stadium": "箭头体育场",
+      "city": "Kansas City",
+      "country": "United States"
+    },
+    {
+      "id": 70,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "J",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 21:00",
+      "home": "约旦",
+      "away": "阿根廷",
+      "stadium": "AT&T体育场",
+      "city": "Dallas",
+      "country": "United States"
+    },
+    {
+      "id": 71,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "K",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 19:30",
+      "home": "哥伦比亚",
+      "away": "葡萄牙",
+      "stadium": "硬石体育场",
+      "city": "Miami",
+      "country": "United States"
+    },
+    {
+      "id": 72,
+      "stage": "group",
+      "stage_label": "小组赛",
+      "group": "K",
+      "date": "2026-06-27",
+      "beijing_time": "2026-06-27 19:30",
+      "home": "刚果民主共和国",
+      "away": "乌兹别克斯坦",
+      "stadium": "梅赛德斯-奔驰体育场",
+      "city": "Atlanta",
+      "country": "United States"
+    },
+    {
+      "id": 73,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-06-28",
+      "beijing_time": "2026-06-28 12:00",
+      "home": "A组第二",
+      "away": "B组第二",
+      "stadium": "SoFi体育场",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 74,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-06-29",
+      "beijing_time": "2026-06-29 16:30",
+      "home": "E组第一",
+      "away": "Group A/B/C/D/F 3rd Place",
+      "stadium": "吉列体育场",
+      "city": "Boston",
+      "country": "United States"
+    },
+    {
+      "id": 75,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-06-29",
+      "beijing_time": "2026-06-29 19:00",
+      "home": "F组第一",
+      "away": "C组第二",
+      "stadium": "BBVA体育场",
+      "city": "Monterrey",
+      "country": "Mexico"
+    },
+    {
+      "id": 76,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-06-29",
+      "beijing_time": "2026-06-29 12:00",
+      "home": "C组第一",
+      "away": "F组第二",
+      "stadium": "NRG体育场",
+      "city": "Houston",
+      "country": "United States"
+    },
+    {
+      "id": 77,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-06-30",
+      "beijing_time": "2026-06-30 17:00",
+      "home": "I组第一",
+      "away": "Group C/D/F/G/H 3rd Place",
+      "stadium": "大都会人寿体育场",
+      "city": "New York/New Jersey",
+      "country": "United States"
+    },
+    {
+      "id": 78,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-06-30",
+      "beijing_time": "2026-06-30 12:00",
+      "home": "E组第二",
+      "away": "I组第二",
+      "stadium": "AT&T体育场",
+      "city": "Dallas",
+      "country": "United States"
+    },
+    {
+      "id": 79,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-06-30",
+      "beijing_time": "2026-06-30 19:00",
+      "home": "A组第一",
+      "away": "Group C/E/F/H/I 3rd Place",
+      "stadium": "阿兹特克体育场",
+      "city": "Mexico City",
+      "country": "Mexico"
+    },
+    {
+      "id": 80,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-07-01",
+      "beijing_time": "2026-07-01 12:00",
+      "home": "L组第一",
+      "away": "Group E/H/I/J/K 3rd Place",
+      "stadium": "梅赛德斯-奔驰体育场",
+      "city": "Atlanta",
+      "country": "United States"
+    },
+    {
+      "id": 81,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-07-01",
+      "beijing_time": "2026-07-01 17:00",
+      "home": "D组第一",
+      "away": "Group B/E/F/I/J 3rd Place",
+      "stadium": "李维斯体育场",
+      "city": "San Francisco Bay Area",
+      "country": "United States"
+    },
+    {
+      "id": 82,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-07-01",
+      "beijing_time": "2026-07-01 13:00",
+      "home": "G组第一",
+      "away": "Group A/E/H/I/J 3rd Place",
+      "stadium": "流明体育场",
+      "city": "Seattle",
+      "country": "United States"
+    },
+    {
+      "id": 83,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-07-02",
+      "beijing_time": "2026-07-02 19:00",
+      "home": "K组第二",
+      "away": "L组第二",
+      "stadium": "BMO体育场",
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    {
+      "id": 84,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-07-02",
+      "beijing_time": "2026-07-02 12:00",
+      "home": "H组第一",
+      "away": "J组第二",
+      "stadium": "SoFi体育场",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 85,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-07-02",
+      "beijing_time": "2026-07-02 20:00",
+      "home": "B组第一",
+      "away": "Group E/F/G/I/J 3rd Place",
+      "stadium": "BC体育场",
+      "city": "Vancouver",
+      "country": "Canada"
+    },
+    {
+      "id": 86,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-07-03",
+      "beijing_time": "2026-07-03 18:00",
+      "home": "J组第一",
+      "away": "H组第二",
+      "stadium": "硬石体育场",
+      "city": "Miami",
+      "country": "United States"
+    },
+    {
+      "id": 87,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-07-03",
+      "beijing_time": "2026-07-03 20:30",
+      "home": "K组第一",
+      "away": "Group D/E/I/J/L 3rd Place",
+      "stadium": "箭头体育场",
+      "city": "Kansas City",
+      "country": "United States"
+    },
+    {
+      "id": 88,
+      "stage": "round_of_32",
+      "stage_label": "三十二强赛",
+      "group": null,
+      "date": "2026-07-03",
+      "beijing_time": "2026-07-03 13:00",
+      "home": "D组第二",
+      "away": "G组第二",
+      "stadium": "AT&T体育场",
+      "city": "Dallas",
+      "country": "United States"
+    },
+    {
+      "id": 89,
+      "stage": "round_of_16",
+      "stage_label": "十六强赛",
+      "group": null,
+      "date": "2026-07-04",
+      "beijing_time": "2026-07-04 17:00",
+      "home": "Match 74 胜者",
+      "away": "Match 77 胜者",
+      "stadium": "林肯金融体育场",
+      "city": "Philadelphia",
+      "country": "United States"
+    },
+    {
+      "id": 90,
+      "stage": "round_of_16",
+      "stage_label": "十六强赛",
+      "group": null,
+      "date": "2026-07-04",
+      "beijing_time": "2026-07-04 12:00",
+      "home": "Match 73 胜者",
+      "away": "Match 75 胜者",
+      "stadium": "NRG体育场",
+      "city": "Houston",
+      "country": "United States"
+    },
+    {
+      "id": 91,
+      "stage": "round_of_16",
+      "stage_label": "十六强赛",
+      "group": null,
+      "date": "2026-07-05",
+      "beijing_time": "2026-07-05 16:00",
+      "home": "Match 76 胜者",
+      "away": "Match 78 胜者",
+      "stadium": "大都会人寿体育场",
+      "city": "New York/New Jersey",
+      "country": "United States"
+    },
+    {
+      "id": 92,
+      "stage": "round_of_16",
+      "stage_label": "十六强赛",
+      "group": null,
+      "date": "2026-07-05",
+      "beijing_time": "2026-07-05 18:00",
+      "home": "Match 79 胜者",
+      "away": "Match 80 胜者",
+      "stadium": "阿兹特克体育场",
+      "city": "Mexico City",
+      "country": "Mexico"
+    },
+    {
+      "id": 93,
+      "stage": "round_of_16",
+      "stage_label": "十六强赛",
+      "group": null,
+      "date": "2026-07-06",
+      "beijing_time": "2026-07-06 14:00",
+      "home": "Match 83 胜者",
+      "away": "Match 84 胜者",
+      "stadium": "AT&T体育场",
+      "city": "Dallas",
+      "country": "United States"
+    },
+    {
+      "id": 94,
+      "stage": "round_of_16",
+      "stage_label": "十六强赛",
+      "group": null,
+      "date": "2026-07-06",
+      "beijing_time": "2026-07-06 17:00",
+      "home": "Match 81 胜者",
+      "away": "Match 82 胜者",
+      "stadium": "流明体育场",
+      "city": "Seattle",
+      "country": "United States"
+    },
+    {
+      "id": 95,
+      "stage": "round_of_16",
+      "stage_label": "十六强赛",
+      "group": null,
+      "date": "2026-07-07",
+      "beijing_time": "2026-07-07 12:00",
+      "home": "Match 86 胜者",
+      "away": "Match 88 胜者",
+      "stadium": "梅赛德斯-奔驰体育场",
+      "city": "Atlanta",
+      "country": "United States"
+    },
+    {
+      "id": 96,
+      "stage": "round_of_16",
+      "stage_label": "十六强赛",
+      "group": null,
+      "date": "2026-07-07",
+      "beijing_time": "2026-07-07 13:00",
+      "home": "Match 85 胜者",
+      "away": "Match 87 胜者",
+      "stadium": "BC体育场",
+      "city": "Vancouver",
+      "country": "Canada"
+    },
+    {
+      "id": 97,
+      "stage": "quarter_finals",
+      "stage_label": "四分之一决赛",
+      "group": null,
+      "date": "2026-07-09",
+      "beijing_time": "2026-07-09 16:00",
+      "home": "Match 89 胜者",
+      "away": "Match 90 胜者",
+      "stadium": "吉列体育场",
+      "city": "Boston",
+      "country": "United States"
+    },
+    {
+      "id": 98,
+      "stage": "quarter_finals",
+      "stage_label": "四分之一决赛",
+      "group": null,
+      "date": "2026-07-10",
+      "beijing_time": "2026-07-10 12:00",
+      "home": "Match 93 胜者",
+      "away": "Match 94 胜者",
+      "stadium": "SoFi体育场",
+      "city": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "id": 99,
+      "stage": "quarter_finals",
+      "stage_label": "四分之一决赛",
+      "group": null,
+      "date": "2026-07-11",
+      "beijing_time": "2026-07-11 17:00",
+      "home": "Match 91 胜者",
+      "away": "Match 92 胜者",
+      "stadium": "硬石体育场",
+      "city": "Miami",
+      "country": "United States"
+    },
+    {
+      "id": 100,
+      "stage": "quarter_finals",
+      "stage_label": "四分之一决赛",
+      "group": null,
+      "date": "2026-07-11",
+      "beijing_time": "2026-07-11 20:00",
+      "home": "Match 95 胜者",
+      "away": "Match 96 胜者",
+      "stadium": "箭头体育场",
+      "city": "Kansas City",
+      "country": "United States"
+    },
+    {
+      "id": 101,
+      "stage": "semi_finals",
+      "stage_label": "半决赛",
+      "group": null,
+      "date": "2026-07-14",
+      "beijing_time": "2026-07-14 14:00",
+      "home": "Match 97 胜者",
+      "away": "Match 98 胜者",
+      "stadium": "AT&T体育场",
+      "city": "Dallas",
+      "country": "United States"
+    },
+    {
+      "id": 102,
+      "stage": "semi_finals",
+      "stage_label": "半决赛",
+      "group": null,
+      "date": "2026-07-15",
+      "beijing_time": "2026-07-15 15:00",
+      "home": "Match 99 胜者",
+      "away": "Match 100 胜者",
+      "stadium": "梅赛德斯-奔驰体育场",
+      "city": "Atlanta",
+      "country": "United States"
+    },
+    {
+      "id": 103,
+      "stage": "third_place",
+      "stage_label": "季军赛",
+      "group": null,
+      "date": "2026-07-18",
+      "beijing_time": "2026-07-18 17:00",
+      "home": "Match 101 败者",
+      "away": "Match 102 败者",
+      "stadium": "硬石体育场",
+      "city": "Miami",
+      "country": "United States"
+    },
+    {
+      "id": 104,
+      "stage": "final",
+      "stage_label": "决赛",
+      "group": null,
+      "date": "2026-07-19",
+      "beijing_time": "2026-07-19 15:00",
+      "home": "Match 101 胜者",
+      "away": "Match 102 胜者",
+      "stadium": "大都会人寿体育场",
+      "city": "New York/New Jersey",
+      "country": "United States"
+    }
+  ],
+  "knockout_stages": [
+    {
+      "id": "round_of_32",
+      "label": "三十二强赛",
+      "count": 16
+    },
+    {
+      "id": "round_of_16",
+      "label": "十六强赛",
+      "count": 8
+    },
+    {
+      "id": "quarter_finals",
+      "label": "四分之一决赛",
+      "count": 4
+    },
+    {
+      "id": "semi_finals",
+      "label": "半决赛",
+      "count": 2
+    },
+    {
+      "id": "third_place",
+      "label": "季军赛",
+      "count": 1
+    },
+    {
+      "id": "final",
+      "label": "决赛",
+      "count": 1
     }
   ]
 }

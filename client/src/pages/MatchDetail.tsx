@@ -8,17 +8,17 @@ import { useLocation, useRoute } from "wouter";
 
 const teamToCountryCode: Record<string, string> = {
   "墨西哥": "mx", "南非": "za", "韩国": "kr", "捷克": "cz",
-  "加拿大": "ca", "瑞士": "ch", "卡塔尔": "qa", "波黑": "ba",
-  "巴西": "br", "摩洛哥": "ma", "苏格兰": "gb-sct", "海地": "ht",
-  "美国": "us", "巴拉圭": "py", "澳大利亚": "au", "乌拉圭": "uy",
-  "德国": "de", "库拉索": "cw", "科特迪瓦": "ci", "厄瓜多尔": "ec",
-  "荷兰": "nl", "日本": "jp", "突尼斯": "tn", "乌兹别克斯坦": "uz",
-  "比利时": "be", "埃及": "eg", "伊朗": "ir", "新西兰": "nz",
-  "西班牙": "es", "沙特阿拉伯": "sa", "圣文森特和格林纳丁斯": "vc",
-  "法国": "fr", "塞内加尔": "sn", "挪威": "no", "欧洲附加赛2": "eu",
+  "加拿大": "ca", "波黑": "ba", "卡塔尔": "qa", "瑞士": "ch",
+  "美国": "us", "巴拉圭": "py", "海地": "ht", "苏格兰": "gb-sct",
+  "澳大利亚": "au", "土耳其": "tr", "巴西": "br", "摩洛哥": "ma",
+  "科特迪瓦": "ci", "厄瓜多尔": "ec", "德国": "de", "库拉索": "cw",
+  "荷兰": "nl", "日本": "jp", "瑞典": "se", "突尼斯": "tn",
+  "沙特阿拉伯": "sa", "乌拉圭": "uy", "西班牙": "es", "佛得角": "cv",
+  "伊朗": "ir", "新西兰": "nz", "比利时": "be", "埃及": "eg",
+  "法国": "fr", "塞内加尔": "sn", "伊拉克": "iq", "挪威": "no",
   "阿根廷": "ar", "阿尔及利亚": "dz", "奥地利": "at", "约旦": "jo",
-  "葡萄牙": "pt", "哥伦比亚": "co", "欧洲附加赛1": "eu",
-  "英格兰": "gb-eng", "克罗地亚": "hr", "加纳": "gh", "巴拿马": "pa",
+  "加纳": "gh", "巴拿马": "pa", "英格兰": "gb-eng", "克罗地亚": "hr",
+  "葡萄牙": "pt", "刚果民主共和国": "cd", "乌兹别克斯坦": "uz", "哥伦比亚": "co",
 };
 
 function getFlagUrl(teamName: string): string {
@@ -43,19 +43,25 @@ interface Match {
   id: number;
   date: string;
   beijing_time: string;
-  group: string;
+  group?: string;
   home: string;
   away: string;
   stadium: string;
+  stage: string;
+  stage_label: string;
+  city?: string;
+  country?: string;
 }
 
 interface ScheduleData {
-  group_stage_matches: Match[];
+  all_matches: Match[];
 }
 
 interface TeamsData {
   teams: Record<string, TeamStats>;
 }
+
+const isRealTeam = (name: string) => teamToCountryCode[name] !== undefined;
 
 export default function MatchDetail() {
   const [, params] = useRoute("/match/:matchId");
@@ -65,6 +71,7 @@ export default function MatchDetail() {
   const [awayTeam, setAwayTeam] = useState<TeamStats | null>(null);
   const [teamRanks, setTeamRanks] = useState<Record<string, number>>({});
   const [loading, setLoading] = useState(true);
+  const [isKnockout, setIsKnockout] = useState(false);
 
   useEffect(() => {
     const loadData = async () => {
@@ -79,21 +86,24 @@ export default function MatchDetail() {
         const teamsData: TeamsData = await teamsRes.json();
         const cupData = await cupDataRes.json();
 
-        // Build team rank lookup from top_teams
         const ranks: Record<string, number> = {};
         for (const team of cupData.top_teams) {
           ranks[team.name] = team.rank;
         }
         setTeamRanks(ranks);
 
-        const foundMatch = scheduleData.group_stage_matches.find(
+        const foundMatch = scheduleData.all_matches?.find(
           (m) => m.id === parseInt(params?.matchId || "0")
         );
         setMatch(foundMatch || null);
 
         if (foundMatch) {
-          setHomeTeam(teamsData.teams[foundMatch.home] || null);
-          setAwayTeam(teamsData.teams[foundMatch.away] || null);
+          const isKO = foundMatch.stage !== "group";
+          setIsKnockout(isKO);
+          if (!isKO) {
+            setHomeTeam(teamsData.teams[foundMatch.home] || null);
+            setAwayTeam(teamsData.teams[foundMatch.away] || null);
+          }
         }
       } catch (error) {
         console.error("Failed to load match data:", error);
@@ -105,10 +115,51 @@ export default function MatchDetail() {
     loadData();
   }, [params?.matchId]);
 
-  if (loading || !match || !homeTeam || !awayTeam) {
+  if (loading || !match) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <p className="text-lg text-muted-foreground">加载比赛数据中...</p>
+      </div>
+    );
+  }
+
+  if (isKnockout) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900">
+        <header className="border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 shadow-sm sticky top-0 z-50">
+          <div className="container py-4 flex items-center gap-4">
+            <Button variant="ghost" size="icon" onClick={() => navigate("/schedule")}>
+              <ArrowLeft className="w-5 h-5" />
+            </Button>
+            <div>
+              <h1 className="text-2xl font-bold text-slate-900 dark:text-white">{match.stage_label}</h1>
+              <p className="text-sm text-slate-600 dark:text-slate-400">{match.beijing_time} (北京时间) - {match.stadium}</p>
+            </div>
+          </div>
+        </header>
+        <main className="container py-8">
+          <Card>
+            <CardContent className="pt-8">
+              <div className="text-center space-y-6">
+                <p className="text-lg text-slate-500 dark:text-slate-400">淘汰赛对阵（待小组赛结束后确定）</p>
+                <div className="flex items-center justify-center gap-8 py-8">
+                  <div className="text-xl font-bold text-slate-900 dark:text-white px-6 py-4 bg-blue-50 dark:bg-blue-950 rounded-lg">{match.home}</div>
+                  <div className="text-3xl font-bold text-slate-400">VS</div>
+                  <div className="text-xl font-bold text-slate-900 dark:text-white px-6 py-4 bg-orange-50 dark:bg-orange-950 rounded-lg">{match.away}</div>
+                </div>
+                <Badge variant="secondary" className="text-sm px-4 py-2">{match.stadium}</Badge>
+              </div>
+            </CardContent>
+          </Card>
+        </main>
+      </div>
+    );
+  }
+
+  if (!homeTeam || !awayTeam) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-lg text-muted-foreground">加载球队数据中...</p>
       </div>
     );
   }

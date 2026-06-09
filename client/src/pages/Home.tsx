@@ -7,17 +7,17 @@ import { useLocation } from "wouter";
 
 const teamToCountryCode: Record<string, string> = {
   "墨西哥": "mx", "南非": "za", "韩国": "kr", "捷克": "cz",
-  "加拿大": "ca", "瑞士": "ch", "卡塔尔": "qa", "波黑": "ba",
-  "巴西": "br", "摩洛哥": "ma", "苏格兰": "gb-sct", "海地": "ht",
-  "美国": "us", "巴拉圭": "py", "澳大利亚": "au", "乌拉圭": "uy",
-  "德国": "de", "库拉索": "cw", "科特迪瓦": "ci", "厄瓜多尔": "ec",
-  "荷兰": "nl", "日本": "jp", "突尼斯": "tn", "乌兹别克斯坦": "uz",
-  "比利时": "be", "埃及": "eg", "伊朗": "ir", "新西兰": "nz",
-  "西班牙": "es", "沙特阿拉伯": "sa", "圣文森特和格林纳丁斯": "vc",
-  "法国": "fr", "塞内加尔": "sn", "挪威": "no", "欧洲附加赛2": "eu",
+  "加拿大": "ca", "波黑": "ba", "卡塔尔": "qa", "瑞士": "ch",
+  "美国": "us", "巴拉圭": "py", "海地": "ht", "苏格兰": "gb-sct",
+  "澳大利亚": "au", "土耳其": "tr", "巴西": "br", "摩洛哥": "ma",
+  "科特迪瓦": "ci", "厄瓜多尔": "ec", "德国": "de", "库拉索": "cw",
+  "荷兰": "nl", "日本": "jp", "瑞典": "se", "突尼斯": "tn",
+  "沙特阿拉伯": "sa", "乌拉圭": "uy", "西班牙": "es", "佛得角": "cv",
+  "伊朗": "ir", "新西兰": "nz", "比利时": "be", "埃及": "eg",
+  "法国": "fr", "塞内加尔": "sn", "伊拉克": "iq", "挪威": "no",
   "阿根廷": "ar", "阿尔及利亚": "dz", "奥地利": "at", "约旦": "jo",
-  "葡萄牙": "pt", "哥伦比亚": "co", "欧洲附加赛1": "eu",
-  "英格兰": "gb-eng", "克罗地亚": "hr", "加纳": "gh", "巴拿马": "pa",
+  "加纳": "gh", "巴拿马": "pa", "英格兰": "gb-eng", "克罗地亚": "hr",
+  "葡萄牙": "pt", "刚果民主共和国": "cd", "乌兹别克斯坦": "uz", "哥伦比亚": "co",
 };
 
 function getFlagUrl(teamName: string): string {
@@ -102,13 +102,7 @@ export default function Home() {
             <Calendar className="w-5 h-5" />
             查看完整赛程与比赛预测
           </button>
-          <button
-            onClick={() => navigate("/simulator")}
-            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-semibold rounded-lg transition shadow-lg"
-          >
-            <Target className="w-5 h-5" />
-            小组出线模拟器
-          </button>
+
         </div>
 
         {/* Key Metrics */}
@@ -172,21 +166,21 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
-                  {teamsData.map((team) => (
+                    {teamsData.map((team) => (
                     <div key={team.rank} className="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-800 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition cursor-pointer" onClick={() => navigate(`/team/${encodeURIComponent(team.name)}`)}>
-                      <div className="flex items-center gap-4 flex-1">
-                        <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-white font-bold text-sm">
+                      <div className="flex items-center gap-4">
+                        <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-white font-bold text-sm shrink-0">
                           {team.rank}
                         </div>
-                        <img src={getFlagUrl(team.name)} alt={team.name} className="w-6 h-4 rounded" />
-                        <div className="flex-1">
+                        <img src={getFlagUrl(team.name)} alt={team.name} className="w-6 h-4 rounded shrink-0" />
+                        <div>
                           <p className="font-semibold text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">{team.name}</p>
-                          <p className="text-xs text-slate-500 dark:text-slate-400">综合排名: 第{team.rank}位 | 身价: {(team.squad_value / 100000000).toFixed(1)}亿美元</p>
+                          <p className="text-xs text-slate-500 dark:text-slate-400">{team.confederation}</p>
                         </div>
                       </div>
                       <div className="text-right">
-                        <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">{team.overall_score.toFixed(2)}</div>
-                        <Badge variant="outline" className="mt-1">{team.confederation}</Badge>
+                        <div className="text-sm font-bold text-slate-900 dark:text-white">第{team.rank}位</div>
+                        <p className="text-xs text-slate-500 dark:text-slate-400">${(team.squad_value / 100000000).toFixed(1)}亿</p>
                       </div>
                     </div>
                   ))}

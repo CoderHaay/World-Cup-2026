@@ -1,0 +1,23 @@
+[
+  {
+    "match_id": 1,
+    "home_score": 2,
+    "away_score": 1,
+    "status": "finished",
+    "finished_at": "2026-06-11T06:00:00Z"
+  },
+  {
+    "match_id": 2,
+    "home_score": 1,
+    "away_score": 1,
+    "status": "finished",
+    "finished_at": "2026-06-11T09:00:00Z"
+  },
+  {
+    "match_id": 3,
+    "home_score": 0,
+    "away_score": 3,
+    "status": "finished",
+    "finished_at": "2026-06-12T03:00:00Z"
+  }
+]

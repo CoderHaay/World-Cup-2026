@@ -1,4 +1,24 @@
+项目使用 pnpm 作为包管理器。运行步骤：
+
+# 1. 安装依赖
+pnpm install
+
+# 2. 启动开发服务器
+pnpm dev
+开发服务器会在 http://localhost:5173 启动（Vite 默认端口）。
+
+其他常用命令：
+
+pnpm build - 生产构建
+pnpm start - 运行生产构建
+pnpm preview - 预览构建结果
+pnpm check - TypeScript 类型检查
+pnpm format - 代码格式化
+
+
 # Web App Template (Static Frontend)
+
+
 
 Pure React 19 + Tailwind 4 template with shadcn/ui baked in. **Use this README as the checklist for shipping static experiences.**
 
