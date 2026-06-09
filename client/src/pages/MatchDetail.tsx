@@ -167,7 +167,7 @@ export default function MatchDetail() {
     {
       name: "伤病状况",
       [match.home]: homeTeam.injury_status,
-      客队: awayTeam.injury_status,
+      [match.away]: awayTeam.injury_status,
     },
   ];
 
