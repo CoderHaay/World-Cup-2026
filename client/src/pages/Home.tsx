@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
-import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
 import { Trophy, TrendingUp, Users, Target, Calendar } from "lucide-react";
 import { useLocation } from "wouter";
 
@@ -37,22 +36,8 @@ interface TeamData {
   confederation: string;
 }
 
-  interface PredictionData {
-  match_id: number;
-  group: string;
-  date: string;
-  beijing_time: string;
-  home_team: string;
-  away_team: string;
-  home_win_probability: number;
-  away_win_probability: number;
-  prediction: string;
-  confidence: number;
-}
-
 export default function Home() {
   const [teamsData, setTeamsData] = useState<TeamData[]>([]);
-  const [predictions, setPredictions] = useState<PredictionData[]>([]);
   const [loading, setLoading] = useState(true);
   const [, navigate] = useLocation();
 
@@ -62,7 +47,6 @@ export default function Home() {
         const response = await fetch('/data/world-cup-data.json');
         const data = await response.json();
         setTeamsData(data.top_teams);
-        setPredictions(data.sample_predictions);
       } catch (error) {
         console.error('Failed to load data:', error);
       } finally {
@@ -83,20 +67,6 @@ export default function Home() {
       </div>
     );
   }
-
-  // Group predictions by group letter
-  const groupedPredictions: Record<string, PredictionData[]> = {};
-  predictions.forEach(p => {
-    if (!groupedPredictions[p.group]) groupedPredictions[p.group] = [];
-    groupedPredictions[p.group].push(p);
-  });
-  const groupKeys = Object.keys(groupedPredictions).sort();
-
-  // 准备图表数据 - 只显示前15支球队以保持图表清晰
-  const scoreChartData = teamsData.slice(0, 15).map(team => ({
-    name: team.name,
-    score: team.overall_score
-  }));
 
   const confederationData = [
     { name: 'UEFA', value: 16, color: '#3b82f6' },
@@ -186,9 +156,8 @@ export default function Home() {
 
         {/* Tabs */}
         <Tabs defaultValue="rankings" className="w-full">
-          <TabsList className="grid w-full grid-cols-3 mb-6">
+          <TabsList className="grid w-full grid-cols-2 mb-6">
             <TabsTrigger value="rankings">球队排名</TabsTrigger>
-            <TabsTrigger value="predictions">比赛预测</TabsTrigger>
             <TabsTrigger value="methodology">算法说明</TabsTrigger>
           </TabsList>
 
@@ -218,87 +187,6 @@ export default function Home() {
                       <div className="text-right">
                         <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">{team.overall_score.toFixed(2)}</div>
                         <Badge variant="outline" className="mt-1">{team.confederation}</Badge>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>综合评分分布 (前15支球队)</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ResponsiveContainer width="100%" height={300}>
-                  <BarChart data={scoreChartData}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" angle={-45} textAnchor="end" height={80} />
-                    <YAxis />
-                    <Tooltip />
-                    <Bar dataKey="score" fill="#3b82f6" radius={[8, 8, 0, 0]} />
-                  </BarChart>
-                </ResponsiveContainer>
-              </CardContent>
-            </Card>
-          </TabsContent>
-
-          {/* Predictions Tab */}
-          <TabsContent value="predictions" className="space-y-6">
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Target className="w-5 h-5" />
-                  小组赛预测（共55场）
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-8">
-                  {groupKeys.map((group) => (
-                    <div key={group}>
-                      <h3 className="text-lg font-bold text-slate-800 dark:text-slate-200 mb-3 border-b pb-2">
-                        {group}组
-                      </h3>
-                      <div className="space-y-3">
-                        {groupedPredictions[group].map((pred) => (
-                          <div
-                            key={pred.match_id}
-                            className="p-4 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800/50 transition cursor-pointer"
-                            onClick={() => navigate(`/match/${pred.match_id}`)}
-                          >
-                            <div className="flex items-center justify-between mb-2">
-                              <p className="text-xs text-slate-500 dark:text-slate-400">
-                                {pred.beijing_time?.replace(" ", " ")}
-                              </p>
-                              <Badge className={pred.home_win_probability >= pred.away_win_probability ? "bg-blue-500" : "bg-orange-500"}>
-                                {pred.home_win_probability >= pred.away_win_probability ? pred.home_team : pred.away_team}胜
-                              </Badge>
-                            </div>
-                            <div className="flex items-center justify-between mb-2">
-                              <div className="flex items-center gap-4 flex-1">
-                                <div className="text-right flex-1">
-                                  <p className="font-semibold text-slate-900 dark:text-white">{pred.home_team}</p>
-                                  <p className="text-sm text-blue-600 dark:text-blue-400 font-medium">{pred.home_win_probability}%</p>
-                                </div>
-                                <div className="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 rounded font-semibold text-sm">VS</div>
-                                <div className="flex-1">
-                                  <p className="font-semibold text-slate-900 dark:text-white">{pred.away_team}</p>
-                                  <p className="text-sm text-orange-600 dark:text-orange-400 font-medium">{pred.away_win_probability}%</p>
-                                </div>
-                              </div>
-                              <div className="ml-4 text-right">
-                                <p className="text-xs text-slate-500 dark:text-slate-400">置信度: {pred.confidence}%</p>
-                              </div>
-                            </div>
-                            <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2.5 relative">
-                              <div
-                                className="absolute inset-y-0 left-0 bg-gradient-to-r from-blue-500 to-blue-600 h-2.5 rounded-full transition-all"
-                                style={{ width: `${pred.home_win_probability}%` }}
-                              />
-                            </div>
-                            <p className="text-xs text-slate-500 dark:text-slate-400 mt-2">{pred.prediction}</p>
-                          </div>
-                        ))}
                       </div>
                     </div>
                   ))}
