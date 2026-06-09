@@ -306,22 +306,22 @@ export default function MatchDetail() {
                       FIFA排名
                     </td>
                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
-                      #{teamRanks[homeTeam.name] || "-"}
+                      #{teamRanks[match.home] || "-"}
                     </td>
                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
-                      #{teamRanks[awayTeam.name] || "-"}
+                      #{teamRanks[match.away] || "-"}
                     </td>
                     <td className="py-3 px-4 text-center">
                       <Badge
                         variant={
-                          (teamRanks[homeTeam.name] ?? 99) < (teamRanks[awayTeam.name] ?? 99)
+                          (teamRanks[match.home] ?? 99) < (teamRanks[match.away] ?? 99)
                             ? "default"
                             : "secondary"
                         }
                       >
-                        {(teamRanks[homeTeam.name] ?? 99) < (teamRanks[awayTeam.name] ?? 99)
-                          ? homeTeam.name
-                          : awayTeam.name}
+                        {(teamRanks[match.home] ?? 99) < (teamRanks[match.away] ?? 99)
+                          ? match.home
+                          : match.away}
                       </Badge>
                     </td>
                   </tr>
