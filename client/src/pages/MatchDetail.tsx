@@ -131,22 +131,22 @@ export default function MatchDetail() {
   const comparisonData = [
     {
       name: "进攻能力",
-      主队: homeTeam.attack_strength,
-      客队: awayTeam.attack_strength,
+      [match.home]: homeTeam.attack_strength,
+      [match.away]: awayTeam.attack_strength,
     },
     {
       name: "防守稳定性",
-      主队: homeTeam.defense_strength,
-      客队: awayTeam.defense_strength,
+      [match.home]: homeTeam.defense_strength,
+      [match.away]: awayTeam.defense_strength,
     },
     {
       name: "中场控制",
-      主队: homeTeam.midfield_control,
-      客队: awayTeam.midfield_control,
+      [match.home]: homeTeam.midfield_control,
+      [match.away]: awayTeam.midfield_control,
     },
     {
       name: "伤病状况",
-      主队: homeTeam.injury_status,
+      [match.home]: homeTeam.injury_status,
       客队: awayTeam.injury_status,
     },
   ];
@@ -179,11 +179,11 @@ export default function MatchDetail() {
         <Card className="mb-8">
           <CardContent className="pt-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* 主队 */}
+              {/* 球队1 */}
               <div className="flex flex-col items-center">
-                <div className="text-2xl font-bold text-slate-900 dark:text-white mb-4">{homeTeam.flag} {homeTeam.name}</div>
+                <div className="text-2xl font-bold text-slate-900 dark:text-white mb-4">{homeTeam.flag} {match.home}</div>
                 <Badge variant="default" className="mb-4">
-                  {homeTeam.name}(主)
+                  {match.home}
                 </Badge>
                 <div className="text-center">
                   <p className="text-4xl font-bold text-blue-600 dark:text-blue-400">
@@ -203,11 +203,11 @@ export default function MatchDetail() {
                 <div className="w-full h-1 bg-gradient-to-r from-blue-500 to-orange-500 rounded-full"></div>
               </div>
 
-              {/* 客队 */}
+              {/* 球队2 */}
               <div className="flex flex-col items-center">
-                <div className="text-2xl font-bold text-slate-900 dark:text-white mb-4">{awayTeam.flag} {awayTeam.name}</div>
+                <div className="text-2xl font-bold text-slate-900 dark:text-white mb-4">{awayTeam.flag} {match.away}</div>
                 <Badge variant="secondary" className="mb-4">
-                  {awayTeam.name}(客)
+                  {match.away}
                 </Badge>
                 <div className="text-center">
                   <p className="text-4xl font-bold text-orange-600 dark:text-orange-400">
@@ -237,8 +237,8 @@ export default function MatchDetail() {
                   <YAxis />
                   <Tooltip />
                   <Legend />
-                  <Bar dataKey="主队" fill="#3b82f6" />
-                  <Bar dataKey="客队" fill="#f97316" />
+                  <Bar dataKey={match.home} fill="#3b82f6" />
+                  <Bar dataKey={match.away} fill="#f97316" />
                 </BarChart>
               </ResponsiveContainer>
             </CardContent>
@@ -290,10 +290,10 @@ export default function MatchDetail() {
                       指标
                     </th>
                     <th className="text-center py-3 px-4 font-semibold text-slate-900 dark:text-white">
-                      {homeTeam.name}
+                      {match.home}
                     </th>
                     <th className="text-center py-3 px-4 font-semibold text-slate-900 dark:text-white">
-                      {awayTeam.name}
+                      {match.away}
                     </th>
                   </tr>
                 </thead>
@@ -394,7 +394,7 @@ export default function MatchDetail() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
                   <p className="font-semibold text-blue-900 dark:text-blue-300 mb-2">
-                    {homeTeam.name} 获胜概率
+                    {match.home} 获胜概率
                   </p>
                   <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">
                     {homeWinProb}%
@@ -402,7 +402,7 @@ export default function MatchDetail() {
                 </div>
                 <div className="p-4 bg-orange-50 dark:bg-orange-900/20 rounded-lg border border-orange-200 dark:border-orange-800">
                   <p className="font-semibold text-orange-900 dark:text-orange-300 mb-2">
-                    {awayTeam.name} 获胜概率
+                    {match.away} 获胜概率
                   </p>
                   <p className="text-2xl font-bold text-orange-600 dark:text-orange-400">
                     {awayWinProb}%
@@ -410,7 +410,7 @@ export default function MatchDetail() {
                 </div>
               </div>
               <p className="text-sm text-slate-600 dark:text-slate-400 mt-4">
-                本预测基于FIFA排名(15%)、球队身价(15%)、预选赛成绩(15%)、核心球员实力(10%)、进攻能力(12%)、防守稳定性(12%)、中场控制(10%)、伤病状况(6%)和主客场优势(5%)等多个因素综合计算得出。
+                本预测基于FIFA排名(15%)、球队身价(15%)、预选赛成绩(15%)、核心球员实力(10%)、进攻能力(12%)、防守稳定性(12%)、中场控制(10%)、伤病状况(6%)等多个因素综合计算得出。
               </p>
             </div>
           </CardContent>
