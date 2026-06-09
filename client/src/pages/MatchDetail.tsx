@@ -43,20 +43,33 @@ export default function MatchDetail() {
   const [match, setMatch] = useState<Match | null>(null);
   const [homeTeam, setHomeTeam] = useState<TeamStats | null>(null);
   const [awayTeam, setAwayTeam] = useState<TeamStats | null>(null);
+  const [teamRanks, setTeamRanks] = useState<Record<string, number>>({});
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const loadData = async () => {
       try {
-        const scheduleRes = await fetch("/data/world-cup-schedule.json");
+        const [scheduleRes, teamsRes, cupDataRes] = await Promise.all([
+          fetch("/data/world-cup-schedule.json"),
+          fetch("/data/teams-data.json"),
+          fetch("/data/world-cup-data.json"),
+        ]);
+
         const scheduleData: ScheduleData = await scheduleRes.json();
+        const teamsData: TeamsData = await teamsRes.json();
+        const cupData = await cupDataRes.json();
+
+        // Build team rank lookup from top_teams
+        const ranks: Record<string, number> = {};
+        for (const team of cupData.top_teams) {
+          ranks[team.name] = team.rank;
+        }
+        setTeamRanks(ranks);
+
         const foundMatch = scheduleData.group_stage_matches.find(
           (m) => m.id === parseInt(params?.matchId || "0")
         );
         setMatch(foundMatch || null);
-
-        const teamsRes = await fetch("/data/teams-data.json");
-        const teamsData: TeamsData = await teamsRes.json();
 
         if (foundMatch) {
           setHomeTeam(teamsData.teams[foundMatch.home] || null);
@@ -108,9 +121,9 @@ export default function MatchDetail() {
       away: awayTeam.injury_status,
     },
     {
-      category: "FIFA排名",
-      home: Math.min(homeTeam.fifa_ranking / 10, 100),
-      away: Math.min(awayTeam.fifa_ranking / 10, 100),
+      category: "综合实力",
+      home: homeTeam.overall_score,
+      away: awayTeam.overall_score,
     },
   ];
 
@@ -293,20 +306,20 @@ export default function MatchDetail() {
                       FIFA排名
                     </td>
                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
-                      {homeTeam.fifa_ranking.toFixed(2)}
+                      #{teamRanks[homeTeam.name] || "-"}
                     </td>
                     <td className="py-3 px-4 text-center font-semibold text-slate-900 dark:text-white">
-                      {awayTeam.fifa_ranking.toFixed(2)}
+                      #{teamRanks[awayTeam.name] || "-"}
                     </td>
                     <td className="py-3 px-4 text-center">
                       <Badge
                         variant={
-                          homeTeam.fifa_ranking > awayTeam.fifa_ranking
+                          (teamRanks[homeTeam.name] ?? 99) < (teamRanks[awayTeam.name] ?? 99)
                             ? "default"
                             : "secondary"
                         }
                       >
-                        {homeTeam.fifa_ranking > awayTeam.fifa_ranking
+                        {(teamRanks[homeTeam.name] ?? 99) < (teamRanks[awayTeam.name] ?? 99)
                           ? homeTeam.name
                           : awayTeam.name}
                       </Badge>
