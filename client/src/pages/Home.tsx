@@ -6,6 +6,26 @@ import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, L
 import { Trophy, TrendingUp, Users, Target, Calendar } from "lucide-react";
 import { useLocation } from "wouter";
 
+const teamToCountryCode: Record<string, string> = {
+  "墨西哥": "mx", "南非": "za", "韩国": "kr", "捷克": "cz",
+  "加拿大": "ca", "瑞士": "ch", "卡塔尔": "qa", "波黑": "ba",
+  "巴西": "br", "摩洛哥": "ma", "苏格兰": "gb-sct", "海地": "ht",
+  "美国": "us", "巴拉圭": "py", "澳大利亚": "au", "乌拉圭": "uy",
+  "德国": "de", "库拉索": "cw", "科特迪瓦": "ci", "厄瓜多尔": "ec",
+  "荷兰": "nl", "日本": "jp", "突尼斯": "tn", "乌兹别克斯坦": "uz",
+  "比利时": "be", "埃及": "eg", "伊朗": "ir", "新西兰": "nz",
+  "西班牙": "es", "沙特阿拉伯": "sa", "圣文森特和格林纳丁斯": "vc",
+  "法国": "fr", "塞内加尔": "sn", "挪威": "no", "欧洲附加赛2": "eu",
+  "阿根廷": "ar", "阿尔及利亚": "dz", "奥地利": "at", "约旦": "jo",
+  "葡萄牙": "pt", "哥伦比亚": "co", "欧洲附加赛1": "eu",
+  "英格兰": "gb-eng", "克罗地亚": "hr", "加纳": "gh", "巴拿马": "pa",
+};
+
+function getFlagUrl(teamName: string): string {
+  const code = teamToCountryCode[teamName]?.toLowerCase() || "un";
+  return `https://flagcdn.com/w40/${code}.png`;
+}
+
 interface TeamData {
   rank: number;
   name: string;
@@ -189,7 +209,7 @@ export default function Home() {
                         <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-white font-bold text-sm">
                           {team.rank}
                         </div>
-                        <span className="text-2xl">{team.flag}</span>
+                        <img src={getFlagUrl(team.name)} alt={team.name} className="w-6 h-4 rounded" />
                         <div className="flex-1">
                           <p className="font-semibold text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">{team.name}</p>
                           <p className="text-xs text-slate-500 dark:text-slate-400">综合排名: 第{team.rank}位 | 身价: {(team.squad_value / 100000000).toFixed(1)}亿美元</p>

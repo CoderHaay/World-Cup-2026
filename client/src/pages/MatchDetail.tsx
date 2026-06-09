@@ -6,6 +6,26 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 import { ArrowLeft } from "lucide-react";
 import { useLocation, useRoute } from "wouter";
 
+const teamToCountryCode: Record<string, string> = {
+  "墨西哥": "mx", "南非": "za", "韩国": "kr", "捷克": "cz",
+  "加拿大": "ca", "瑞士": "ch", "卡塔尔": "qa", "波黑": "ba",
+  "巴西": "br", "摩洛哥": "ma", "苏格兰": "gb-sct", "海地": "ht",
+  "美国": "us", "巴拉圭": "py", "澳大利亚": "au", "乌拉圭": "uy",
+  "德国": "de", "库拉索": "cw", "科特迪瓦": "ci", "厄瓜多尔": "ec",
+  "荷兰": "nl", "日本": "jp", "突尼斯": "tn", "乌兹别克斯坦": "uz",
+  "比利时": "be", "埃及": "eg", "伊朗": "ir", "新西兰": "nz",
+  "西班牙": "es", "沙特阿拉伯": "sa", "圣文森特和格林纳丁斯": "vc",
+  "法国": "fr", "塞内加尔": "sn", "挪威": "no", "欧洲附加赛2": "eu",
+  "阿根廷": "ar", "阿尔及利亚": "dz", "奥地利": "at", "约旦": "jo",
+  "葡萄牙": "pt", "哥伦比亚": "co", "欧洲附加赛1": "eu",
+  "英格兰": "gb-eng", "克罗地亚": "hr", "加纳": "gh", "巴拿马": "pa",
+};
+
+function getFlagUrl(teamName: string): string {
+  const code = teamToCountryCode[teamName]?.toLowerCase() || "un";
+  return `https://flagcdn.com/w40/${code}.png`;
+}
+
 interface TeamStats {
   name: string;
   flag: string;
@@ -181,7 +201,10 @@ export default function MatchDetail() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* 球队1 */}
               <div className="flex flex-col items-center">
-                <div className="text-2xl font-bold text-slate-900 dark:text-white mb-4">{homeTeam.flag} {match.home}</div>
+                <div className="text-2xl font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+                  <img src={getFlagUrl(match.home)} alt={match.home} className="w-8 h-6 rounded" />
+                  {match.home}
+                </div>
                 <Badge variant="default" className="mb-4">
                   {match.home}
                 </Badge>
@@ -205,7 +228,10 @@ export default function MatchDetail() {
 
               {/* 球队2 */}
               <div className="flex flex-col items-center">
-                <div className="text-2xl font-bold text-slate-900 dark:text-white mb-4">{awayTeam.flag} {match.away}</div>
+                <div className="text-2xl font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+                  <img src={getFlagUrl(match.away)} alt={match.away} className="w-8 h-6 rounded" />
+                  {match.away}
+                </div>
                 <Badge variant="secondary" className="mb-4">
                   {match.away}
                 </Badge>
